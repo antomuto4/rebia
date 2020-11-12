@@ -8,3 +8,5 @@
 
 - https://en.wikipedia.org/wiki/Biological_immortality
 
+- https://www.learning-mind.com/is-it-possible-to-keep-the-brain-alive-outside-the-body/
+
