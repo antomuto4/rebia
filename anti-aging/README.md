@@ -69,7 +69,14 @@ https://www.quora.com/Do-elderly-peoples-teeth-fall-off-and-why?share=1
 
 # Books
 
-- Title: Joan T. Erber - Aging and Older Adulthood-Wiley-Blackwell (2013) https://drive.google.com/file/d/178jC_ds9X_wpkvr9ZwjCcB79t8p7lHoN/view?usp=sharing
+- [Joan T. Erber - Aging and Older Adulthood-Wiley-Blackwell (2013) (Books)](https://drive.google.com/file/d/178jC_ds9X_wpkvr9ZwjCcB79t8p7lHoN/view?usp=sharing)
+
+- [Vanderbilt Minerals, LLC (Article)](https://github.com/antomuto4/research-bs/raw/main/lib-anti-aging/926_Anti_Aging.pdf)
+
+- [Anti-Aging Health Regeneration & Cleansing Diet](https://github.com/antomuto4/research-bs/raw/main/lib-anti-aging/Anti-aging-Diet.pdf)
+
+- [Programmed Aging and the Emerging Reality of Anti-Aging Medicine](https://github.com/antomuto4/research-bs/raw/main/lib-anti-aging/anti-agingPPT.pdf)
+
 
 
 
