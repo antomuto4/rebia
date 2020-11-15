@@ -10,3 +10,4 @@
 
 - https://www.learning-mind.com/is-it-possible-to-keep-the-brain-alive-outside-the-body/
 
+- https://youtu.be/XPtl49M4Su0
