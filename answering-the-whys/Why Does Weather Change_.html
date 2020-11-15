@@ -1,0 +1,2088 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://www.reference.com/science/weather-change-3f6efd625ba896a8 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script async="" src="./Why Does Weather Change__files/beacon.js"></script><script async="" src="./Why Does Weather Change__files/fbevents.js"></script><script async="" src="./Why Does Weather Change__files/gtm.js"></script><script src="./Why Does Weather Change__files/usp-api.min.js"></script>
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    
+
+<title>Why Does Weather Change?</title>
+
+
+
+<meta name="description" content="Weather differs every day due to changes in heat, wind and moisture. The revolution of Earth around the sun is the primary reason for seasonal changes. ">
+    <meta property="og:description" content="Weather differs every day due to changes in heat, wind and moisture. The revolution of Earth around the sun is the primary reason for seasonal changes. ">
+
+
+<meta property="og:title" content="Why Does Weather Change?">
+
+
+<meta property="og:url" content="https://www.reference.com/science/weather-change-3f6efd625ba896a8">
+
+
+<meta property="og:site_name" content="Reference.com">
+
+
+<meta property="og:type" content="slideshow"> 
+
+
+<meta property="fb:pages" content="1711345092468428">
+
+
+<link rel="canonical" href="https://www.reference.com/science/weather-change-3f6efd625ba896a8">
+
+
+<meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Get_Reference">
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="./Why Does Weather Change__files/site-content-sites-content.css">
+    <script>
+        var App = {};
+    </script>
+    
+
+
+
+<script type="text/javascript">
+
+        var jitaJS = window.jitaJS || {};
+        jitaJS.que = jitaJS.que || [];
+        
+        var allAdUnits = "RTK_j8LF,RTK_QfV9,RTK_LO2q,RTK_e0Rx,RTK_vOZq,RTK_v0Pl,RTK_mMMu,RTK_jwfZ".split(",");
+        var cyclingAdUnits = "" === '' ? [] : "".split(","); 
+        var dynamicAdUnits = "RTK_e0Rx,RTK_vOZq,RTK_v0Pl,RTK_mMMu,RTK_jwfZ" === '' ? [] : "RTK_e0Rx,RTK_vOZq,RTK_v0Pl,RTK_mMMu,RTK_jwfZ".split(",");
+        var staticAdUnits = "RTK_j8LF,RTK_QfV9,RTK_LO2q" === '' ? [] : "RTK_j8LF,RTK_QfV9,RTK_LO2q".split(",");
+        var onClickAdUnits = "" === '' ? [] : "".split(",");
+        
+var loadedDelayedAdUnits = false;        
+        
+var allowDynamicRefresh = true; 
+        
+
+var allowRTKEagerLoading = true;
+        
+
+        var refreshRates = {
+            default: 30,
+            dynamic: parseInt("30", 10),
+            cycling: parseInt("30", 10),
+        };
+
+        
+        var adUnitsObj = {};
+        cyclingAdUnits.forEach(function(adUnit) {
+            adUnitsObj[adUnit] = "cycling";
+        });
+        dynamicAdUnits.forEach(function(adUnit) {
+            adUnitsObj[adUnit] = "dynamic";
+        });
+        staticAdUnits.forEach(function(adUnit) {
+            adUnitsObj[adUnit] = "static";
+        });
+        onClickAdUnits.forEach(function(adUnit) {
+            adUnitsObj[adUnit] = "onclick";
+        });
+
+        
+        var createParameters = function(slide) {
+            slide = slide || 0;
+            return {
+                
+
+
+
+
+
+partner: "dexter",
+                
+ad: "dirN",
+                ag: "",
+                an: "organic",
+                channel: "",
+                ldid: "",
+                origin: "600605",
+                PageSegment: "3",
+                pageType: "",
+                slide: slide
+            };
+        };
+
+        window.rtkGPTSlotsTargeting = [
+            [
+                
+
+
+
+
+
+[
+                        "partner", 
+                        "dexter"
+                    ],
+                
+["ad", "dirN"],
+                ["ag", ""],
+                ["an", "organic"],
+                ["channel", ""],
+                ["ldid", ""],
+                ["origin", "600605"],
+                ["PageSegment", "3"],
+                ["pageType", ""]
+            ],
+            {}
+        ];
+
+        
+        window.top.addEventListener("JITA_Ready", function() {
+            jitaJS.que.push(function() {
+                
+
+                var customParameters = createParameters();
+                JITA.setCustomParameters(customParameters);   
+                
+
+JITA.setRequestNonPersonalizedAds(1);
+                             
+                jitaJS.rtk.refreshAdUnits(allAdUnits, true, {}, true);
+            });
+        }, false);
+
+        
+        window.top.addEventListener("JITA_SlotReady", function(RTKSlot) {
+            
+}, false);
+
+        var adUnitCache = {};
+
+        var dynamicAdUnitOrder = dynamicAdUnits.slice(0);
+        var dynamicAdUnitToPlaceholder = {};
+
+        var createUnitCacheItem = function(timer, type) {
+            return {
+                timer: timer,
+                type: type
+            };
+        };
+
+        
+        cyclingAdUnits.forEach(function(placeholder) {
+            adUnitCache[placeholder] = createUnitCacheItem(new Date(), "cycling");
+        });
+
+        
+        var checkRefresh = function(placeholder, timeLimit, adType) {
+            var placeholderCache = adUnitCache[placeholder];
+            if (placeholderCache) {
+                if (adType === "dynamic" && !allowDynamicRefresh) {
+                    
+                    return false;
+                } 
+
+                timeLimit = timeLimit || 30;
+                var timeInitialized = placeholderCache.timer;
+                if (timeInitialized) {
+                    var now  = new Date();
+                    var secPassed = (now - timeInitialized) / 1000;
+                    return secPassed >= timeLimit;
+                } 
+            }
+
+            return true;
+        };
+
+       
+
+        
+        var destroyOldestDynamicUnit = function(placeholder) {
+            var oldestUnit = dynamicAdUnitOrder[0];
+            var placeholder = dynamicAdUnitToPlaceholder[oldestUnit];
+
+            
+            if (placeholder) {
+                var divSelector = "div[id='" + placeholder + "']";
+                var notInView = $(divSelector).not(":in-viewport(0)").length > 0;
+
+                
+                if (notInView) {
+                    
+JITA.destroySlot(placeholder);
+                    delete adUnitCache[placeholder];
+                    delete dynamicAdUnitToPlaceholder[oldestUnit];
+                }
+            }
+        };
+
+        
+        var findAdsToRefresh = function(placeholders, adType) {
+            placeholders = placeholders || [];
+
+            var adTypeRefresh = refreshRates[adType];
+            var timeLimit = isNaN(adTypeRefresh) ? refreshRates.default : adTypeRefresh;
+
+            var refreshAds = {};
+            placeholders.forEach(function(placeholder) {
+                var allowedToRefresh = checkRefresh(placeholder, timeLimit, adType);
+                if (allowedToRefresh) {
+                    
+                    if (adType === "cycling" || adType === "static") {
+                        var adUnitId = placeholder.split('-')[0];
+                    }
+
+                    
+                    if (adType === "dynamic") {
+                        var adUnitId = dynamicAdUnitOrder.shift();
+                        dynamicAdUnitOrder.push(adUnitId);
+                        destroyOldestDynamicUnit(placeholder);
+
+                        
+                        dynamicAdUnitToPlaceholder[adUnitId] = dynamicAdUnitToPlaceholder[adUnitId] || placeholder;
+                    }
+
+                    
+                    var canRefresh = adUnitsObj[adUnitId] !== "static" ;
+                    
+                    if (canRefresh) {
+                        
+                        if (adUnitsObj[adUnitId] === "dynamic" && !allowDynamicRefresh) {
+                            adUnitCache[placeholder] = createUnitCacheItem(null, "dynamic");
+                        } else {
+                            
+                            adUnitCache[placeholder] = createUnitCacheItem(new Date(), adUnitsObj[adUnitId]);
+                        }
+
+                        
+refreshAds[adUnitId] = placeholder;
+                    }
+                }
+            });
+
+            return refreshAds;
+        };
+
+   
+        var findSlideNumber = function(refreshMapping) {
+            return Object.keys(refreshMapping).reduce(function(slide, adUnitId) {
+                if (!slide) {
+                    var placeholder = refreshMapping[adUnitId];
+                    var num = placeholder.split("-")[4];
+
+                    return num || slide;
+                }
+
+                return slide;
+            }, 0)
+        };
+
+        
+        var refreshUnits = function(refreshList, refreshMapping) {
+            refreshMapping = refreshMapping || {};
+            
+            if (Object.keys(refreshMapping).length > 0) {
+                
+window.top.jitaJS.que.push(function(ad2DivMapping) {
+                    
+let adUnitsToRebid = [];
+                    Object.keys(ad2DivMapping).forEach(function(value) {
+                        adUnitsToRebid.push(value);
+                    });
+
+                    
+                    var slide = findSlideNumber(refreshMapping);
+                    var customParameters = createParameters(slide);
+                    JITA.setCustomParameters(customParameters);
+
+                    if (allowRTKEagerLoading) {
+                        
+                        
+                        window.top.jitaJS.rtk.refreshAdUnits(adUnitsToRebid, false, ad2DivMapping);
+
+                        
+
+                        
+                        jitaJS.rtk.refreshAdUnits(adUnitsToRebid, true, {}, true);
+
+                    } else {
+                        
+                        
+                        window.top.jitaJS.rtk.refreshAdUnits(adUnitsToRebid, true, ad2DivMapping);
+
+                    }
+  
+                }(refreshMapping));
+            }
+        };
+
+        var refreshCyclingUnits = function () {
+            var refreshAds = findAdsToRefresh(cyclingAdUnits, "cycling");
+            refreshUnits(cyclingAdUnits, refreshAds);
+        };
+
+        var refreshOnClickUnits = function () {
+            if(!loadedDelayedAdUnits && delayedAdUnits.length > 0) {
+                delayedAdUnits.forEach(function(delayedAdUnitObj) {
+                    var delayedOnclickAdUnit = delayedAdUnits[0].adUnit;
+                    var isOnclick = delayedAdUnits[0].type && delayedAdUnits[0].type === "onclick";
+                    if(isOnclick) {
+                        var delayedOnclickUnits = delayedOnclickAdUnit.split(",");
+                        delayedOnclickUnits.forEach(function(onclickAdUnit) {
+                            onClickAdUnits.push("RTK_" + onclickAdUnit);
+                        });
+                        loadedDelayedAdUnits = true;
+                    }
+                });
+            }
+            refreshUnits(onClickAdUnits, onClickAdUnits);
+        };
+
+        var isScrolledPastDivSelector = function(divSelector) {
+            if(divSelector && $(divSelector).length > 0) {
+                var bounding = $(divSelector)[0].getBoundingClientRect();
+                return bounding.top < 0;
+            }
+            return false;
+        }
+
+        var pushAds = function(adUnit, adType) {
+            if(adType === "cycling") {
+                cyclingAdUnits.push(adUnit);
+            } else if (adType === "dynamic") {
+                dynamicAdUnits.push(adUnit);
+            }
+        }
+
+        var loadDelayedAdUnits = function () {
+            delayedAdUnits.forEach(function(delayedAdUnitObj) {
+                var delayedAdUnit = "RTK_" + delayedAdUnitObj.adUnit;
+                var adType = delayedAdUnitObj.type || "static";
+                var delayedDivSelector = delayedAdUnitObj.divSelector || '';
+                var timeDelay = delayedAdUnitObj.time || '';
+                var scrolledPastDivSelector = isScrolledPastDivSelector(delayedDivSelector);
+                if(delayedDivSelector !== '') {
+                    var divInView = $(delayedDivSelector + ":in-viewport(0)").length > 0;
+                    if((divInView || scrolledPastDivSelector) && window.top.jitaJS) {
+                        window.top.jitaJS.que.push(function() {
+                            window.top.jitaJS.rtk.refreshAdUnits(delayedAdUnit, false);
+                        });
+                        loadedDelayedAdUnits = true;
+                        pushAds(delayedAdUnit, adType);
+                    }  
+                } else if (timeDelay !== '') {
+                    setTimeout(function() {
+                        window.top.jitaJS.que.push(function() {
+                            window.top.jitaJS.rtk.refreshAdUnits(delayedAdUnit, false);
+                        });
+                    }, timeDelay);
+                    loadedDelayedAdUnits = true;
+                    pushAds(delayedAdUnit, adType);
+                } 
+            });
+        }
+
+        var refreshDynamicUnits = function (extension) {
+            extension = extension || 0;
+            var divSelector = "div[id^='feed-ad-placeholder-']";
+
+            
+            var viewportSelector = ":in-viewport(" + extension + ")";
+
+            var inViewAds = [];
+            var $inView = $(divSelector + viewportSelector);
+            $inView.each(function (index, div) {
+                inViewAds.push(div.id);
+            });
+
+            var refreshPlaceholders = findAdsToRefresh(inViewAds, "dynamic");
+            refreshUnits(dynamicAdUnits, refreshPlaceholders);
+        };
+
+        if (App) {
+            (function () {
+                App.events = App.events || [];
+                App.events.push(
+                    {
+                        partial: "PartialContentRtkConfiguration",
+                        contextSelector: document,
+                        elementSelector: null,
+                        type: "ready",
+                        handler: function () {
+                            
+
+window.rtkOnLoadedCallback = function() {
+                                    refreshDynamicUnits(150);
+                                };
+                            
+}
+                    },
+                    {
+                        partial: "PartialContentRtkConfiguration",
+                        contextSelector: document,
+                        elementSelector: null,
+                        type: "scroll",
+                        handler: function () {
+                            if (cyclingAdUnits.length) {
+                                refreshCyclingUnits();
+                            } 
+
+                            
+refreshDynamicUnits(1000);
+                            
+                                         
+                        }
+                    }
+                );
+            })();
+        }
+    </script>
+
+    
+    <script type="text/javascript" src="./Why Does Weather Change__files/jita.js" async="" defer=""></script>
+
+
+
+<script>
+        var isDataLayerDefined = (typeof dataLayer !== "undefined");
+
+        var dataObj = {
+            "ldid": "",
+            "channel": "",
+            "affiliateid": "600605",
+            "sessionid": "",
+            "acquisitiondivision": "dirN",
+            "countrycode": "",
+            "adnetwork": ""
+        };
+
+        
+
+
+if (isDataLayerDefined) {
+            dataLayer.push(dataObj);
+        } else {
+            var dataLayer = [dataObj];
+        }
+
+    </script>
+
+    
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T3KVMC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer_temp'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T3KVMC');</script>
+    
+
+
+
+
+
+
+
+
+<script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            
+
+fbq('init', '1236983599798824');
+            
+fbq('track', 'PageView');
+        fbq('track', 'ViewContent');
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"Article","headline":"Why Does Weather Change?","image":[],"datePublished":"2015-08-04 17:06:12","dateModified":"2020-06-17 02:19:19","publisher":{"@type":"Organization","name":"amg","url":"https://www.askmediagroup.com/","logo":{"@type":"ImageObject","url":"https://www.askmediagroup.com/wp-content/uploads/2017/07/ask_logo_mg-FINAL.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.reference.com/science/weather-change-3f6efd625ba896a8"}}
+</script>
+    
+
+
+
+<script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.reference.com"},{"@type":"ListItem","position":2,"name":"Science","item":"https://www.reference.com/science"},{"@type":"ListItem","position":3,"name":"Weather & Tides","item":"https://www.reference.com/weather-tides"},{"@type":"ListItem","position":4,"name":"Weather Forecasts","item":"https://www.reference.com/weather-forecasts"},{"@type":"ListItem","position":5,"name":"Why Does Weather Change?","item":"https://www.reference.com/science/weather-change"}]}
+</script>
+    
+
+
+
+<script src="./Why Does Weather Change__files/caf.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+ 
+  let pageOptions = JSON.parse('{"pubId":"aj-cat-s","relatedSearchTargeting":"content","resultsPageBaseUrl":"https://www.reference.com/web?o=600605&qo=contentGoogleRelatedSearch","resultsPageQueryParam":"q","adtest":"on","styleId":"6567741694"}');
+let rsblocks = JSON.parse('[{"container":"top-afc-related-search","type":"relatedsearch","number":"5","clicktrackUrl":"https://www.reference.com/_clk","columns":1},{"container":"bottom-afc-related-search","type":"relatedsearch","number":"5","clicktrackUrl":"https://www.reference.com/_clk","columns":1}]');
+rsblocks = rsblocks.map(v => {
+    v.adLoadedCallback = function() {
+      
+    }
+    return v;
+  });
+
+  new google.ads.domains.Caf(pageOptions, rsblocks);
+  
+
+</script>
+
+
+
+<link href="./Why Does Weather Change__files/popular-in-the-community.css" data-spot-im-style="true" rel="stylesheet"><link href="./Why Does Weather Change__files/messages-count-bundle.css" data-spot-im-style="true" rel="stylesheet"><style>
+    @keyframes data-spotim-module {
+    from {
+        outline-color: #fff;
+    }
+    to {
+        outline-color: #000;
+    }
+  }
+    [data-spotim-module]:not([data-ready="true"]) {
+      animation-duration: 10ms;
+    animation-name: data-spotim-module;
+ }
+  </style><script charset="utf-8" src="./Why Does Weather Change__files/vendors_standalone-ui-kit-translations-bundle.js"></script><script charset="utf-8" src="./Why Does Weather Change__files/standalone-ui-kit-translations-bundle.js"></script><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="-476317481">#spotim-specific#spotim-specific .Button__button--1VT14{outline:none;line-height:1;max-width:100%;box-sizing:border-box;font-family:inherit;font-size:inherit;color:inherit}#spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14{padding:0;background-color:transparent;border:none;cursor:pointer}#spotim-specific#spotim-specific .Button__button--1VT14[disabled]{opacity:0.5}#spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14[disabled]{cursor:default}#spotim-specific#spotim-specific .Button__button--1VT14.Button__isEllipsis--2HDbN{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}#spotim-specific#spotim-specific .Button__button--1VT14.Button__isPrimary--3KTM0,#spotim-specific#spotim-specific .Button__button--1VT14.Button__isSecondary--3kW3V{letter-spacing:-.015em;line-height:24px}#spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isPrimary--3KTM0, #spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isSecondary--3kW3V{padding-top:4px;padding-bottom:5px}#spotim-specific#spotim-specific .Button__button--1VT14.Button__isSecondary--3kW3V,#spotim-specific#spotim-specific .Button__button--1VT14.Button__isPrimary--3KTM0{white-space:nowrap;user-select:none;font-size:15px}#spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isSecondary--3kW3V, #spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isPrimary--3KTM0{border-radius:var(--spotim-border-radius-medium)}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Button__button--1VT14.Button__isSecondary--3kW3V, #spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Button__button--1VT14.Button__isPrimary--3KTM0{padding-right:1em;padding-left:1em}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Button__button--1VT14.Button__isSecondary--3kW3V, #spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Button__button--1VT14.Button__isPrimary--3KTM0{padding-left:1em;padding-right:1em}#spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isSecondary--3kW3V:focus, #spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isSecondary--3kW3V:active, #spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isPrimary--3KTM0:focus, #spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isPrimary--3KTM0:active{box-shadow:0 0 0 3px var(--spotim-focus-outline-color)}#spotim-specific#spotim-specific .Button__button--1VT14.Button__isPrimary--3KTM0{color:var(--spotim-text-over-brand-color);color:var(--spotim-brand-text-color);font-weight:bold}#spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isPrimary--3KTM0{background-color:var(--spotim-brand-color)}#spotim-specific#spotim-specific .Button__button--1VT14.Button__isSecondary--3kW3V{color:var(--spotim-text-color-x-muted)}#spotim-specific#spotim-specific [data-spot-im-direction] .Button__button--1VT14.Button__isSecondary--3kW3V{box-shadow:none}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Button__button--1VT14.Button__isSecondary--3kW3V{padding-right:10px;padding-left:10px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Button__button--1VT14.Button__isSecondary--3kW3V{padding-left:10px;padding-right:10px}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="911058789">#spotim-specific#spotim-specific .CloseButton__closeButton--16gwL{font-size:15px}#spotim-specific#spotim-specific [data-spot-im-direction] .CloseButton__closeButton--16gwL{padding:5px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .CloseButton__closeButton--16gwL{margin:-5px -5px -5px auto}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .CloseButton__closeButton--16gwL{margin:-5px auto -5px -5px}#spotim-specific#spotim-specific .CloseButton__closeButton--16gwL svg{color:#a8abae}#spotim-specific#spotim-specific .CloseButton__closeButton--16gwL.CloseButton__small--35nCw{font-size:14px}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .CloseButton__closeButton--16gwL{font-size:20px}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="958169211">@keyframes Modal__modal-entrance--T9d4_{0%{transform:translateY(100px);opacity:0}100%{transform:translateY(0);opacity:1}}@keyframes Modal__backdrop-entrance--3h08a{0%{opacity:0}100%{opacity:1}}@keyframes Modal__modal-exit--2rVEH{0%{transform:translateY(0);opacity:1}100%{transform:translateY(100px);opacity:0}}@keyframes Modal__backdrop-exit--29nZO{0%{opacity:1}100%{opacity:0}}#spotim-specific#spotim-specific .Modal__modal--RpUkz{position:fixed;top:0;bottom:0;font-family:var(--spotim-font-family-default, var(--spotim-font-family));z-index:var(--spotim-overlay-z-index, 9999999)}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__modal--RpUkz{right:0;left:0;direction:ltr;text-align:left}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__modal--RpUkz{left:0;right:0;direction:rtl;text-align:right}#spotim-specific#spotim-specific .Modal__modal--RpUkz,#spotim-specific#spotim-specific .Modal__modal--RpUkz *{box-sizing:border-box}#spotim-specific#spotim-specific .Modal__backdrop--3hqMk{position:absolute;top:0;bottom:0;z-index:5}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__backdrop--3hqMk{background-color:rgba(0,0,0,0.4)}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__backdrop--3hqMk{right:0;left:0}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__backdrop--3hqMk{left:0;right:0}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__backdrop--3hqMk.Modal__animateEntrance--1ooh0{animation:Modal__backdrop-entrance--3h08a .4s ease-in-out both}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__backdrop--3hqMk.Modal__animateEntrance--1ooh0{animation:Modal__backdrop-entrance--3h08a .4s ease-in-out both}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__backdrop--3hqMk.Modal__animateExit--opGY6{animation:Modal__backdrop-exit--29nZO .4 ease-in-out both}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__backdrop--3hqMk.Modal__animateExit--opGY6{animation:Modal__backdrop-exit--29nZO .4 ease-in-out both}#spotim-specific#spotim-specific .Modal__containerOuter--kFj91{position:absolute;top:25px;bottom:25px;display:flex;align-items:center;justify-content:center}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__containerOuter--kFj91{right:0;left:0}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__containerOuter--kFj91{left:0;right:0}#spotim-specific#spotim-specific .Modal__containerOuter--kFj91.Modal__sizeWholePage--aRIQ5{top:0;bottom:0}#spotim-specific#spotim-specific .Modal__container--1km1o{max-width:1400px;min-height:150px;max-height:calc(100vh - 50px);position:relative;-webkit-overflow-scrolling:touch;line-height:initial;display:flex;flex-direction:column;z-index:10}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__container--1km1o{background-color:var(--spotim-overlay-background-color);box-shadow:var(--spotim-box-shadow-medium, 0 0 10px 0 rgba(0,0,0,0.15));border:solid 1px var(--spotim-overlay-border-color, #e3e3e3);border-radius:var(--spotim-border-radius-medium);padding-top:var(--spotim-border-radius-medium);padding-bottom:var(--spotim-border-radius-medium)}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__container--1km1o.Modal__animateEntrance--1ooh0{animation:Modal__modal-entrance--T9d4_ .4s ease-in-out both}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__container--1km1o.Modal__animateEntrance--1ooh0{animation:Modal__modal-entrance--T9d4_ .4s ease-in-out both}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__container--1km1o.Modal__animateExit--opGY6{animation:Modal__modal-exit--2rVEH .4s ease-in-out both}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__container--1km1o.Modal__animateExit--opGY6{animation:Modal__modal-exit--2rVEH .4s ease-in-out both}#spotim-specific#spotim-specific .Modal__container--1km1o.Modal__sizeWholePage--aRIQ5{width:90vw;max-width:1200px;height:100%;max-height:100%;top:0}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__container--1km1o.Modal__sizeWholePage--aRIQ5{border-radius:0;border-top:none;padding-top:0}@media only screen and (min-width: 1025px) and (max-width: 1200px){#spotim-specific#spotim-specific .Modal__container--1km1o.Modal__sizeWholePage--aRIQ5{width:92vw}}#spotim-specific#spotim-specific .Modal__container--1km1o.Modal__sizeFull--1Wk0v{width:90vw;height:calc(100vh - 50px)}#spotim-specific#spotim-specific .Modal__container--1km1o.Modal__sizeXLg--3JpSZ{width:800px}#spotim-specific#spotim-specific .Modal__container--1km1o.Modal__sizeLg--2rivI{width:600px}#spotim-specific#spotim-specific .Modal__container--1km1o.Modal__sizeMd--2l8H6{width:500px}#spotim-specific#spotim-specific .Modal__container--1km1o.Modal__sizeSm--3zVKv{width:360px}#spotim-specific#spotim-specific .Modal__header--rTm9y{position:relative;z-index:2}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__header--rTm9y{padding:calc(24px - var(--spotim-border-radius-medium)) 24px 24px;background-color:var(--spotim-overlay-background-color)}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__header--rTm9y.Modal__hidingBody--qfXvO{box-shadow:0 0 10px 0 rgba(0,0,0,0.15)}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__header--rTm9y.Modal__sizeWholePage--aRIQ5{padding-top:15px;padding-bottom:15px}#spotim-specific#spotim-specific .Modal__headerTopContainer--Q8-rK{display:flex}#spotim-specific#spotim-specific .Modal__topActions--9-UaQ{flex:1 1 auto;min-width:0}#spotim-specific#spotim-specific .Modal__title--3jarg{color:var(--spotim-text-color-muted);font-size:18px;font-weight:bold}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__title--3jarg{margin-top:12px}#spotim-specific#spotim-specific .Modal__bodyContainer--2hbBB{flex:2 2 auto;min-height:0;display:flex}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__bodyContainer--2hbBB{margin-bottom:24px}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__bodyContainer--2hbBB.Modal__sizeWholePage--aRIQ5{margin-bottom:0}#spotim-specific#spotim-specific .Modal__body--eUZJT{width:100%;overflow-y:auto;color:var(--spotim-text-color-muted)}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__body--eUZJT{padding-right:24px;padding-left:24px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__body--eUZJT{padding-left:24px;padding-right:24px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__body--eUZJT.Modal__sizeWholePage--aRIQ5{padding-right:0;padding-left:0}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__body--eUZJT.Modal__sizeWholePage--aRIQ5{padding-left:0;padding-right:0}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .Modal__body--eUZJT{overflow-x:hidden}}#spotim-specific#spotim-specific .Modal__bottomActions--1eSuM{flex:0 0 auto;display:flex;justify-content:flex-end;position:relative;z-index:100}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__bottomActions--1eSuM{padding:24px 24px calc(24px - var(--spotim-border-radius-medium));margin-top:-24px}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__bottomActions--1eSuM.Modal__hidingBody--qfXvO{box-shadow:0 0 10px 0 rgba(0,0,0,0.15)}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__bottomActions--1eSuM.Modal__sizeWholePage--aRIQ5{padding:0;margin-top:0}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__bottomActions--1eSuM.Modal__sizeWholePage--aRIQ5{padding:0;margin-top:0}}@media only screen and (max-width: 1400px){#spotim-specific#spotim-specific .Modal__modal--RpUkz .Modal__container--1km1o{max-width:90vw}#spotim-specific#spotim-specific .Modal__modal--RpUkz .Modal__container--1km1o.Modal__sizeWholePage--aRIQ5{top:0;max-width:1200px}#spotim-specific#spotim-specific .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__container--1km1o{max-width:unset}#spotim-specific#spotim-specific .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__container--1km1o.Modal__sizeWholePage--aRIQ5{max-width:1200px}}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__backdrop--3hqMk{display:none}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__header--rTm9y{padding:15px;margin-bottom:-15px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__closeButton--3o6PJ{right:20px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__closeButton--3o6PJ{left:20px}#spotim-specific#spotim-specific .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__containerOuter--kFj91{top:0;bottom:0}#spotim-specific#spotim-specific .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__container--1km1o{width:100%;height:100%;max-height:unset;z-index:2}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__container--1km1o{padding:0;border:none;box-shadow:none;border-radius:unset}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__bodyContainer--2hbBB{margin-top:15px;margin-bottom:15px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__body--eUZJT{padding-right:15px;padding-left:15px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__body--eUZJT{padding-left:15px;padding-right:15px}#spotim-specific#spotim-specific [data-spot-im-direction] .Modal__modal--RpUkz.Modal__fullScreenMobile--3azpl .Modal__actions--1FS4s{padding:15px;margin-top:-15px}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="-1409658810">#spotim-specific#spotim-specific .BackButton__BackButton--3oBmu{font-size:15px;position:absolute}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .BackButton__BackButton--3oBmu{left:20px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .BackButton__BackButton--3oBmu{right:20px}}#spotim-specific#spotim-specific .BackButton__BackButton--3oBmu svg{width:10px;height:16px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .BackButton__BackButton--3oBmu svg{transform:rotate(180deg)}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .BackButton__BackButton--3oBmu svg{transform:rotate(-180deg)}#spotim-specific#spotim-specific .BackButton__BackButton--3oBmu svg g{fill:#a8abae}#spotim-specific#spotim-specific .BackButton__BackButton--3oBmu :hover svg{filter:brightness(0.85)}#spotim-specific#spotim-specific .BackButton__BackButton--3oBmu :focus svg g{fill:#a8abae}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="-378642780">#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp{display:grid;max-width:1100px;justify-content:center;grid-template-columns:700px;grid-column-gap:100px}#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__wholePageModal--3hqrp{margin:0 auto}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__wholePageModal--3hqrp{padding:0;padding-bottom:75px}}#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp.WholePageModal__sideBar--2lg61{grid-template-columns:600px 300px}@media only screen and (min-width: 1025px) and (max-width: 1200px){#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp.WholePageModal__sideBar--2lg61{grid-template-columns:450px 300px}}@media only screen and (min-width: 768px) and (max-width: 1024px){#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp.WholePageModal__sideBar--2lg61{grid-template-columns:600px}}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp.WholePageModal__sideBar--2lg61{grid-template-columns:1fr}}@media only screen and (min-width: 768px) and (max-width: 1024px){#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp{grid-template-columns:600px}}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp{grid-template-columns:1fr}}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){#spotim-specific#spotim-specific .WholePageModal__wholePageModal--3hqrp{display:flex}#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__wholePageModal--3hqrp{padding:0 50px}}#spotim-specific#spotim-specific .WholePageModal__stickyContent--1xnS4{display:grid;width:100%;max-width:1100px;grid-template-columns:600px 300px;grid-column-gap:100px;position:sticky;justify-content:center;align-items:center;z-index:2;min-height:33px}#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__stickyContent--1xnS4{margin:auto;background-color:var(--spotim-overlay-background-color)}@media only screen and (min-width: 1025px) and (max-width: 1200px){#spotim-specific#spotim-specific .WholePageModal__stickyContent--1xnS4{grid-template-columns:450px 300px}}@media only screen and (min-width: 768px) and (max-width: 1024px){#spotim-specific#spotim-specific .WholePageModal__stickyContent--1xnS4{grid-template-columns:auto;grid-auto-flow:column;justify-content:space-between;width:calc(100% - 50px)}}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .WholePageModal__stickyContent--1xnS4{grid-template-columns:1fr 1fr;grid-column-gap:normal}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .WholePageModal__stickyContent--1xnS4{padding-right:25px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .WholePageModal__stickyContent--1xnS4{padding-left:25px}}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){#spotim-specific#spotim-specific .WholePageModal__stickyContent--1xnS4{display:flex;justify-content:flex-start}#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__stickyContent--1xnS4{padding:0 50px}}#spotim-specific#spotim-specific .WholePageModal__endItems--39EN4{display:flex;justify-content:flex-end}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .WholePageModal__endItems--39EN4{margin-left:auto}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .WholePageModal__endItems--39EN4{margin-right:auto}}#spotim-specific#spotim-specific .WholePageModal__closeItems--3ZdjN{position:absolute;display:flex;align-items:center}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .WholePageModal__closeItems--3ZdjN{right:0}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .WholePageModal__closeItems--3ZdjN{left:0}@media only screen and (min-width: 768px) and (max-width: 1024px){#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .WholePageModal__closeItems--3ZdjN{right:-35px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .WholePageModal__closeItems--3ZdjN{left:-35px}}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .WholePageModal__closeItems--3ZdjN{margin-right:10px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .WholePageModal__closeItems--3ZdjN{margin-left:10px}}@media only screen and (min-width: 0px) and (max-width: 320px){#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .WholePageModal__closeItems--3ZdjN{margin-right:0}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .WholePageModal__closeItems--3ZdjN{margin-left:0}}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){#spotim-specific#spotim-specific .WholePageModal__closeItems--3ZdjN{position:static;max-width:50px;-ms-flex:1}}#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__closeItems--3ZdjN .WholePageModal__closeButton--3XXT_{margin:0;padding:0}#spotim-specific#spotim-specific .WholePageModal__closeItems--3ZdjN .WholePageModal__spacer--3vOac{height:22px;width:2px}#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__closeItems--3ZdjN .WholePageModal__spacer--3vOac{margin:0px 10px;background-color:var(--spotim-border-color)}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .WholePageModal__closeItems--3ZdjN .WholePageModal__spacer--3vOac{display:none}}#spotim-specific#spotim-specific .WholePageModal__bottomActionItem--364VY{display:none}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific .WholePageModal__bottomActionItem--364VY{position:fixed;height:70px;width:100%;bottom:0;display:flex;justify-content:center;align-items:center;transition:transform 0.2s ease-out;z-index:100}#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__bottomActionItem--364VY{background-color:var(--spotim-overlay-background-color);border-top:1px solid var(--spotim-border-color);transform:translateY(200%)}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .WholePageModal__bottomActionItem--364VY{left:0}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .WholePageModal__bottomActionItem--364VY{right:0}}@media only screen and (min-width: 0px) and (max-width: 767px){#spotim-specific#spotim-specific [data-spot-im-direction] .WholePageModal__bottomActionItem--364VY.WholePageModal__showBottomAction--2GLNl{transform:none}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="-2055910429">#spotim-specific#spotim-specific .Gutter__gutter-container--2MW15{box-sizing:border-box}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Gutter__gutter-container--2MW15.Gutter__sizeMd--3ZerW{margin-right:-6px;margin-left:-6px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Gutter__gutter-container--2MW15.Gutter__sizeMd--3ZerW{margin-left:-6px;margin-right:-6px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Gutter__gutter-container--2MW15.Gutter__sizeMd--3ZerW>*{margin-right:6px;margin-left:6px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Gutter__gutter-container--2MW15.Gutter__sizeMd--3ZerW>*{margin-left:6px;margin-right:6px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Gutter__gutter-container--2MW15.Gutter__sizeLg--Ap4Ro{margin-right:-12px;margin-left:-12px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Gutter__gutter-container--2MW15.Gutter__sizeLg--Ap4Ro{margin-left:-12px;margin-right:-12px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Gutter__gutter-container--2MW15.Gutter__sizeLg--Ap4Ro>*{margin-right:12px;margin-left:12px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Gutter__gutter-container--2MW15.Gutter__sizeLg--Ap4Ro>*{margin-left:12px;margin-right:12px}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="-214284761">#spotim-specific#spotim-specific .Menu__menuButtonContainer--1EM5J{color:var(--spotim-text-color-xx-muted);font-size:15px}#spotim-specific#spotim-specific .Menu__menuButtonContainer--1EM5J.Menu__isOpen--NOtMr{color:var(--spotim-brand-color)}#spotim-specific#spotim-specific .Menu__defaultMenuButton--2l6mC{font-size:18px}#spotim-specific#spotim-specific [data-spot-im-direction] .Menu__defaultMenuButton--2l6mC{padding:5px 10px;margin:-5px -10px}#spotim-specific#spotim-specific .Menu__menuBodyContainer--8WSne{font-family:var(--spotim-font-family-default, var(--spotim-font-family))}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Menu__menuBodyContainer--8WSne{direction:ltr}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Menu__menuBodyContainer--8WSne{direction:rtl}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="895980007">#spotim-specific#spotim-specific .MenuBody__menuBody--268sH{min-width:115px}#spotim-specific#spotim-specific [data-spot-im-direction] .MenuBody__menuBody--268sH{padding:9px 15px 11px 15px;margin:15px;background-color:var(--spotim-overlay-background-color);border:1px solid var(--spotim-overlay-border-color);border-radius:var(--spotim-border-radius-medium);box-shadow:var(--spotim-box-shadow-medium)}#spotim-specific#spotim-specific [data-spot-im-direction] .MenuBody__menuBody--268sH.MenuBody__placement-left-start--2AaFY, #spotim-specific#spotim-specific [data-spot-im-direction] .MenuBody__menuBody--268sH.MenuBody__placement-right-start--2nTXZ{margin-top:-7.5px}#spotim-specific#spotim-specific [data-spot-im-direction] .MenuBody__menuBody--268sH.MenuBody__placement-left-end--2w1L_, #spotim-specific#spotim-specific [data-spot-im-direction] .MenuBody__menuBody--268sH.MenuBody__placement-right-end--1RE_d{margin-bottom:7.5px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .MenuBody__menuBody--268sH.MenuBody__placement-top-start--3Vp77, #spotim-specific#spotim-specific [data-spot-im-direction=ltr] .MenuBody__menuBody--268sH.MenuBody__placement-bottom-start--2edLY{margin-left:0}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .MenuBody__menuBody--268sH.MenuBody__placement-top-start--3Vp77, #spotim-specific#spotim-specific [data-spot-im-direction=rtl] .MenuBody__menuBody--268sH.MenuBody__placement-bottom-start--2edLY{margin-right:0}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="-976606218">#spotim-specific#spotim-specific .MenuItem__item--8r7Q8{width:100%;display:flex;align-items:center;height:30px;font-size:15px;color:var(--spotim-text-color-muted);user-select:none}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .MenuItem__item--8r7Q8{text-align:left}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .MenuItem__item--8r7Q8{text-align:right}#spotim-specific#spotim-specific .MenuItem__item--8r7Q8:hover,#spotim-specific#spotim-specific .MenuItem__item--8r7Q8:focus,#spotim-specific#spotim-specific .MenuItem__item--8r7Q8:active,#spotim-specific#spotim-specific .MenuItem__item--8r7Q8.MenuItem__active--UZUk5{color:var(--spotim-brand-color)}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="2047379638">#spotim-specific#spotim-specific .TextInput__container--2R5iU{width:100%;display:flex;box-sizing:border-box}#spotim-specific#spotim-specific [data-spot-im-direction] .TextInput__container--2R5iU{border:1px solid var(--spotim-border-color);border-radius:var(--spotim-border-radius-medium);background-color:var(--spotim-input-background-color);padding:0}#spotim-specific#spotim-specific .TextInput__input--1grnL{flex:2 2 auto;outline:none;font-size:15px;color:var(--spotim-text-color-muted);box-sizing:border-box}#spotim-specific#spotim-specific [data-spot-im-direction] .TextInput__input--1grnL{padding:12px 15px;border:none;background:none}#spotim-specific#spotim-specific .TextInput__input--1grnL::placeholder{color:var(--spotim-text-color-xx-muted)}#spotim-specific#spotim-specific .TextInput__counter--1su2q{min-width:0;display:flex;align-items:center;color:var(--spotim-text-color-xx-muted);user-select:none;font-size:13px;box-sizing:border-box}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .TextInput__counter--1su2q{padding-right:15px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .TextInput__counter--1su2q{padding-left:15px}#spotim-specific#spotim-specific [data-spot-im-direction] .TextInput__has-error--nzBUv{border-color:red}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="1158864290">#spotim-specific#spotim-specific .TextareaNew__textarea--1E6Ni{width:100%;font-size:15px;color:var(--spotim-text-color-muted);outline:none;resize:vertical;box-sizing:border-box}#spotim-specific#spotim-specific [data-spot-im-direction] .TextareaNew__textarea--1E6Ni{padding:12px 15px;border:1px solid var(--spotim-border-color);border-radius:var(--spotim-border-radius-medium);background-color:var(--spotim-background-color)}#spotim-specific#spotim-specific .TextareaNew__textarea--1E6Ni::placeholder{color:var(--spotim-text-color-xx-muted)}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="-2075594611">#spotim-specific#spotim-specific .RadioButton__radioButton--DjgUw{display:flex;align-items:center}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .RadioButton__radioLabel--9oRe8{padding-left:15px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .RadioButton__radioLabel--9oRe8{padding-right:15px}#spotim-specific#spotim-specific [data-spot-im-direction] .RadioButton__radioLabel--9oRe8:hover{cursor:pointer}#spotim-specific#spotim-specific .RadioButton__radioInput--CTiHW{opacity:0;position:absolute;width:0;height:0;visibility:hidden}#spotim-specific#spotim-specific .RadioButton__radioFake--1lAEg{box-sizing:border-box;display:inline-block;transition:all 0.2s;width:16px;height:16px}#spotim-specific#spotim-specific [data-spot-im-direction] .RadioButton__radioFake--1lAEg{cursor:pointer;background-color:var(--spotim-page-background-color);border-radius:50%;border:solid 1px var(--spotim-strong-border-color)}#spotim-specific#spotim-specific [data-spot-im-direction] .RadioButton__radioFake--1lAEg:hover{border-color:var(--spotim-brand-color)}#spotim-specific#spotim-specific [data-spot-im-direction] .RadioButton__radioInput--CTiHW:checked ~ .RadioButton__radioFake--1lAEg{border-width:5px;border-color:var(--spotim-brand-color)}#spotim-specific#spotim-specific .RadioButton__radioInput--CTiHW:disabled ~ .RadioButton__radioFake--1lAEg{opacity:0.5}#spotim-specific#spotim-specific [data-spot-im-direction] .RadioButton__radioInput--CTiHW:disabled ~ .RadioButton__radioFake--1lAEg{cursor:default}#spotim-specific#spotim-specific [data-spot-im-direction] .RadioButton__radioInput--CTiHW:disabled ~ .RadioButton__radioFake--1lAEg:hover{border-color:var(--spotim-strong-border-color)}#spotim-specific#spotim-specific [data-spot-im-direction] .RadioButton__radioInput--CTiHW:disabled ~ .RadioButton__radioLabel--9oRe8{cursor:default}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="1667988191">#spotim-specific#spotim-specific .Typography__text--2PeB9{letter-spacing:-.015em;line-height:1.6}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__weightBold--1AOdm{font-weight:bold}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__weightNormal--2skfQ{font-weight:normal}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__h1--1V-md{font-size:36px;line-height:54px;font-weight:bold;color:var(--spotim-text-color-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__h2--1h8fy{font-size:24px;line-height:34px;color:var(--spotim-text-color-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__h3--2BMY0{font-size:18px;line-height:30px;color:var(--spotim-text-color-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__h4--7wMjk{font-size:18px;line-height:30px;color:var(--spotim-text-color-xx-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__body--3Abbi{font-size:18px;line-height:30px;color:var(--spotim-text-color-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__modalBody--1F1cl{font-size:15px;line-height:24px;color:var(--spotim-text-color-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__username--2lyT9{font-size:15px;line-height:24px;font-weight:bold;color:var(--spotim-text-color-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__infoLg--3eX-M{font-size:15px;line-height:24px;color:var(--spotim-text-color-xx-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__infoMd--sDPbt{font-size:13px;line-height:21px;color:var(--spotim-text-color-xx-muted)}#spotim-specific#spotim-specific .Typography__text--2PeB9.Typography__infoSm--2VoZI{font-size:11px;line-height:18px;color:var(--spotim-text-color-xx-muted)}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="275546893">#spotim-specific#spotim-specific .Row__rowContainer--1gVDs{box-sizing:border-box;display:flex}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Row__rowContainer--1gVDs.Row__gutterMd--3fNgo{margin-right:-6px;margin-left:-6px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Row__rowContainer--1gVDs.Row__gutterMd--3fNgo{margin-left:-6px;margin-right:-6px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Row__rowContainer--1gVDs.Row__gutterMd--3fNgo>*{margin-right:6px;margin-left:6px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Row__rowContainer--1gVDs.Row__gutterMd--3fNgo>*{margin-left:6px;margin-right:6px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Row__rowContainer--1gVDs.Row__gutterLg--29FBJ{margin-right:-12px;margin-left:-12px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Row__rowContainer--1gVDs.Row__gutterLg--29FBJ{margin-left:-12px;margin-right:-12px}#spotim-specific#spotim-specific [data-spot-im-direction=ltr] .Row__rowContainer--1gVDs.Row__gutterLg--29FBJ>*{margin-right:12px;margin-left:12px}#spotim-specific#spotim-specific [data-spot-im-direction=rtl] .Row__rowContainer--1gVDs.Row__gutterLg--29FBJ>*{margin-left:12px;margin-right:12px}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ui-components" data-spot-im-style-hash="504834158">#spotim-specific#spotim-specific .SvgWrapper__wrapper--3oIbi{height:1em;fill:currentColor}#spotim-specific#spotim-specific .SvgWrapper__wrapper--3oIbi svg{height:100%;width:auto}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="-314540889">#spotim-specific#spotim-specific .AdChoiceContainer__container--3r_xe{display:flex;align-items:flex-end;justify-content:space-between;width:100%;height:20px;font-family:'Open Sans', sans-serif;font-size:14px;letter-spacing:-0.23px;color:#373e44}@media (max-width: 699px){#spotim-specific#spotim-specific .AdChoiceContainer__container--3r_xe{width:auto;padding:0 6px}}#spotim-specific#spotim-specific .AdChoiceContainer__textAndIconContainer--379GC{display:flex;align-items:center}#spotim-specific#spotim-specific .AdChoiceContainer__textContainer--1CQ6i{margin-right:5px;font-size:14px}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="-175733975">#spotim-specific#spotim-specific .Loader__loaderContainer--13ePX{background-color:rgba(0,0,0,0);font-family:'Open Sans', sans-serif}#spotim-specific#spotim-specific .Loader__loaderContent--NPHKv{position:relative;height:100%;width:100%}#spotim-specific#spotim-specific .Loader__loaderSpinner--Aq8nf{position:absolute;height:100%;width:100%;display:flex;align-items:center;justify-content:center;left:0;right:0;top:0;bottom:0}#spotim-specific#spotim-specific .Loader__loaderSpinner--Aq8nf:after{content:'Ad';-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:12px;font-weight:500;opacity:0.4;border-radius:2px;padding-left:3px;padding-right:3px;color:#686767;border:1px solid #686767;text-align:center}#spotim-specific#spotim-specific .Loader__loaderSpinner--Aq8nf:before{content:'';font-size:10px;position:absolute;border-top:2px solid rgba(0,0,0,0.4);border-right:2px solid rgba(0,0,0,0);border-bottom:2px solid rgba(0,0,0,0);border-left:2px solid rgba(0,0,0,0);-webkit-animation:Loader__load8--2ZY-b 1.5s infinite linear;animation:Loader__load8--2ZY-b 1.5s infinite linear;text-align:center;border-radius:50%;width:50px;height:50px}@-webkit-keyframes Loader__load8--2ZY-b{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes Loader__load8--2ZY-b{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="503693140">#spotim-specific#spotim-specific .DisplayAd__container--2_klo{width:100%;height:100%}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="135549449">#spotim-specific#spotim-specific .Container__container--1egMu.Container__isCentered--1SI8P{display:flex;flex-direction:row;justify-content:center}#spotim-specific#spotim-specific .Container__container--1egMu.Container__isVerticallyCentered--3XqOa{align-items:center}@media (max-width: 699px){#spotim-specific#spotim-specific .Container__container--1egMu{width:100% !important;height:auto !important}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="1102616657">#spotim-specific#spotim-specific .DisplaySlot__displaySlot--2pXDT{display:flex;top:0;left:0}#spotim-specific#spotim-specific .DisplaySlot__displaySlot--2pXDT.DisplaySlot__isCentered--381Il{flex-direction:row;justify-content:center;position:absolute}#spotim-specific#spotim-specific .DisplaySlot__displaySlot--2pXDT.DisplaySlot__isNativeAd--2baf5{width:100%}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="-205077940">@media (min-width: 700px){#spotim-specific#spotim-specific .VideoFlow__outerContainer--vPSVP{min-width:303px}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="1675060429">#spotim-specific#spotim-specific .index__adWrapper--9D10p{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative;width:auto;overflow:hidden}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="-314540889">#spotim-specific#spotim-specific .AdChoiceContainer__container--3r_xe{display:flex;align-items:flex-end;justify-content:space-between;width:100%;height:20px;font-family:'Open Sans', sans-serif;font-size:14px;letter-spacing:-0.23px;color:#373e44}@media (max-width: 699px){#spotim-specific#spotim-specific .AdChoiceContainer__container--3r_xe{width:auto;padding:0 6px}}#spotim-specific#spotim-specific .AdChoiceContainer__textAndIconContainer--379GC{display:flex;align-items:center}#spotim-specific#spotim-specific .AdChoiceContainer__textContainer--1CQ6i{margin-right:5px;font-size:14px}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="-175733975">#spotim-specific#spotim-specific .Loader__loaderContainer--13ePX{background-color:rgba(0,0,0,0);font-family:'Open Sans', sans-serif}#spotim-specific#spotim-specific .Loader__loaderContent--NPHKv{position:relative;height:100%;width:100%}#spotim-specific#spotim-specific .Loader__loaderSpinner--Aq8nf{position:absolute;height:100%;width:100%;display:flex;align-items:center;justify-content:center;left:0;right:0;top:0;bottom:0}#spotim-specific#spotim-specific .Loader__loaderSpinner--Aq8nf:after{content:'Ad';-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:12px;font-weight:500;opacity:0.4;border-radius:2px;padding-left:3px;padding-right:3px;color:#686767;border:1px solid #686767;text-align:center}#spotim-specific#spotim-specific .Loader__loaderSpinner--Aq8nf:before{content:'';font-size:10px;position:absolute;border-top:2px solid rgba(0,0,0,0.4);border-right:2px solid rgba(0,0,0,0);border-bottom:2px solid rgba(0,0,0,0);border-left:2px solid rgba(0,0,0,0);-webkit-animation:Loader__load8--2ZY-b 1.5s infinite linear;animation:Loader__load8--2ZY-b 1.5s infinite linear;text-align:center;border-radius:50%;width:50px;height:50px}@-webkit-keyframes Loader__load8--2ZY-b{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes Loader__load8--2ZY-b{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="503693140">#spotim-specific#spotim-specific .DisplayAd__container--2_klo{width:100%;height:100%}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="135549449">#spotim-specific#spotim-specific .Container__container--1egMu.Container__isCentered--1SI8P{display:flex;flex-direction:row;justify-content:center}#spotim-specific#spotim-specific .Container__container--1egMu.Container__isVerticallyCentered--3XqOa{align-items:center}@media (max-width: 699px){#spotim-specific#spotim-specific .Container__container--1egMu{width:100% !important;height:auto !important}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="1102616657">#spotim-specific#spotim-specific .DisplaySlot__displaySlot--2pXDT{display:flex;top:0;left:0}#spotim-specific#spotim-specific .DisplaySlot__displaySlot--2pXDT.DisplaySlot__isCentered--381Il{flex-direction:row;justify-content:center;position:absolute}#spotim-specific#spotim-specific .DisplaySlot__displaySlot--2pXDT.DisplaySlot__isNativeAd--2baf5{width:100%}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="-205077940">@media (min-width: 700px){#spotim-specific#spotim-specific .VideoFlow__outerContainer--vPSVP{min-width:303px}}
+</style><style data-spot-im-style="true" data-spot-im-style-module="@spotim/ads" data-spot-im-style-hash="1675060429">#spotim-specific#spotim-specific .index__adWrapper--9D10p{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative;width:auto;overflow:hidden}
+</style><style data-styled="" data-styled-version="4.4.1"></style><style data-styled="" data-styled-version="4.4.1"></style><style data-spot-im-style-module="*" data-spot-im-style="true" data-spot-im-style-hash="1705081207">  [data-spot-im-module-default-area="pitc"], [data-spotim-module="pitc"], [data-spotim-module="recirculation"] {    animation: spotim-detector-animation--247550967 1ms !important;  }    @keyframes spotim-detector-animation--247550967 {    from {    } to {    }  }  </style><style data-spot-im-style-module="*" data-spot-im-style="true" data-spot-im-style-hash="498435684">  [data-conversation-spotlight], [data-spot-im-module-default-area="spotlight"] {    animation: spotim-detector-animation--1937599405 1ms !important;  }    @keyframes spotim-detector-animation--1937599405 {    from {    } to {    }  }  </style><style data-spot-im-style-module="*" data-spot-im-style="true" data-spot-im-style-hash="-2021365861">  [data-spotim-module="conversation"]:not([data-spotim-not-for-self-bootstrapping]), [data-spotim-module="liveblog"] {    animation: spotim-detector-animation--1438952642 1ms !important;  }    @keyframes spotim-detector-animation--1438952642 {    from {    } to {    }  }  </style><style data-spot-im-style-module="*" data-spot-im-style="true" data-spot-im-style-hash="887810984">  [data-spot-im-module-default-area="conversation"], [data-spot-im-module-default-area="liveblog"] {    animation: spotim-detector-animation--707338761 1ms !important;  }    @keyframes spotim-detector-animation--707338761 {    from {    } to {    }  }  </style><script charset="utf-8" src="./Why Does Weather Change__files/2-bundle.js"></script><script charset="utf-8" src="./Why Does Weather Change__files/8-bundle.js"></script></head>
+<body>
+
+<div class="row">
+    <div class="col col-12">
+        <header class="l-header">
+            <div class="l-header-container">
+                
+
+
+<div class="PartialHeader ">
+    <div class="row row-nowrap inherit-height PartialHeader-space-between">
+        
+
+            <div class="col inherit-height min-width-0-mobile PartialHeader-balance">
+                
+<div class="PartialHeader-menu-container">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 15" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <style>
+            .svg-b {
+                clip-path: url(#menu-a);
+            }
+        </style>
+        <clippath id="menu-a">
+            <rect class="svg-a" width="18" height="15"></rect>
+        </clippath>
+    </defs>
+    <g class="svg-b">
+    <path class="svg-c" d="M18,.75v1.5a.721.721,0,0,1-.223.527A.721.721,0,0,1,17.25,3H.75a.721.721,0,0,1-.527-.223A.721.721,0,0,1,0,2.25V.75A.721.721,0,0,1,.223.223.721.721,0,0,1,.75,0h16.5a.721.721,0,0,1,.527.223A.721.721,0,0,1,18,.75Z"></path>
+    <path class="svg-c" d="M17.25,15H.75a.724.724,0,0,1-.527-.223A.724.724,0,0,1,0,14.25v-1.5a.724.724,0,0,1,.222-.527A.724.724,0,0,1,.75,12h16.5a.761.761,0,0,1,.75.751v1.5a.761.761,0,0,1-.75.751Zm0-6H.75a.724.724,0,0,1-.527-.222A.724.724,0,0,1,0,8.25V6.75a.724.724,0,0,1,.222-.527A.724.724,0,0,1,.75,6h16.5a.759.759,0,0,1,.75.75v1.5a.759.759,0,0,1-.75.75Z"></path>
+    </g>
+</svg>
+
+</div>
+
+<script>
+    (function() {
+        if (App) {
+            App.events = App.events || [];
+            var clickEvent = {
+                partial: "PartialHeader",
+                contextSelector: ".PartialHeader",
+                elementSelector: ".PartialHeader-menu-container",
+                type: "click",
+                handler: function () {
+                    $("#header-menu-control").addClass("drawer-open");
+                }
+            };
+            App.events.push(clickEvent);
+        }
+    })()
+</script>
+
+
+</div>
+        
+<div class="col inherit-height min-width-0-mobile margin-right-auto">
+            <div class="PartialHeader-logo ">
+     <a href="https://www.reference.com/" data-unified="{&quot;contentId&quot;:&quot;&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;header&quot;,&quot;moduleName&quot;:&quot;header&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 145.701 23">
+    <defs>
+        <style>.a{fill:none;}.b{clip-path:url(#a);}.c{fill:#3c5b74;}.d{fill:#92c93b;}</style>
+        <clippath id="a"><rect class="a" width="145.701" height="23"></rect></clippath>
+    </defs>
+    <g class="b">
+        <path class="c" d="M125.995,23a7.335,7.335,0,0,1-5.381-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.223,8.223,0,0,1,.549-3.026A7.418,7.418,0,0,1,120.736,10a6.645,6.645,0,0,1,2.317-1.573,7.668,7.668,0,0,1,2.942-.56,5.819,5.819,0,0,1,2.393.484,5.577,5.577,0,0,1,1.875,1.362,6.51,6.51,0,0,1,1.25,2.1A8.247,8.247,0,0,1,132,14.526l-.153.151h-9.572l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3,3.764,3.764,0,0,0,3.171,1.544,4.038,4.038,0,0,0,2.789-1.029,5.254,5.254,0,0,0,1.54-2.905l.244-.242h.244a.6.6,0,0,1,.473.242,1.025,1.025,0,0,1,.2.666,5.323,5.323,0,0,1-.762,1.861,5.762,5.762,0,0,1-1.326,1.422,6.171,6.171,0,0,1-1.769.923A6.557,6.557,0,0,1,125.995,23Zm-.305-14.225a2.8,2.8,0,0,0-2.317,1.3,7.586,7.586,0,0,0-1.189,3.693h6.158l.305-.3a6.389,6.389,0,0,0-.793-3.48A2.474,2.474,0,0,0,125.689,8.776ZM111.693,23a7.113,7.113,0,0,1-5.243-1.922,7.254,7.254,0,0,1-1.921-5.342v-.3a8.015,8.015,0,0,1,.564-3.026,7.042,7.042,0,0,1,4.009-3.98,8.184,8.184,0,0,1,3.049-.56,7.079,7.079,0,0,1,2.011.272,5.061,5.061,0,0,1,1.586.772,3.9,3.9,0,0,1,1.051,1.15,2.807,2.807,0,0,1,.382,1.437,1.938,1.938,0,0,1-.564,1.377,1.887,1.887,0,0,1-1.418.59,2.092,2.092,0,0,1-1.342-.438,2,2,0,0,1-.7-1.226v-.151l1.586-1.574V9.926a2.981,2.981,0,0,0-2.591-1.15,3.1,3.1,0,0,0-1.632.455,4.2,4.2,0,0,0-1.3,1.271,6.756,6.756,0,0,0-.869,2,10.118,10.118,0,0,0-.319,2.633,9.089,9.089,0,0,0,1.1,4.9,3.812,3.812,0,0,0,5.854.59,5.472,5.472,0,0,0,1.372-3.011l.213-.212h.152a.7.7,0,0,1,.534.257.943.943,0,0,1,.229.651,5.766,5.766,0,0,1-2.027,3.434A5.869,5.869,0,0,1,111.693,23ZM78.67,23a7.333,7.333,0,0,1-5.38-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.206,8.206,0,0,1,.549-3.026A7.43,7.43,0,0,1,73.411,10a6.658,6.658,0,0,1,2.317-1.573,7.665,7.665,0,0,1,2.941-.56,5.813,5.813,0,0,1,2.393.484,5.583,5.583,0,0,1,1.876,1.362,6.492,6.492,0,0,1,1.249,2.1,8.2,8.2,0,0,1,.488,2.708l-.152.151H74.951l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3,3.764,3.764,0,0,0,3.171,1.544A4.038,4.038,0,0,0,81.917,20.7a5.247,5.247,0,0,0,1.539-2.905l.244-.242h.244a.6.6,0,0,1,.472.242,1.024,1.024,0,0,1,.2.666,5.338,5.338,0,0,1-.762,1.861,5.769,5.769,0,0,1-1.327,1.422,6.167,6.167,0,0,1-1.768.923A6.56,6.56,0,0,1,78.67,23Zm-.3-14.225a2.8,2.8,0,0,0-2.317,1.3,7.6,7.6,0,0,0-1.189,3.693h6.159l.3-.3a6.391,6.391,0,0,0-.792-3.48A2.474,2.474,0,0,0,78.366,8.776ZM51.745,23a7.335,7.335,0,0,1-5.381-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.223,8.223,0,0,1,.549-3.026A7.448,7.448,0,0,1,46.486,10,6.645,6.645,0,0,1,48.8,8.429a7.668,7.668,0,0,1,2.942-.56,5.818,5.818,0,0,1,2.393.484,5.57,5.57,0,0,1,1.875,1.362,6.511,6.511,0,0,1,1.25,2.1,8.225,8.225,0,0,1,.488,2.708l-.153.151H48.025l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3A3.764,3.764,0,0,0,52.2,21.729,4.038,4.038,0,0,0,54.991,20.7a5.254,5.254,0,0,0,1.54-2.905l.244-.242h.244a.6.6,0,0,1,.472.242,1.025,1.025,0,0,1,.2.666,5.323,5.323,0,0,1-.762,1.861A5.748,5.748,0,0,1,55.6,21.744a6.17,6.17,0,0,1-1.769.923A6.557,6.557,0,0,1,51.745,23ZM51.439,8.776a2.8,2.8,0,0,0-2.317,1.3,7.586,7.586,0,0,0-1.189,3.693h6.158l.305-.3a6.39,6.39,0,0,0-.793-3.48A2.474,2.474,0,0,0,51.439,8.776ZM27.105,23a7.335,7.335,0,0,1-5.381-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.223,8.223,0,0,1,.549-3.026A7.434,7.434,0,0,1,21.847,10a6.645,6.645,0,0,1,2.317-1.573,7.668,7.668,0,0,1,2.942-.56,5.818,5.818,0,0,1,2.393.484,5.576,5.576,0,0,1,1.875,1.362,6.511,6.511,0,0,1,1.25,2.1,8.247,8.247,0,0,1,.488,2.708l-.153.151H23.386l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3,3.764,3.764,0,0,0,3.171,1.544A4.038,4.038,0,0,0,30.352,20.7a5.254,5.254,0,0,0,1.54-2.905l.244-.242h.244a.6.6,0,0,1,.472.242,1.025,1.025,0,0,1,.2.666,5.323,5.323,0,0,1-.762,1.861,5.748,5.748,0,0,1-1.326,1.422,6.17,6.17,0,0,1-1.768.923A6.557,6.557,0,0,1,27.105,23ZM26.8,8.776a2.8,2.8,0,0,0-2.317,1.3,7.586,7.586,0,0,0-1.189,3.693h6.158l.305-.3a6.39,6.39,0,0,0-.793-3.48A2.474,2.474,0,0,0,26.8,8.776ZM18.749,22.848h-1.22a8.2,8.2,0,0,1-2.775-.393,5.478,5.478,0,0,1-2.042-1.422v-.455A12.743,12.743,0,0,0,11.6,14.5,3.783,3.783,0,0,0,8.078,12.56H6.158l-.152.151v8.322l.305.6.914.3H8.17l.152.151v.454L8.17,22.7H6.707l-2.439-.151L1.829,22.7H.152L0,22.546v-.454l.152-.151H1.311l.914-.3.3-.907V3.48l-.3-.908-.914-.3H.152L0,2.119V1.664l.152-.151H1.829l2.439.151,3.659-.151H9.451a11.961,11.961,0,0,1,3.048.364,7.57,7.57,0,0,1,2.363,1.044,4.89,4.89,0,0,1,1.525,1.634,4.253,4.253,0,0,1,.533,2.1,4.152,4.152,0,0,1-.381,1.74,5.288,5.288,0,0,1-1.1,1.543,7.315,7.315,0,0,1-1.707,1.241,10.525,10.525,0,0,1-2.241.862,6.265,6.265,0,0,1,3.658,2.179l1.524,6.052.549,1.059,1.22.606h1.067l.152.151v.3l-.305.3-.609.151ZM7.225,2.421l-.914.3-.305.606V11.5l.152.151H8.536a4.68,4.68,0,0,0,3.476-1.211A4.872,4.872,0,0,0,13.2,6.9a5.091,5.091,0,0,0-.32-1.832,4.018,4.018,0,0,0-.914-1.422,4.059,4.059,0,0,0-1.433-.908,5.2,5.2,0,0,0-1.844-.318ZM93.886,22.7H92.515l-2.348-.151-2.378.151H86.417l-.152-.151v-.454l.152-.151h.914l.914-.3.305-.6V9.835l-.305-.6-.914-.3h-.762l-.152-.152V8.322l.152-.151H91.6l.153.151V11.2a5.556,5.556,0,0,1,5.03-3.329,4.233,4.233,0,0,1,2.591.817,5.085,5.085,0,0,1,1.677,2.36v9.987l.305.6.914.3h.914l.152.151v.454l-.152.151h-1.372l-2.378-.151-2.348.151H95.715l-.152-.151v-.454l.152-.151h.914l.915-.3.3-.6V11.046a2.376,2.376,0,0,0-2.286-1.6,3.2,3.2,0,0,0-2.256.923,6.393,6.393,0,0,0-1.554,2.648v8.02l.305.6.914.3h.914l.152.151v.454l-.152.151Zm-26.621,0H65.5l-2.255-.151-2.317.151H59.492l-.153-.151v-.454l.153-.151h.914l.914-.3.305-.6V10.139l-.305-.908-.914-.3h-.762l-.152-.152V8.322l.152-.151h4.725l.153.151v3.934a6.919,6.919,0,0,1,1.524-3.223,3.247,3.247,0,0,1,2.439-1.165,2.7,2.7,0,0,1,1.936.711,2.464,2.464,0,0,1,.747,1.861,2.4,2.4,0,0,1-.595,1.679,1.863,1.863,0,0,1-1.418.651,1.413,1.413,0,0,1-.96-.363,1.859,1.859,0,0,1-.563-.968v-.152l1.158-1.149a.857.857,0,0,0-.275-.651.986.986,0,0,0-.7-.257c-.607,0-1.176.438-1.692,1.3a12.6,12.6,0,0,0-1.3,3.692v6.809l.305.6.914.3h1.219l.152.151v.454l-.152.151Zm-24.639,0H40.949L38.6,22.546l-2.378.151H34.852l-.152-.151v-.454l.152-.151h.915l.914-.3.305-.6V9.382l-.153-.151H34.7l-.152-.151V8.625l.152-.151,1.982-.3.305-.3V4.54a6.466,6.466,0,0,1,.746-1.861,5.585,5.585,0,0,1,1.22-1.423,5.744,5.744,0,0,1,1.57-.923A4.918,4.918,0,0,1,42.321,0h.153a4.357,4.357,0,0,1,2.682.8,2.49,2.49,0,0,1,1.067,2.073,1.535,1.535,0,0,1-.5,1.105,1.557,1.557,0,0,1-1.112.5,1.519,1.519,0,0,1-1.113-.409,1.494,1.494,0,0,1-.411-1.105V2.875l1.128-1.12A2.026,2.026,0,0,0,42.474.848a2.054,2.054,0,0,0-1.661.756,3.1,3.1,0,0,0-.626,2.028V8.02l.153.151h3.2l.153.151v.757l-.153.151h-3.2l-.153.151V21.033l.305.6.914.3h1.22l.152.151v.454l-.152.151Z"></path><path class="d" d="M11.051,4.282a1.32,1.32,0,0,1-.387.964,1.359,1.359,0,0,1-1.013.393,1.519,1.519,0,0,1-.755-.2,1.09,1.09,0,0,1-.5-.589l-1.916.928.995,1.963A1.82,1.82,0,0,1,8.1,7.637a1.43,1.43,0,0,1,.976.375,1.248,1.248,0,0,1,.424.981,1.32,1.32,0,0,1-.387.964,1.359,1.359,0,0,1-1.013.393,1.394,1.394,0,0,1-.976-.393A1.263,1.263,0,0,1,6.7,8.993a1.227,1.227,0,0,1,.129-.571,1.5,1.5,0,0,1,.276-.393L5.526,6.495,3.942,8.029a1.5,1.5,0,0,1,.276.393,1.227,1.227,0,0,1,.129.571,1.263,1.263,0,0,1-.424.964,1.394,1.394,0,0,1-.976.393,1.359,1.359,0,0,1-1.013-.393,1.32,1.32,0,0,1-.387-.964,1.248,1.248,0,0,1,.424-.981,1.43,1.43,0,0,1,.976-.375,1.633,1.633,0,0,1,.626.107l.995-1.963L2.652,4.853a1.09,1.09,0,0,1-.5.589,1.519,1.519,0,0,1-.755.2A1.359,1.359,0,0,1,.387,5.246,1.32,1.32,0,0,1,0,4.282a1.247,1.247,0,0,1,.387-.964A1.435,1.435,0,0,1,1.4,2.962a1.369,1.369,0,0,1,.995.357,1.279,1.279,0,0,1,.368.964v.178l2.173.285.332-2.07A1.311,1.311,0,0,1,4.126,1.32,1.247,1.247,0,0,1,4.513.357,1.435,1.435,0,0,1,5.526,0,1.435,1.435,0,0,1,6.539.357a1.247,1.247,0,0,1,.387.964A1.311,1.311,0,0,1,5.784,2.676l.332,2.07,2.173-.285V4.282a1.279,1.279,0,0,1,.368-.964,1.369,1.369,0,0,1,.995-.357,1.435,1.435,0,0,1,1.013.357,1.247,1.247,0,0,1,.387.964Z" transform="translate(134.65)"></path>
+    </g>
+</svg>
+</a>
+</div>
+
+</div>
+        
+
+<div class="col">
+            <div class="PartialHeader-search-box ">
+    <div class="PartialHeader-wrapper ">
+        <div class="PartialHeader-container " name="searchBoxContainer">
+            <form target="_top" action="https://www.reference.com/web" method="get" class="PartialHeader-form" id="js-PartialHeader-form" data-unified="{&quot;contentId&quot;:&quot;&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;header&quot;,&quot;moduleName&quot;:&quot;header&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}">
+                <input type="hidden" id="qsrc">
+                <input type="hidden" id="origin" name="o" value="600605">
+                <input type="hidden" id="partnerID" name="l" value="dir">
+                <input type="hidden" id="qo" name="qo" value="headerSearchBox">
+                <input class="PartialHeader-input js-PartialHeader-input " data-zone="header" validate="required" value="" name="q" autocomplete="off" maxlength="2048" placeholder="Search...">
+            </form>
+        </div>
+        <button class="PartialHeader-button" id="js-PartialHeader-button" type="submit">
+            
+<div class="PartialHeader-button-svg-magnifier">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.999 18" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <style>
+            .magnifier-b{clip-path:url(#magnifier-a);}
+        </style>
+        <clippath id="magnifier-a">
+            <rect class="svg-a" width="17.999" height="18"></rect>
+        </clippath>
+    </defs>
+    <g class="magnifier-b">
+        <path class="svg-c" d="M16.253,17.471a1.716,1.716,0,0,1-1.236-.524l-3.226-3.3a7.4,7.4,0,0,1-4.22,1.318A7.67,7.67,0,0,1,0,7.218,7.67,7.67,0,0,1,7.572-.529a7.67,7.67,0,0,1,7.572,7.747,7.871,7.871,0,0,1-.98,3.8l3.325,3.4a1.819,1.819,0,0,1,0,2.528A1.715,1.715,0,0,1,16.253,17.471ZM7.411,1.589A5.584,5.584,0,0,0,2.118,7.412a5.584,5.584,0,0,0,5.294,5.824,5.585,5.585,0,0,0,5.295-5.824A5.584,5.584,0,0,0,7.411,1.589Z" transform="translate(0 0.529)"></path>
+    </g>
+</svg>
+
+</div>
+            
+</button>
+    </div>
+</div>
+
+<script>
+    'use strict';
+    if (App) {
+        (function () {
+            App.events = App.events || [];
+            App.events.push (
+                {
+                    partial: "PartialHeader",
+                    contextSelector: ".PartialHeader-search-box",
+                    elementSelector: null,
+                    type: "ready",
+                    handler: function () {
+                        var searchInput = $(".js-PartialHeader-input", this),
+                                logo = $(".js-logo-body"),
+                                searchButton = $("#js-PartialHeader-button", this),
+                                searchForm = $("#js-PartialHeader-form", this),
+                                searchWrapper = $(".PartialHeader-wrapper", this),
+                                searchContainer = $(".PartialHeader-container", this);
+
+                        
+_searchBoxUtil.searchBoxSearch(searchButton, searchInput, searchForm);
+                        
+}
+                }
+            );
+        })();
+    }
+
+    var _adjustLeft = true;
+    var _closeSearchBox;
+    var _searchBoxUtil = {
+        
+        searchBoxAnimate: function (searchButton, searchInput, searchForm, searchWrapper, searchContainer) {
+            searchButton.on("click", function (e) {
+                _closeSearchBox = function(){
+                    searchWrapper.animate({"width": "45px"}, 500);
+                    searchButton.removeClass("open");
+                    searchContainer.addClass("closed");
+                };
+
+                if (searchButton.hasClass("open") === false) {
+                    searchButton.addClass("open");
+                    searchContainer.removeClass("closed")
+                    //Animate the search bar opening.
+                    var setWidth = searchWrapper.closest(".row").width();
+                    searchWrapper.animate({"width": setWidth}, 500);
+
+                    
+                    searchWrapper.promise().done(function () {
+                        var searchSugestions = $(".ac_results");
+                        if (searchSugestions && _adjustLeft) {
+                            var searchWidth = searchContainer.css("width");
+                            searchSugestions.css("left", "-=" + searchWidth);
+                            _adjustLeft = false;
+                        }
+                    });
+                    searchInput.focus();
+
+                    $(document).on("mouseup", function (e) {
+
+                        if (!searchWrapper.is(e.target) && searchWrapper.has(e.target).length === 0) {
+                            _closeSearchBox();
+                        }
+                    });
+
+                    $(document).on("keyup", function (e) {
+                        
+                        if (e.which === 27) {
+                            _closeSearchBox();
+                        }
+                    });
+
+
+                } else {
+                    if(searchInput.val().trim() === "") {
+                        _closeSearchBox();
+                    }else {
+                        searchForm.submit();
+                    }
+                }
+            });
+        },
+        searchBoxSearch: function (searchButton, searchInput, searchForm){
+            
+            searchButton.on("click", function (e) {
+                if(searchInput.val().trim() !== "") {
+                    searchForm.submit();
+                }
+            });
+        },
+    };
+</script>
+
+</div>
+    </div>
+</div>
+
+
+<nav class="PartialCategoryNavigation">
+    
+
+        <div id="header-menu-control" class="PartialCategoryNavigation-drawer">
+            <div class="PartialCategoryNavigation-drawer-header">
+                
+                <div class="PartialCategoryNavigation-drawer-header-balance"></div>
+                
+<div class="PartialCategoryNavigation-drawer-close-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.414 17.414" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <style>
+            .b-close {
+                clip-path: url(#a-close);
+            }
+        </style>
+        <clippath id="a-close">
+            <rect class="svg-a" width="17.414" height="17.414"></rect>
+        </clippath>
+    </defs>
+    <g class="b-close">
+        <line class="svg-c" x2="16" y2="16" transform="translate(0.707 0.707)"></line>
+        <line class="svg-c" x1="16" y2="16" transform="translate(0.707 0.707)"></line>
+    </g>
+</svg>
+
+</div>
+            </div>
+            <div class="PartialCategoryNavigation-body">
+    <ul class="PartialCategoryNavigation-categories">
+        
+<li class="PartialCategoryNavigation-category">
+                <div class="PartialCategoryNavigation-category-item ">
+                    
+
+<a href="https://www.reference.com/history" data-unified="{&quot;moduleName&quot;:&quot;taxonomyTop&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;top&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="contentPageTaxonomyTop">
+                        History
+</a>
+                </div>
+                
+</li>
+        
+<li class="PartialCategoryNavigation-category">
+                <div class="PartialCategoryNavigation-category-item ">
+                    
+
+<a href="https://www.reference.com/business-finance" data-unified="{&quot;moduleName&quot;:&quot;taxonomyTop&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;top&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:2}" data-qo="contentPageTaxonomyTop">
+                        Business &amp; Finance
+</a>
+                </div>
+                
+</li>
+        
+<li class="PartialCategoryNavigation-category">
+                <div class="PartialCategoryNavigation-category-item ">
+                    
+
+<a href="https://www.reference.com/geography" data-unified="{&quot;moduleName&quot;:&quot;taxonomyTop&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;top&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:3}" data-qo="contentPageTaxonomyTop">
+                        Geography
+</a>
+                </div>
+                
+</li>
+        
+<li class="PartialCategoryNavigation-category">
+                <div class="PartialCategoryNavigation-category-item ">
+                    
+
+<a href="https://www.reference.com/world-view" data-unified="{&quot;moduleName&quot;:&quot;taxonomyTop&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;top&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:4}" data-qo="contentPageTaxonomyTop">
+                        World View
+</a>
+                </div>
+                
+</li>
+        
+<li class="PartialCategoryNavigation-category">
+                <div class="PartialCategoryNavigation-category-item active-nav">
+                    
+
+<a href="https://www.reference.com/science" data-unified="{&quot;moduleName&quot;:&quot;taxonomyTop&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;top&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:5}" data-qo="contentPageTaxonomyTop">
+                        Science
+</a>
+                </div>
+                
+</li>
+        
+<li class="PartialCategoryNavigation-category">
+                <div class="PartialCategoryNavigation-category-item ">
+                    
+
+<a href="https://www.reference.com/pets-animals" data-unified="{&quot;moduleName&quot;:&quot;taxonomyTop&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;top&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:6}" data-qo="contentPageTaxonomyTop">
+                        Pets &amp; Animals
+</a>
+                </div>
+                
+</li>
+        
+</ul>
+</div>
+
+</div>
+    
+</nav>
+
+
+
+<script>
+        (function() {
+            if (App) {
+                App.events = App.events || [];
+                var clickEvent = {
+                    partial: "PartialCategoryNavigation",
+                    contextSelector: ".PartialCategoryNavigation",
+                    elementSelector: ".PartialCategoryNavigation-drawer-close-icon",
+                    type: "click",
+                    handler: function () {
+                        var $drawer = $("#header-menu-control");
+                        $drawer.removeClass("drawer-open");
+                    }
+                };
+                App.events.push(clickEvent);
+            }
+        })()
+    </script>
+
+
+
+
+</div>
+        </header>
+    </div>
+</div>
+
+<div class="row">
+        <div class="col col-12">
+            <div class="l-banner">
+                <div class="l-banner-container">
+                    
+
+
+
+<nav class="PartialBreadCrumbs">
+        <a href="https://www.reference.com/" data-unified="{&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;taxonomyHeader&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="breadCrumb">
+            <span>Home</span>
+        </a>
+
+        
+
+<span class="PartialBreadCrumbs-separator"> / </span>
+                <a class="full-list" href="https://www.reference.com/science" data-unified="{&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;taxonomyHeader&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="breadCrumb">
+                    <span>Science</span>
+                </a>
+            
+
+
+<span class="PartialBreadCrumbs-separator"> / </span>
+                <a class="full-list" href="https://www.reference.com/weather-tides" data-unified="{&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;taxonomyHeader&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="breadCrumb">
+                    <span>Weather &amp; Tides</span>
+                </a>
+            
+
+
+<span class="PartialBreadCrumbs-separator"> / </span>
+                <a class="full-list" href="https://www.reference.com/weather-forecasts" data-unified="{&quot;resultType&quot;:&quot;taxonomy&quot;,&quot;providerSource&quot;:&quot;taxonomy&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;taxonomyHeader&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="breadCrumb">
+                    <span>Weather Forecasts</span>
+                </a>
+            
+
+
+<span class="PartialBreadCrumbs-separator"> / </span>
+                <a class="full-list">
+                    <span>Why Does Weather Change?</span>
+                </a>
+            
+
+</nav>
+
+
+
+
+
+
+</div>
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col col-12">
+        <main class="main">
+            
+<div class="row row-nowrap ">
+                
+<div class="col col-fill">
+                    <section class="l-mid content-visible narrow">
+                        <div class="l-mid-container">
+                            
+
+
+
+
+
+<h1 class="PartialArticleTitle">
+        Why Does Weather Change?
+</h1>
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Organization" class="PartialArticleAuthor">
+    <span class="PartialArticleAuthor-author" itemprop="name">By Staff Writer</span><span class="PartialArticleAuthor-updated" itemprop="lateUpdatedDate">Last Updated Jun 17, 2020 10:19:19 PM ET</span>
+</div>
+
+
+
+<div class="PartialSocialLinks">
+    
+
+
+    
+
+    
+<div class="share-button-svg fb-share-button-svg " data-href="https://www.reference.com/science/weather-change-3f6efd625ba896a8">
+            <a class="fb-xfbml-parse-ignore PartialSocialLinks-link" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.reference.com%2Fscience%2Fweather-change-3f6efd625ba896a8&amp;%3Bsrc=sdkpreparse" data-unified="{&quot;domain&quot;:&quot;&quot;,&quot;resultType&quot;:&quot;socialLink&quot;,&quot;providerSource&quot;:&quot;socialLink&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;socialLinks&quot;,&quot;moduleInZone&quot;:3,&quot;resultInModule&quot;:1}" data-qo="contentPageSocialLink" rel="noopener noreferrer" data-href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.reference.com%2Fscience%2Fweather-change-3f6efd625ba896a8&amp;src=sdkpreparse" data-unified-assettype="socialLink">
+                <div class="fb-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.25 16" preserveAspectRatio="xMidYMid meet">
+    <path class="fb-a" d="M6.744-11.344H8.25v-2.544A20.127,20.127,0,0,0,6.056-14,3.427,3.427,0,0,0,2.4-10.241V-8H0v2.844H2.4V2H5.334V-5.156h2.3L8-8H5.334V-9.959C5.334-10.781,5.562-11.344,6.744-11.344Z" transform="translate(0 14)"></path>
+</svg>
+</div>
+            </a>
+        </div>           
+    
+
+    
+
+    
+
+        <a class="share-button-svg twitter-share-button-svg" target="_blank" data-unified-assettype="socialLink" href="https://twitter.com/intent/tweet?text=Why+Does+Weather+Change%3F&amp;url=https%3A%2F%2Fwww.reference.com%2Fscience%2Fweather-change-3f6efd625ba896a8" data-unified="{&quot;domain&quot;:&quot;&quot;,&quot;resultType&quot;:&quot;socialLink&quot;,&quot;providerSource&quot;:&quot;socialLink&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;socialLinks&quot;,&quot;moduleInZone&quot;:3,&quot;resultInModule&quot;:1}" data-qo="contentPageSocialLink" rel="noopener noreferrer">
+            <div class="twitter-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 12" preserveAspectRatio="xMidYMid meet">
+    <path class="tw-a" d="M15,1.425a6.39,6.39,0,0,1-1.542,1.566q.01.131.01.394a8.483,8.483,0,0,1-.362,2.433,8.732,8.732,0,0,1-1.1,2.33,9.2,9.2,0,0,1-1.756,1.973A7.85,7.85,0,0,1,7.8,11.489,9.11,9.11,0,0,1,4.721,12,8.632,8.632,0,0,1,0,10.641a6.679,6.679,0,0,0,.742.038A6.077,6.077,0,0,0,4.559,9.384a3.027,3.027,0,0,1-1.789-.6,2.964,2.964,0,0,1-1.085-1.5,3.953,3.953,0,0,0,.581.047,3.226,3.226,0,0,0,.809-.1A3.033,3.033,0,0,1,1.309,6.183a2.9,2.9,0,0,1-.7-1.927V4.219A3.085,3.085,0,0,0,2,4.6,3.042,3.042,0,0,1,1,3.525,2.916,2.916,0,0,1,.628,2.081,2.933,2.933,0,0,1,1.047.553a8.691,8.691,0,0,0,2.8,2.236,8.668,8.668,0,0,0,3.536.933,3.315,3.315,0,0,1-.076-.694,2.9,2.9,0,0,1,.9-2.142A2.986,2.986,0,0,1,10.384,0,2.985,2.985,0,0,1,12.63.956,6.084,6.084,0,0,0,14.581.225,2.948,2.948,0,0,1,13.23,1.894,6.2,6.2,0,0,0,15,1.425Z"></path>
+</svg>
+</div>
+        </a>
+    
+
+    
+
+    
+
+    
+</div>
+
+
+<div class="PartialContentParagraph">
+    <div class="PartialContentParagraph-header-wrapper">
+        
+
+<div class="PartialContentParagraph-header-desc"><p>Weather differs every day due to changes in heat, wind and moisture. The revolution of Earth around the sun is the primary reason for seasonal changes. </p></div>
+            
+
+<div class="PartialContentParagraph-ad-wrapper-static ">
+                        <div id="top-afc-related-search"></div>
+</div>
+                
+
+
+</div>
+
+    
+<div class="full-content">
+            <p>Weather refers to the condition of Earth's atmosphere at any given time, and includes temperature, air pressure, precipitation and cloud cover. Low pressure typically causes precipitation and cloudy weather, whereas high pressure usually results in fair weather.</p>
+<p>Land masses and bodies of water receive irregular amounts of the sun’s rays due to Earth’s round shape. Regions near the equator experience more warmth than other places because they get more direct sunlight. In contrast, the polar regions experience colder temperatures, as they receive almost no sunlight during winter. These temperature differences result in constant air and water movements, which distribute the sun’s heat energy across Earth and cause ocean currents and jet streams. The uneven heating and cooling of various places on the planet cause winds. Clouds are pushed by winds, and they bring moisture that turns into rain or snow.</p>
+<p>The atmosphere in a particular area becomes less dense and starts to rise when it becomes hotter than the surrounding air. As colder, denser air falls in other regions and pushes air outward, the air travels on the surface, thus completing the cycle.</p>
+</div>
+    
+
+</div>
+
+
+<div id="bottom-afc-related-search"></div>
+
+
+<div class="PartialTrendingArticles-body mid-rail">
+     <div class="PartialTrendingArticles-section-title">More From Reference</div>
+<div class="PartialTrendingArticles-body-inner">
+        
+
+<a href="https://www.reference.com/science/5G-Impact-Cell-Phone-Plans-Or-Health" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;5G-Impact-Cell-Phone-Plans-Or-Health&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block mid-rail" data-zen="true">
+                    
+ <img src="./Why Does Weather Change__files/vq9i5wkexwalghpkflw7vet-wntz6xbe4qosqbrg7jj13d-cga-sgogocikwudczmmhjwvznjg5zol0lpaacrj1xch-mpmk8bzx0h7w2mkyhtr-ur-ngtoabhs5ybxgtiyua4faa6wz1ky9lbq.jpeg" class="PartialTrendingArticles-thumbnail" alt="Will 5G Impact Our Cell Phone Plans (or Our Health?!)"> 
+<div class="PartialTrendingArticles-feed-title ">Will 5G Impact Our Cell Phone Plans (or Our Health?!)</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/science/tips-solving-crossword-puzzles" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;tips-solving-crossword-puzzles&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:2}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block mid-rail" data-zen="true">
+                    
+ <img src="./Why Does Weather Change__files/jz-i-0u78vcm2cvd5-ub9vvxy9f8x8owekoolc52wfxoyhbwtcbvqpvmh4dwwhtgl1tk-u8l7ojnqxqgmubk5ozmkbrcqzqpliad0-n8afeb4htwdpgom2cfybo1oa46-sjyncbbxbqhxergiq.jpeg" class="PartialTrendingArticles-thumbnail" alt="The Secret Science of Solving Crossword Puzzles"> 
+<div class="PartialTrendingArticles-feed-title ">The Secret Science of Solving Crossword Puzzles</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/history/racist-phrases-remove-from-lexicon" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;racist-phrases-remove-from-lexicon&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:3}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block mid-rail" data-zen="true">
+                    
+ <img src="./Why Does Weather Change__files/jihclen-mdstaou2qtwxck4yeadnpuenbii6jfije3xzg8n5pe9kxl7ojlrifps8bgyedlvin8dt-hrn0mniycxwvc6wsk0oji-d-tsxbc6pyyono-dlrnlwg-xjc5ghhecahcmnufxakkzwg.jpeg" class="PartialTrendingArticles-thumbnail" alt="Racist Phrases to Remove From Your Mental Lexicon"> 
+<div class="PartialTrendingArticles-feed-title ">Racist Phrases to Remove From Your Mental Lexicon</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/science/coronavirus-crisis-increasing-overdoses" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;coronavirus-crisis-increasing-overdoses&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:4}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block mid-rail" data-zen="true">
+                    
+ <img src="./Why Does Weather Change__files/yzj04uufssqbnybcipvwt-covkmhjm1akos8gpkwj1zm38et-tf7l7vdaqglpyx5c5n1fnbzkh8yp-690g5kg-3c-x68wohh8-ivwihq72jgau-x0v9e7cc7luwtnhcp8mthwmhmyuep5itjw.jpeg" class="PartialTrendingArticles-thumbnail" alt="Is the Coronavirus Crisis Increasing America&#39;s Drug Overdoses?"> 
+<div class="PartialTrendingArticles-feed-title ">Is the Coronavirus Crisis Increasing America's Drug Overdoses?</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/history/fact-check-power-president-state-governors" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;fact-check-power-president-state-governors&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:5}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block mid-rail" data-zen="true">
+                    
+ <img src="./Why Does Weather Change__files/fm-lhtf9f71g55-zbk3qf9porxs-3ch2xuyjvuzcjpxa2inbm7lsr-7-x1s4c8vp1k-waszxenib3yifavalbjoxu4bowulz7q1onoti1i4aumv1nowj7ssbdknvyvwdkyjf5uwydzqlnmvsmg.png" class="PartialTrendingArticles-thumbnail" alt="Fact Check: What Power Does the President Really Have Over State Governors?"> 
+<div class="PartialTrendingArticles-feed-title ">Fact Check: What Power Does the President Really Have Over State Governors?</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/world-view/Eid-al-Adha-festival-past-present" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;Eid-al-Adha-festival-past-present&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:6}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block mid-rail" data-zen="true">
+                    
+ <img src="./Why Does Weather Change__files/rrkw3togk1r-wx8tcpynedyvuzhklsx1a6khv3ag5rvtzknvmz5vhz1gl3-lcemnh63dolfgmjhtgsa0zl5hiff1pqpyjdpdyxzsgv0f99p4jngawvjgn3lk7rooiph9ej9rdgvfxjts4qriea.jpeg" class="PartialTrendingArticles-thumbnail" alt="Festival of Sacrifice: The Past and Present of the Islamic Holiday of Eid al-Adha"> 
+<div class="PartialTrendingArticles-feed-title ">Festival of Sacrifice: The Past and Present of the Islamic Holiday of Eid al-Adha</div>
+                </div>
+            </a>
+        
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<div class="PartialSpotimWidget-communitySpotlight" data-conversation-spotlight=""><div class="spot-im-conversation-header" style="padding: 20px 0px 40px;"><div><div class="sc-hmzhuo dTLYPp"><div class="sc-ksYbfQ dddRJ"><div class="sc-jhAzac cAlGIk"><h2 title="Our Community" class="sc-cvbbAY dZZGMR">Our Community</h2><div class="sc-fBuWsC hTgInD"><div data-spot-im-class="card-container" class="sc-jlyJG KiQhf"><div class="sc-gipzik eINqng"><img src="./Why Does Weather Change__files/fa6fb450906439145b91a202336ebf45" data-spot-im-class="spot-image" class="sc-bdVaJa dJHnUj"></div><div data-spot-im-class="email-message" class="sc-bwzfXH sc-eNQAEJ kekDfm">Stay up to date with <strong> Reference </strong></div><div class="sc-ckVGcZ dlBdbh"></div><div class="sc-bwzfXH sc-jKJlTe eyQtJe">Enter your email to learn more</div><form class="sc-ifAKCX sc-VigVT eHgeRe"><div data-spot-im-class="email-input-container" class="sc-jTzLTM kGoDGv"><input type="text" class="sc-fjdhpX fXyFFR" value=""><div class="sc-jzJRlG frPdcc">Email Address</div></div><div data-spot-im-class="email-cta-container" class="sc-kgoBCf cqhROW"><button color="#92c93b" class="sc-htpNat bKUayV"><div class="sc-bxivhb jBsDlW">Sign up</div></button></div></form></div><div id="conversation_header-sp_6gx8cUEn-weather-change"><div id="spotim-specific"><div></div></div></div></div></div></div></div></div></div></div>           
+
+
+
+
+
+
+
+<div class="PartialSpotimWidget-launchScript">
+    <div data-spotim-default-areas=""><div data-spot-im-module-default-area="reactions" data-spot-id="sp_6gx8cUEn" data-post-id="weather-change"></div><div data-spot-im-module-default-area="pitc" data-spot-id="sp_6gx8cUEn" data-post-id="weather-change"></div><div data-spot-im-module-default-area="spotlight" data-spot-id="sp_6gx8cUEn" data-post-id="weather-change"></div><div data-spot-im-module-default-area="tag-tester" data-spot-id="sp_6gx8cUEn" data-post-id="weather-change"></div><div data-spot-im-module-default-area="multiplex" data-spot-id="sp_6gx8cUEn" data-post-id="weather-change"></div><div data-spot-im-module-default-area="conversation" data-spot-id="sp_6gx8cUEn" data-post-id="weather-change" data-element-initialized="true" style="min-height: 370px;"><div data-loading-indicator="true"><img src="./Why Does Weather Change__files/conversation.svg" style="width: 100%;"></div></div><div data-spot-im-module-default-area="pitc-double-decker" data-spot-id="sp_6gx8cUEn" data-post-id="weather-change"></div></div><script async="" data-spotim-module="spotim-launcher" src="./Why Does Weather Change__files/sp_6gx8cUEn" data-article-tags="weather-forecasts,weather-tides" data-post-id="weather-change" data-post-url="https://www.reference.com/science/weather-change-3f6efd625ba896a8" already-execute="true">
+    </script>
+</div>
+
+
+
+
+
+
+<!-- render failed with ignorePartialError true for partial "./node_modules/ask-archie-shared/components/partials/partial-category-navigation" -->
+
+
+</div>
+                    </section>
+                </div>
+                
+<div class="col col-fix-300 hidden-mm">
+                        <aside class="l-right content-visible">
+                            <aside class="l-right-container ">
+                                
+
+
+<div class="PartialRtkAdSlot-ads" data-adunitid="QfV9">
+        
+<div class="display-ad-block" style="">
+            <div id="RTK_QfV9"></div>
+        </div>
+        
+</div>
+    
+
+        
+<script>
+                if (App) {
+                    (function () {
+                        App.events = App.events || [];
+                        App.events.push(
+                            {
+                                partial: "PartialRtkAdSlot",
+                                contextSelector: document,
+                                elementSelector: null,
+                                type: "ready",
+                                handler: function () {
+                                    var rsScrollPartial = $("#scroller");
+                                    var rsHeight = $(".l-right-container .PartialRelatedSearch").outerHeight(true) || 0;
+                                    var rsPlaceholer = rsHeight + 10; // buffer of 10 added to match related-search.dust for smoother transition
+                                    var thisPartial = $("[data-adunitid='QfV9']");
+                                    var prevClass = thisPartial.prev().attr('class');
+                                    if (prevClass === "PartialRelatedSearch") {
+                                        $(window).scroll(function () {
+                                            if (rsScrollPartial && (rsScrollPartial.css("position") === "fixed")) {
+                                                thisPartial.css("margin-top", rsPlaceholer + "px");
+                                            } else {
+                                                thisPartial.css("margin-top", "0");
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                        )
+                    })();
+                }
+            </script>
+        
+
+
+
+
+
+<div class="PartialTrendingArticles-body right-float">
+    <div class="PartialTrendingArticles-section-title">More From Reference</div>
+    <div class="PartialTrendingArticles-body-inner">
+        
+
+<a href="https://www.reference.com/science/5G-Impact-Cell-Phone-Plans-Or-Health" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;5G-Impact-Cell-Phone-Plans-Or-Health&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:3,&quot;resultInModule&quot;:1}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block" data-zen="true">
+                    <div class="PartialTrendingArticles-index">1</div>
+<img src="./Why Does Weather Change__files/vq9i5wkexwalghpkflw7vet-wntz6xbe4qosqbrg7jj13d-cga-sgogocikwudczmmhjwvznjg5zol0lpaacrj1xch-mpmk8bzx0h7w2mkyhtr-ur-ngtoabhs5ybxgtiyua4faa6wz1ky9lbq(1).jpeg" class="PartialTrendingArticles-thumbnail" alt="Will 5G Impact Our Cell Phone Plans (or Our Health?!)">
+                    <div class="PartialTrendingArticles-feed-title">Will 5G Impact Our Cell Phone Plans (or Our Health?!)</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/science/tips-solving-crossword-puzzles" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;tips-solving-crossword-puzzles&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:3,&quot;resultInModule&quot;:2}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block" data-zen="true">
+                    <div class="PartialTrendingArticles-index">2</div>
+<img src="./Why Does Weather Change__files/jz-i-0u78vcm2cvd5-ub9vvxy9f8x8owekoolc52wfxoyhbwtcbvqpvmh4dwwhtgl1tk-u8l7ojnqxqgmubk5ozmkbrcqzqpliad0-n8afeb4htwdpgom2cfybo1oa46-sjyncbbxbqhxergiq(1).jpeg" class="PartialTrendingArticles-thumbnail" alt="The Secret Science of Solving Crossword Puzzles">
+                    <div class="PartialTrendingArticles-feed-title">The Secret Science of Solving Crossword Puzzles</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/history/racist-phrases-remove-from-lexicon" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;racist-phrases-remove-from-lexicon&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:3,&quot;resultInModule&quot;:3}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block" data-zen="true">
+                    <div class="PartialTrendingArticles-index">3</div>
+<img src="./Why Does Weather Change__files/jihclen-mdstaou2qtwxck4yeadnpuenbii6jfije3xzg8n5pe9kxl7ojlrifps8bgyedlvin8dt-hrn0mniycxwvc6wsk0oji-d-tsxbc6pyyono-dlrnlwg-xjc5ghhecahcmnufxakkzwg(1).jpeg" class="PartialTrendingArticles-thumbnail" alt="Racist Phrases to Remove From Your Mental Lexicon">
+                    <div class="PartialTrendingArticles-feed-title">Racist Phrases to Remove From Your Mental Lexicon</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/science/coronavirus-crisis-increasing-overdoses" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;coronavirus-crisis-increasing-overdoses&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:3,&quot;resultInModule&quot;:4}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block" data-zen="true">
+                    <div class="PartialTrendingArticles-index">4</div>
+<img src="./Why Does Weather Change__files/yzj04uufssqbnybcipvwt-covkmhjm1akos8gpkwj1zm38et-tf7l7vdaqglpyx5c5n1fnbzkh8yp-690g5kg-3c-x68wohh8-ivwihq72jgau-x0v9e7cc7luwtnhcp8mthwmhmyuep5itjw(1).jpeg" class="PartialTrendingArticles-thumbnail" alt="Is the Coronavirus Crisis Increasing America&#39;s Drug Overdoses?">
+                    <div class="PartialTrendingArticles-feed-title">Is the Coronavirus Crisis Increasing America's Drug Overdoses?</div>
+                </div>
+            </a>
+        
+
+<a href="https://www.reference.com/history/fact-check-power-president-state-governors" data-unified="{&quot;moduleName&quot;:&quot;trendingArticles&quot;,&quot;providerSource&quot;:&quot;trendingArticles&quot;,&quot;resultType&quot;:&quot;content&quot;,&quot;slug&quot;:&quot;fact-check-power-president-state-governors&quot;,&quot;zoneName&quot;:&quot;right&quot;,&quot;moduleInZone&quot;:3,&quot;resultInModule&quot;:5}" data-qo="contentRecommendation" class="PartialTrendingArticles-hero-tile">
+                <div class="PartialTrendingArticles-block" data-zen="true">
+                    <div class="PartialTrendingArticles-index">5</div>
+<img src="./Why Does Weather Change__files/fm-lhtf9f71g55-zbk3qf9porxs-3ch2xuyjvuzcjpxa2inbm7lsr-7-x1s4c8vp1k-waszxenib3yifavalbjoxu4bowulz7q1onoti1i4aumv1nowj7ssbdknvyvwdkyjf5uwydzqlnmvsmg(1).png" class="PartialTrendingArticles-thumbnail" alt="Fact Check: What Power Does the President Really Have Over State Governors?">
+                    <div class="PartialTrendingArticles-feed-title">Fact Check: What Power Does the President Really Have Over State Governors?</div>
+                </div>
+            </a>
+        
+</div>
+</div>
+
+
+
+
+<div class="PartialRtkAdSlot-ads" data-adunitid="LO2q">
+        
+<div class="display-ad-block" style="">
+            <div id="RTK_LO2q"></div>
+        </div>
+        
+</div>
+    
+
+        
+<script>
+                if (App) {
+                    (function () {
+                        App.events = App.events || [];
+                        App.events.push(
+                            {
+                                partial: "PartialRtkAdSlot",
+                                contextSelector: document,
+                                elementSelector: null,
+                                type: "ready",
+                                handler: function () {
+                                    var rsScrollPartial = $("#scroller");
+                                    var rsHeight = $(".l-right-container .PartialRelatedSearch").outerHeight(true) || 0;
+                                    var rsPlaceholer = rsHeight + 10; // buffer of 10 added to match related-search.dust for smoother transition
+                                    var thisPartial = $("[data-adunitid='LO2q']");
+                                    var prevClass = thisPartial.prev().attr('class');
+                                    if (prevClass === "PartialRelatedSearch") {
+                                        $(window).scroll(function () {
+                                            if (rsScrollPartial && (rsScrollPartial.css("position") === "fixed")) {
+                                                thisPartial.css("margin-top", rsPlaceholer + "px");
+                                            } else {
+                                                thisPartial.css("margin-top", "0");
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                        )
+                    })();
+                }
+            </script>
+        
+
+
+
+
+
+
+
+
+ 
+<div class="PartialSpotimWidget-popularInCommunity" data-spotim-module="pitc" data-page-type="weather-change" data-vertical-view="true">
+</div>
+
+
+
+
+
+</aside>
+                        </aside>
+                    </div>
+                
+</div>
+        </main>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col col-12">
+        <footer class="l-footer content-visible">
+            <div class="l-footer-container">
+                
+
+
+
+<div class="PartialLogo-logo  ">
+        <a href="https://www.reference.com/" data-unified="{&quot;moduleName&quot;:&quot;logo&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;header&quot;,&quot;moduleInZone&quot;:2,&quot;resultInModule&quot;:1}" data-qo="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 145.701 23">
+    <defs>
+        <style>.a{fill:none;}.b{clip-path:url(#a);}.c{fill:#3c5b74;}.d{fill:#92c93b;}</style>
+        <clippath id="a"><rect class="a" width="145.701" height="23"></rect></clippath>
+    </defs>
+    <g class="b">
+        <path class="c" d="M125.995,23a7.335,7.335,0,0,1-5.381-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.223,8.223,0,0,1,.549-3.026A7.418,7.418,0,0,1,120.736,10a6.645,6.645,0,0,1,2.317-1.573,7.668,7.668,0,0,1,2.942-.56,5.819,5.819,0,0,1,2.393.484,5.577,5.577,0,0,1,1.875,1.362,6.51,6.51,0,0,1,1.25,2.1A8.247,8.247,0,0,1,132,14.526l-.153.151h-9.572l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3,3.764,3.764,0,0,0,3.171,1.544,4.038,4.038,0,0,0,2.789-1.029,5.254,5.254,0,0,0,1.54-2.905l.244-.242h.244a.6.6,0,0,1,.473.242,1.025,1.025,0,0,1,.2.666,5.323,5.323,0,0,1-.762,1.861,5.762,5.762,0,0,1-1.326,1.422,6.171,6.171,0,0,1-1.769.923A6.557,6.557,0,0,1,125.995,23Zm-.305-14.225a2.8,2.8,0,0,0-2.317,1.3,7.586,7.586,0,0,0-1.189,3.693h6.158l.305-.3a6.389,6.389,0,0,0-.793-3.48A2.474,2.474,0,0,0,125.689,8.776ZM111.693,23a7.113,7.113,0,0,1-5.243-1.922,7.254,7.254,0,0,1-1.921-5.342v-.3a8.015,8.015,0,0,1,.564-3.026,7.042,7.042,0,0,1,4.009-3.98,8.184,8.184,0,0,1,3.049-.56,7.079,7.079,0,0,1,2.011.272,5.061,5.061,0,0,1,1.586.772,3.9,3.9,0,0,1,1.051,1.15,2.807,2.807,0,0,1,.382,1.437,1.938,1.938,0,0,1-.564,1.377,1.887,1.887,0,0,1-1.418.59,2.092,2.092,0,0,1-1.342-.438,2,2,0,0,1-.7-1.226v-.151l1.586-1.574V9.926a2.981,2.981,0,0,0-2.591-1.15,3.1,3.1,0,0,0-1.632.455,4.2,4.2,0,0,0-1.3,1.271,6.756,6.756,0,0,0-.869,2,10.118,10.118,0,0,0-.319,2.633,9.089,9.089,0,0,0,1.1,4.9,3.812,3.812,0,0,0,5.854.59,5.472,5.472,0,0,0,1.372-3.011l.213-.212h.152a.7.7,0,0,1,.534.257.943.943,0,0,1,.229.651,5.766,5.766,0,0,1-2.027,3.434A5.869,5.869,0,0,1,111.693,23ZM78.67,23a7.333,7.333,0,0,1-5.38-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.206,8.206,0,0,1,.549-3.026A7.43,7.43,0,0,1,73.411,10a6.658,6.658,0,0,1,2.317-1.573,7.665,7.665,0,0,1,2.941-.56,5.813,5.813,0,0,1,2.393.484,5.583,5.583,0,0,1,1.876,1.362,6.492,6.492,0,0,1,1.249,2.1,8.2,8.2,0,0,1,.488,2.708l-.152.151H74.951l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3,3.764,3.764,0,0,0,3.171,1.544A4.038,4.038,0,0,0,81.917,20.7a5.247,5.247,0,0,0,1.539-2.905l.244-.242h.244a.6.6,0,0,1,.472.242,1.024,1.024,0,0,1,.2.666,5.338,5.338,0,0,1-.762,1.861,5.769,5.769,0,0,1-1.327,1.422,6.167,6.167,0,0,1-1.768.923A6.56,6.56,0,0,1,78.67,23Zm-.3-14.225a2.8,2.8,0,0,0-2.317,1.3,7.6,7.6,0,0,0-1.189,3.693h6.159l.3-.3a6.391,6.391,0,0,0-.792-3.48A2.474,2.474,0,0,0,78.366,8.776ZM51.745,23a7.335,7.335,0,0,1-5.381-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.223,8.223,0,0,1,.549-3.026A7.448,7.448,0,0,1,46.486,10,6.645,6.645,0,0,1,48.8,8.429a7.668,7.668,0,0,1,2.942-.56,5.818,5.818,0,0,1,2.393.484,5.57,5.57,0,0,1,1.875,1.362,6.511,6.511,0,0,1,1.25,2.1,8.225,8.225,0,0,1,.488,2.708l-.153.151H48.025l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3A3.764,3.764,0,0,0,52.2,21.729,4.038,4.038,0,0,0,54.991,20.7a5.254,5.254,0,0,0,1.54-2.905l.244-.242h.244a.6.6,0,0,1,.472.242,1.025,1.025,0,0,1,.2.666,5.323,5.323,0,0,1-.762,1.861A5.748,5.748,0,0,1,55.6,21.744a6.17,6.17,0,0,1-1.769.923A6.557,6.557,0,0,1,51.745,23ZM51.439,8.776a2.8,2.8,0,0,0-2.317,1.3,7.586,7.586,0,0,0-1.189,3.693h6.158l.305-.3a6.39,6.39,0,0,0-.793-3.48A2.474,2.474,0,0,0,51.439,8.776ZM27.105,23a7.335,7.335,0,0,1-5.381-1.922,7.219,7.219,0,0,1-1.936-5.342v-.3a8.223,8.223,0,0,1,.549-3.026A7.434,7.434,0,0,1,21.847,10a6.645,6.645,0,0,1,2.317-1.573,7.668,7.668,0,0,1,2.942-.56,5.818,5.818,0,0,1,2.393.484,5.576,5.576,0,0,1,1.875,1.362,6.511,6.511,0,0,1,1.25,2.1,8.247,8.247,0,0,1,.488,2.708l-.153.151H23.386l-.152.3v.908a7.056,7.056,0,0,0,1.158,4.3,3.764,3.764,0,0,0,3.171,1.544A4.038,4.038,0,0,0,30.352,20.7a5.254,5.254,0,0,0,1.54-2.905l.244-.242h.244a.6.6,0,0,1,.472.242,1.025,1.025,0,0,1,.2.666,5.323,5.323,0,0,1-.762,1.861,5.748,5.748,0,0,1-1.326,1.422,6.17,6.17,0,0,1-1.768.923A6.557,6.557,0,0,1,27.105,23ZM26.8,8.776a2.8,2.8,0,0,0-2.317,1.3,7.586,7.586,0,0,0-1.189,3.693h6.158l.305-.3a6.39,6.39,0,0,0-.793-3.48A2.474,2.474,0,0,0,26.8,8.776ZM18.749,22.848h-1.22a8.2,8.2,0,0,1-2.775-.393,5.478,5.478,0,0,1-2.042-1.422v-.455A12.743,12.743,0,0,0,11.6,14.5,3.783,3.783,0,0,0,8.078,12.56H6.158l-.152.151v8.322l.305.6.914.3H8.17l.152.151v.454L8.17,22.7H6.707l-2.439-.151L1.829,22.7H.152L0,22.546v-.454l.152-.151H1.311l.914-.3.3-.907V3.48l-.3-.908-.914-.3H.152L0,2.119V1.664l.152-.151H1.829l2.439.151,3.659-.151H9.451a11.961,11.961,0,0,1,3.048.364,7.57,7.57,0,0,1,2.363,1.044,4.89,4.89,0,0,1,1.525,1.634,4.253,4.253,0,0,1,.533,2.1,4.152,4.152,0,0,1-.381,1.74,5.288,5.288,0,0,1-1.1,1.543,7.315,7.315,0,0,1-1.707,1.241,10.525,10.525,0,0,1-2.241.862,6.265,6.265,0,0,1,3.658,2.179l1.524,6.052.549,1.059,1.22.606h1.067l.152.151v.3l-.305.3-.609.151ZM7.225,2.421l-.914.3-.305.606V11.5l.152.151H8.536a4.68,4.68,0,0,0,3.476-1.211A4.872,4.872,0,0,0,13.2,6.9a5.091,5.091,0,0,0-.32-1.832,4.018,4.018,0,0,0-.914-1.422,4.059,4.059,0,0,0-1.433-.908,5.2,5.2,0,0,0-1.844-.318ZM93.886,22.7H92.515l-2.348-.151-2.378.151H86.417l-.152-.151v-.454l.152-.151h.914l.914-.3.305-.6V9.835l-.305-.6-.914-.3h-.762l-.152-.152V8.322l.152-.151H91.6l.153.151V11.2a5.556,5.556,0,0,1,5.03-3.329,4.233,4.233,0,0,1,2.591.817,5.085,5.085,0,0,1,1.677,2.36v9.987l.305.6.914.3h.914l.152.151v.454l-.152.151h-1.372l-2.378-.151-2.348.151H95.715l-.152-.151v-.454l.152-.151h.914l.915-.3.3-.6V11.046a2.376,2.376,0,0,0-2.286-1.6,3.2,3.2,0,0,0-2.256.923,6.393,6.393,0,0,0-1.554,2.648v8.02l.305.6.914.3h.914l.152.151v.454l-.152.151Zm-26.621,0H65.5l-2.255-.151-2.317.151H59.492l-.153-.151v-.454l.153-.151h.914l.914-.3.305-.6V10.139l-.305-.908-.914-.3h-.762l-.152-.152V8.322l.152-.151h4.725l.153.151v3.934a6.919,6.919,0,0,1,1.524-3.223,3.247,3.247,0,0,1,2.439-1.165,2.7,2.7,0,0,1,1.936.711,2.464,2.464,0,0,1,.747,1.861,2.4,2.4,0,0,1-.595,1.679,1.863,1.863,0,0,1-1.418.651,1.413,1.413,0,0,1-.96-.363,1.859,1.859,0,0,1-.563-.968v-.152l1.158-1.149a.857.857,0,0,0-.275-.651.986.986,0,0,0-.7-.257c-.607,0-1.176.438-1.692,1.3a12.6,12.6,0,0,0-1.3,3.692v6.809l.305.6.914.3h1.219l.152.151v.454l-.152.151Zm-24.639,0H40.949L38.6,22.546l-2.378.151H34.852l-.152-.151v-.454l.152-.151h.915l.914-.3.305-.6V9.382l-.153-.151H34.7l-.152-.151V8.625l.152-.151,1.982-.3.305-.3V4.54a6.466,6.466,0,0,1,.746-1.861,5.585,5.585,0,0,1,1.22-1.423,5.744,5.744,0,0,1,1.57-.923A4.918,4.918,0,0,1,42.321,0h.153a4.357,4.357,0,0,1,2.682.8,2.49,2.49,0,0,1,1.067,2.073,1.535,1.535,0,0,1-.5,1.105,1.557,1.557,0,0,1-1.112.5,1.519,1.519,0,0,1-1.113-.409,1.494,1.494,0,0,1-.411-1.105V2.875l1.128-1.12A2.026,2.026,0,0,0,42.474.848a2.054,2.054,0,0,0-1.661.756,3.1,3.1,0,0,0-.626,2.028V8.02l.153.151h3.2l.153.151v.757l-.153.151h-3.2l-.153.151V21.033l.305.6.914.3h1.22l.152.151v.454l-.152.151Z"></path><path class="d" d="M11.051,4.282a1.32,1.32,0,0,1-.387.964,1.359,1.359,0,0,1-1.013.393,1.519,1.519,0,0,1-.755-.2,1.09,1.09,0,0,1-.5-.589l-1.916.928.995,1.963A1.82,1.82,0,0,1,8.1,7.637a1.43,1.43,0,0,1,.976.375,1.248,1.248,0,0,1,.424.981,1.32,1.32,0,0,1-.387.964,1.359,1.359,0,0,1-1.013.393,1.394,1.394,0,0,1-.976-.393A1.263,1.263,0,0,1,6.7,8.993a1.227,1.227,0,0,1,.129-.571,1.5,1.5,0,0,1,.276-.393L5.526,6.495,3.942,8.029a1.5,1.5,0,0,1,.276.393,1.227,1.227,0,0,1,.129.571,1.263,1.263,0,0,1-.424.964,1.394,1.394,0,0,1-.976.393,1.359,1.359,0,0,1-1.013-.393,1.32,1.32,0,0,1-.387-.964,1.248,1.248,0,0,1,.424-.981,1.43,1.43,0,0,1,.976-.375,1.633,1.633,0,0,1,.626.107l.995-1.963L2.652,4.853a1.09,1.09,0,0,1-.5.589,1.519,1.519,0,0,1-.755.2A1.359,1.359,0,0,1,.387,5.246,1.32,1.32,0,0,1,0,4.282a1.247,1.247,0,0,1,.387-.964A1.435,1.435,0,0,1,1.4,2.962a1.369,1.369,0,0,1,.995.357,1.279,1.279,0,0,1,.368.964v.178l2.173.285.332-2.07A1.311,1.311,0,0,1,4.126,1.32,1.247,1.247,0,0,1,4.513.357,1.435,1.435,0,0,1,5.526,0,1.435,1.435,0,0,1,6.539.357a1.247,1.247,0,0,1,.387.964A1.311,1.311,0,0,1,5.784,2.676l.332,2.07,2.173-.285V4.282a1.279,1.279,0,0,1,.368-.964,1.369,1.369,0,0,1,.995-.357,1.435,1.435,0,0,1,1.013.357,1.247,1.247,0,0,1,.387.964Z" transform="translate(134.65)"></path>
+    </g>
+</svg>
+</a>
+    </div>
+
+
+<div class="PartialPageFooter">
+    <div class="PartialPageFooter-body">
+        
+<ul class="PartialPageFooter-list">
+            
+
+<li class="PartialPageFooter-item">
+                        
+
+<a class="PartialPageFooter-item-link" href="https://www.reference.com/about" data-unified="{&quot;moduleName&quot;:&quot;pageFooter&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;footer&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:1}" data-qo="articleFooterLinks">About</a>
+                        
+</li>
+                
+
+
+<li class="PartialPageFooter-item">
+                        
+
+<a class="PartialPageFooter-item-link" href="https://www.reference.com/privacy" data-unified="{&quot;moduleName&quot;:&quot;pageFooter&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;footer&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:2}" data-qo="articleFooterLinks">Privacy</a>
+                        
+</li>
+                
+
+
+<li class="PartialPageFooter-item">
+                        
+
+<a class="PartialPageFooter-item-link" href="https://www.reference.com/terms" data-unified="{&quot;moduleName&quot;:&quot;pageFooter&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;footer&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:3}" data-qo="articleFooterLinks">Terms</a>
+                        
+</li>
+                
+
+
+<li class="PartialPageFooter-item">
+                        
+
+<a class="PartialPageFooter-item-link" href="https://www.reference.com/cookies" data-unified="{&quot;moduleName&quot;:&quot;pageFooter&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;footer&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:4}" data-qo="articleFooterLinks">Cookies</a>
+                        
+</li>
+                
+
+
+<li class="PartialPageFooter-item">
+                        
+
+<a class="PartialPageFooter-item-link" href="https://help.askmediagroup.com/hc/en-us" data-unified="{&quot;moduleName&quot;:&quot;pageFooter&quot;,&quot;providerSource&quot;:&quot;navigation&quot;,&quot;resultType&quot;:&quot;navigation&quot;,&quot;zoneName&quot;:&quot;footer&quot;,&quot;moduleInZone&quot;:1,&quot;resultInModule&quot;:5}" data-qo="articleFooterLinks">Help</a>
+                        
+</li>
+                
+
+<li class="PartialPageFooter-item">
+                
+<span class="PartialPageFooter-item-label copyright">© 2020 Ask Media Group, LLC</span>
+            </li>
+        </ul>
+        
+</div>
+    
+</div>
+
+
+<div class="PartialSocialLinks">
+    
+
+<div class="PartialSocialLinks-label">Follow Us:</div>
+    
+
+    
+<div class="share-button fb-share-button " data-href="https://www.reference.com/science/weather-change-3f6efd625ba896a8">
+        <a class="fb-xfbml-parse-ignore PartialSocialLinks-link" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.reference.com%2Fscience%2Fweather-change-3f6efd625ba896a8&amp;%3Bsrc=sdkpreparse" data-unified="{&quot;domain&quot;:&quot;&quot;,&quot;resultType&quot;:&quot;socialLink&quot;,&quot;providerSource&quot;:&quot;socialLink&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;socialLinks&quot;,&quot;moduleInZone&quot;:6,&quot;resultInModule&quot;:1}" data-qo="contentPageSocialLink" rel="noopener noreferrer" data-href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.reference.com%2Fscience%2Fweather-change-3f6efd625ba896a8&amp;src=sdkpreparse" data-unified-assettype="socialLink">
+             <div class="share-link fb-icon"></div>
+        </a>
+    </div>
+    
+
+    
+
+    
+<div class="share-button PartialSocialLinks-twitter">
+        
+        <a class="PartialSocialLinks-link" target="_blank" data-unified-assettype="socialLink" href="https://twitter.com/intent/tweet?text=Why+Does+Weather+Change%3F&amp;url=https%3A%2F%2Fwww.reference.com%2Fscience%2Fweather-change-3f6efd625ba896a8" data-unified="{&quot;domain&quot;:&quot;&quot;,&quot;resultType&quot;:&quot;socialLink&quot;,&quot;providerSource&quot;:&quot;socialLink&quot;,&quot;zoneName&quot;:&quot;center&quot;,&quot;moduleName&quot;:&quot;socialLinks&quot;,&quot;moduleInZone&quot;:6,&quot;resultInModule&quot;:1}" data-qo="contentPageSocialLink" rel="noopener noreferrer">
+            <div class="share-link"></div>
+        </a>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+</div>
+
+
+
+</div>
+        </footer>
+    </div>
+</div>
+<script src="./Why Does Weather Change__files/site-content-sites.min.js"></script>
+<script>
+    $(document).ready(function ($) {
+        var i, k, event, readyElementList;
+        if (typeof App.events === "object" && App.events.length) {
+            for (i = 0, k = App.events.length; i < k; i += 1) {
+                event = App.events[i];
+                if (event.type === "ready") {
+                    try {
+                        readyElementList = (event.elementSelector) ?
+                                $(event.elementSelector, event.contextSelector) :
+                                $(event.contextSelector);
+                        readyElementList.each(function (index) {
+                            event.handler.apply(this);
+                        });
+                    } catch (e) {
+                        console.error("Failed to run a 'ready' event handler.");
+                        console.error(e);
+                    }
+                } else {
+                    $(event.contextSelector).on(event.type, event.elementSelector || null, event.handler);
+                }
+            }
+        }
+    });
+</script>
+    
+
+
+<script>
+        var _UnifiedApiParams = {"uniqueUser":"6592C892-7C12-4114-A3B5-C1679B5E44F8","appId":"Archie_Ref","appVersion":"6df3983","appDate":"2020-11-13T17:12:21Z","logPageView":false,"updateSession":false,"domain":".reference.com","url":"www.reference.com/log/browser/event","backFillRequired":false,"eventId":"BE6AE94B-CE24-48A0-A891-68F5D72ACBFC","maxSession":30,"suppressCookies":false,"cookieExpirationMinutes":129600,"newSessionOnDomainChange":false,"cookieName":"uc"};
+        _UnifiedApiParams.url = (("https:" === window.location.protocol)? "https://" : "http://" ) + _UnifiedApiParams.url;
+    </script>
+
+    <script src="./Why Does Weather Change__files/unified-api.min.js"></script>
+    <script>
+    if(App) {
+        (function () {
+            App.events = App.events || [];
+            App.events.push({
+                partial: "partial-unified-footer",
+                contextSelector: document,
+                elementSelector: null,
+                type: "ready",
+                handler: function () {
+                        window.ask = window.ask || {};
+                        var ask = window.ask;
+                        ask.unified = ask.unified || {};
+                        ask.unified.pageContext = {"anuaaf":"Archie","anxut":"UNIFIED","anuaci":"84.192.148.79","anuaafl":"600605","anxsn":"content-sites-6f6d7494bb-qkdgh","anuahm":"GET","anuadc":"use1","anuaqs":"","anxu":"http://www.reference.com/science/weather-change-3f6efd625ba896a8","anuaad":"dirN","anuapbr":"","anuaan":"","anuaamt":"","anuaagc":"","anuaadid":"","ucctr":"","ucctn":"","ucs":"","ucdm":"","uccnt":"","ucpc":"","anuadtp":"desktop","anxbt":"Chrome","anxbv":"86.0.4240.193","anxpt":"Linux x86_64","anxpv":"","anxcd":"","anxw":"800","anxh":"600","anxv":"6df3983","anxd":"2020-11-13T17:12:21.215Z","anuaptp":"contentPage","anuachl":"content","anuaprdd":"search","anxa":"Archie_Ref","anxp":"reference.com","anualcl":"us","anuasv":"1","anuaapp":"{\"pageViewId\":\"d1fef97272224b30b09307aec525879f\",\"queryOrigination\":\"\",\"templateId\":\"desktop\",\"propsId\":\"referenceus-default\",\"archieExperience\":\"default\"}","anuapn":1,"anuaptl":"Why Does Weather Change?"};
+                        ask.unified.payload = {
+                            pageResults: [],
+                            providers: ask.unified.pendingProviders || {}
+                        };
+
+                        if (ask.unified.pendingParams) {
+                            for (var key in ask.unified.pendingParams) {
+                                ask.unified.payload[key] = ask.unified.pendingParams[key];
+                            }
+                            ask.unified.pendingParams = {};
+                        }
+
+                        ask.unified.pendingProviders = {};
+                        ask.unified.events = [];
+
+                        
+                        ask.unified.addPresentation = function (zoneName, moduleName, moduleOrdinal, resultTemplate, count) {
+                            for (var i = 0; i < count; i++) {
+                                var nextResult = {};
+                                $.extend(nextResult, resultTemplate);
+                                nextResult.resultInModule = i + 1;
+                                nextResult.zoneName = zoneName;
+                                nextResult.moduleName = moduleName;
+                                nextResult.moduleInZone = moduleOrdinal;
+                                ask.unified.payload.pageResults.push(nextResult);
+                            }
+                        };
+
+                        ask.unified.addPresentationResult = function (results) {
+                            ask.unified.payload.pageResults = ask.unified.payload.pageResults.concat(results);
+                        };
+
+                        
+                        ask.unified.addProvider = function (providerName, providerPayload) {
+                            if (!ask.unified.payload.providers[providerName]) {
+                                ask.unified.payload.providers[providerName] = providerPayload;
+                            } else {
+                                $.extend(providerPayload, ask.unified.payload.providers[providerName]);
+                                ask.unified.payload.providers[providerName] = providerPayload;
+                            }
+                        };
+
+                        
+                        ask.unified.sendAction = function (actionPayload, cb) {
+                            var payload = {};
+                            $.extend(payload, ask.unified.pageContext);
+
+                            if(ask.unified.pageContext.anuaapp) {
+                                $.extend(actionPayload, JSON.parse(ask.unified.pageContext.anuaapp));
+                            }
+                            payload.anuaapp = JSON.stringify(actionPayload);
+
+                            if (!cb) {
+                                _UnifiedApi.logEvent("Action", payload, ask.unified.apiHandler);
+                            } else {
+                                var callback = function (success, response) {
+                                    ask.unified.apiHandler(success, response, function () {
+                                        cb();
+                                    });
+                                };
+                                _UnifiedApi.logEvent("Action", payload, callback);
+                            }
+                        };
+
+                        ask.unified.sendBackFill = function () {
+                            var navInfo = getNavigationTimingInfo(window);
+                            if(navInfo) {
+                                
+                                if (isNavInfoAvailableInUnifiedPayload()) {
+                                    if(isPageLoadComplete(navInfo)) {
+                                        
+                                        if(ask.unified.payload.externalData.navInfo.loadEventEnd === 0) {
+                                            
+                                            ask.unified.payload.externalData.navInfo = navInfo;
+                                        } else {
+                                            
+                                            return;
+                                        }
+                                    } else {
+                                        
+                                        
+                                        registerSendBackFillOnPageLoadComplete();
+                                    }
+                                } else {
+                                    if(ask.unified.payload.externalData) {
+                                        ask.unified.payload.externalData.navInfo = navInfo;
+                                    } else {
+                                        ask.unified.payload.externalData = { "navInfo": navInfo };
+                                    }
+
+                                    if(!isPageLoadComplete(navInfo)) {
+                                        
+                                        
+                                        registerSendBackFillOnPageLoadComplete();
+                                    }
+                                }
+                            }
+
+                            var payload = { anxi: _UnifiedApiParams.eventId};
+                            $.extend(payload, ask.unified.pageContext);
+
+                            if ($.isEmptyObject(ask.unified.payload.providers)) {
+                                delete ask.unified.payload.providers;
+                            }
+                            payload.anuaapp = JSON.stringify(ask.unified.payload);
+                            _UnifiedApi.logEvent("BackFill", payload, ask.unified.apiHandler);
+
+                            
+                            ask.unified.payload = {
+                                pageResults: [],
+                                providers: {}
+                            };
+                        };
+
+                        function isPageLoadComplete(navInfo) {
+                            return navInfo.loadEventEnd > 0;
+                        }
+
+                        function isNavInfoAvailableInUnifiedPayload() {
+                            return !!ask.unified.payload.externalData && !!ask.unified.payload.externalData.navInfo;
+                        }
+
+                        function registerSendBackFillOnPageLoadComplete() {
+                            $(window).on("load", function(){
+                                setTimeout(function(){
+                                    ask.unified.sendBackFill();
+                                }, 0);
+                            });
+                        }
+
+                        
+                        ask.unified.cancelPending = function (key) {
+                            var length = ask.unified.pending.length;
+                            for (var i = 0; i < length; i++) {
+                                if (ask.unified.pending[i] === key) {
+                                    ask.unified.pending.splice(i, 1);
+                                    break;
+                                }
+                            }
+                        };
+
+                        
+                        ask.unified.apiHandler = function (success, responseText, cb) {
+                            
+if (cb) {
+                                cb();
+                            }
+                        };
+
+                        var _timedOut = false,
+                                _timeFromSerpStart = null,
+                                _adsLoggingTimeout = null,
+                                _dynamicLoggingTimeout = null,
+                                _dynamicBingJSLoggingTimeout = null;
+
+
+                        try {
+                            _timeFromSerpStart = ((new Date() - ask.CSA.startTime) - ask.CSA.showSerpStartTime);
+                            _adsLoggingTimeout = 5000 - _timeFromSerpStart;
+                            _dynamicLoggingTimeout = Math.max(_adsLoggingTimeout, 1);
+                            _dynamicBingJSLoggingTimeout = ask.BING.bingTimeout - 1000;
+                        } catch (e) {
+                            _dynamicLoggingTimeout = 2000;
+                            _dynamicBingJSLoggingTimeout = 3000;
+                        }
+
+                        function mixinCSAAdData(payload) {
+                            var externalData = {
+                                csaInfo: {
+                                    domTime: ask.CSA.domReadyTime ? ask.CSA.domReadyTime : 0,
+                                    adsResponseTime: ask.CSA.responseTime ? ask.CSA.responseTime : 0,
+                                    adsShownTime: ask.CSA.adsShownTime ? ask.CSA.adsShownTime : 0,
+                                    serpShownTime: ask.CSA.serpShownTime ? ask.CSA.serpShownTime : 0,
+                                    supplement: _timedOut,
+                                    serpTimedOut: !!ask.CSA.showSerpTimeoutFired,
+                                    serpTimeoutStartTime: ask.CSA.showSerpStartTime ? ask.CSA.showSerpStartTime : 0,
+                                    dynamicTimeout: _dynamicLoggingTimeout,
+                                    viewportHeight: ask.CSA.viewportHeight ? ask.CSA.viewportHeight : 0,
+                                    viewportWidth: ask.CSA.viewportWidth ? ask.CSA.viewportWidth : 0,
+                                    adContentRatio: ask.CSA.adContentRatio ? ask.CSA.adContentRatio : 0,
+                                    csaHeight: ask.CSA.csaHeight ? ask.CSA.csaHeight : 0,
+                                    csaWidth: ask.CSA.csaWidth ? ask.CSA.csaWidth : 0,
+                                    centerRailHeight: ask.CSA.centerRailHeight ? ask.CSA.centerRailHeight : 0,
+                                    centerRailWidth: ask.CSA.centerRailWidth ? ask.CSA.centerRailWidth : 0,
+                                    rightRailHeight: ask.CSA.rightRailHeight ? ask.CSA.rightRailHeight : 0,
+                                    rightRailWidth: ask.CSA.rightRailWidth ? ask.CSA.rightRailWidth : 0
+                                }
+                            };
+
+                              var totalAds = 0,
+                                  topCount = 0,
+                                  midCount = 0,
+                                  botCount = 0,
+                                  uniqueResultsDisplayed = 0,
+                                  csaTopModule = "" || "csaTop",
+                                  csaMiddleModule = "" || "csaMiddle",
+                                  csaBottomModule = "" || "csaBottom",
+                                  csaZone = "" || "primary",
+                                  csaProviderSource = "" || "csa";
+
+                            if(ask.CSA.adModules){
+                                for(var i= 0; i < ask.CSA.adModules.length; i++){
+                                    var m = ask.CSA.adModules[i];
+                                    totalAds =+ m.count();
+                                    ask.unified.addPresentation(m.zoneName, m.moduleName, m.ordinal, {resultType: m.resultType, providerSource: m.providerSource}, m.count());
+                                }
+                                uniqueResultsDisplayed = ask.CSA.pageOptions.numRepeated ? ask.CSA.adModules[0].count() : totalAds;
+                            }
+                            else {
+                                topCount = ask.CSA.numTopAds ? ask.CSA.numTopAds : 0;
+                                midCount = ask.CSA.numMiddleAds ? ask.CSA.numMiddleAds : 0;
+                                botCount = ask.CSA.numBottomAds ? ask.CSA.numBottomAds : 0;
+                                totalAds = topCount + midCount + botCount;
+                                ask.unified.addPresentation(csaZone, csaTopModule, ask.moduleOrdinals[0], { resultType: "gsl", providerSource: csaProviderSource}, topCount);
+                                ask.unified.addPresentation(csaZone, csaMiddleModule, ask.moduleOrdinals[1], {resultType: "gsl", providerSource: csaProviderSource}, midCount);
+                                ask.unified.addPresentation(csaZone, csaBottomModule, ask.moduleOrdinals[2], {resultType: "gsl", providerSource: csaProviderSource}, botCount);
+                                uniqueResultsDisplayed = ask.CSA.pageOptions.numRepeated ? (midCount + botCount) : totalAds;
+                            }
+
+                            if(csaZone === "center") {
+                                ask.unified.addProvider("gsl", {
+                                    zoneCenterResults: totalAds
+                                });
+                            } else {
+                                ask.unified.addProvider("gsl", {
+                                    zonePrimaryResults: totalAds
+                                });
+                            }
+
+                            ask.unified.addProvider("gsl", {
+                                responseTime: ask.CSA.responseTime ? ask.CSA.responseTime : 0,
+                                resultsDisplayed: totalAds,
+                                uniqueResultsDisplayed: uniqueResultsDisplayed
+                            });
+
+                            try {
+                                mixinNavigationTimingInfo(externalData);
+
+                                ask.unified.payload.externalData = externalData;
+                            } catch (e) {
+                            }
+                        };
+
+                        
+                        function mixinNavigationTimingInfo(eData) {
+                            var navInfo = getNavigationTimingInfo(window);
+                            if(navInfo) {
+                                eData["csaInfo"].csaStartTime = (ask.CSA.startTime.getTime() - navInfo.navigationStart);
+                            }
+                        };
+
+                        $(document).on("unified:BackFill", function (evt, data) {
+                            var ask = window.ask;
+                            if (data && data.payload) {
+                                ask.unified.addPresentationResult(data.payload);
+                                ask.unified.sendBackFill();
+                            }
+                        });
+
+                        if ("1" !== CookieUtil.getChipValue("uc", "nv")) {
+                            
+                            return;
+                        }
+                        if (ask.afc) {
+                            ask.unified.addProvider("gsl", ask.afc.provider);
+                            ask.unified.addPresentation.apply(null, ask.afc.presentation.top);
+                            ask.unified.addPresentation.apply(null, ask.afc.presentation.bottom);
+                            ask.unified.sendBackFill();
+                        } else if (!ask.unified.pending || ask.unified.pending.length == 0) {
+                            if(ask.unified.payload) {
+                                ask.unified.payload.suspectBackFill = true;
+                            } else {
+                                ask.unified.payload = { "suspectBackFill": true };
+                            }
+                            ask.unified.sendBackFill();
+                        } else if (ask.CSA && typeof ask.CSA.addCSALoadCallback === "function") {
+                            ask.CSA.addCSALoadCallback(function () {
+                                var payload = _timedOut ? { pl_supplement: true } : {};
+
+                                if (typeof ask.CSA.calculateAdContentMetrics === "function") {
+                                    ask.CSA.calculateAdContentMetrics();
+                                }
+
+                                mixinCSAAdData(payload);
+
+                                ask.unified.sendBackFill();
+                            }, function () {
+                                _timedOut = true;
+
+                                if (ask.CSA && typeof ask.CSA.showSerp === "function") {
+                                    ask.CSA.showSerp();
+                                }
+
+                                ask.unified.sendBackFill();
+                            }, _dynamicLoggingTimeout);
+                        } else if (ask.BING && typeof ask.BING.addBINGLoadCallback === "function") {
+                            ask.BING.addBINGLoadCallback(function () {
+                                ask.unified.payload = {
+                                    pageResults: [],
+                                    providers: ask.unified.pendingProviders || {}
+                                };
+                                let resultTemplate = {resultType: "bingJSAds", providerSource: "bingAds"}
+                                ask.unified.addPresentation("center", "bingAdsTop", 1, resultTemplate, ask.BING.numTopAds);
+                                ask.unified.addPresentation("center", "bingAdsBottom", 2, resultTemplate, ask.BING.numBottomAds);
+                                ask.unified.addPresentation("right", "bingAdsRight", 3, resultTemplate, ask.BING.numRightAds);
+                                ask.unified.sendBackFill();
+                            },
+                            _dynamicBingJSLoggingTimeout);
+                        }
+                    }
+                });
+
+                App.events.push({
+                    partial: "partial-unified-footer",
+                    contextSelector: document,
+                    elementSelector: "a",
+                    type: "click",
+                    handler: function(evt) {
+                        var ask = window.ask;
+                        var target = $(this);
+
+                        var unifiedData = target.data("unified");
+                        if(!unifiedData) {
+                            return; 
+                        }
+
+                        var isImage = "img" === evt.target.tagName.toLowerCase();
+                        var assetType = target.data("unified-assettype") || (isImage ? "image" : "primaryTextLink");
+                        var destUrl = target.attr("href");
+                        var qoParam = target.data("qo");
+
+                        var appPayload = {
+                            actionType: "click",
+                            assetType: assetType,
+                            text: $.trim(target.text()).replace(/\s+/g, " "),
+                            url: destUrl
+                        };
+
+                        
+                        if(ask.unified.pageContext.metaInfo) {
+                            unifiedData.metaInfo = unifiedData.metaInfo || {};
+                            unifiedData.metaInfo.client = ask.unified.pageContext.metaInfo.client || "";
+                            unifiedData.metaInfo.clientChannel = ask.unified.pageContext.metaInfo.clientChannel || "";
+                            unifiedData.metaInfo.styleId = ask.unified.pageContext.metaInfo.styleId || "";
+                        }
+
+                        
+                        if(unifiedData.imagePresent) {
+                            unifiedData.metaInfo = unifiedData.metaInfo || {};
+                            unifiedData.metaInfo.imagePresent = unifiedData.imagePresent;
+                            delete unifiedData.imagePresent;
+                        }
+
+                        $.extend(appPayload, unifiedData);
+
+                        
+var payload = {};
+                        $.extend(payload, ask.unified.pageContext);
+
+                        if(ask.unified.pageContext.anuaapp) {
+                            $.extend(appPayload, JSON.parse(ask.unified.pageContext.anuaapp));
+                        }
+
+                        var targetAttr = target.attr("target");
+                        var nonNav = assetType === "carouselClick" || assetType === "loadMore";
+
+                        
+payload.anuaapp = JSON.stringify(appPayload);
+
+                        if(targetAttr || nonNav) {
+                            _UnifiedApi.logEvent("Action", payload, ask.unified.apiHandler);
+                        } else {
+                            var callback = ask.unified.apiHandler;
+                            if (destUrl) {
+                                callback = function (success, response) {
+                                    ask.unified.apiHandler(success, response, function() {
+                                        destUrl = _UnifiedApi.addURLParam(destUrl, "qo", qoParam);
+                                        document.location = destUrl;
+                                    });
+                                };
+                            }
+                            _UnifiedApi.logEvent("Action", payload, callback);
+                            return false;
+                        }
+                    }
+                });
+        })();
+        }
+    </script>
+
+
+
+
+
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push(
+                { c1: "2", c2: "6034776" }
+        );
+        (function()
+                { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); }
+        )();
+    </script>
+    <noscript>
+        <img src="//b.scorecardresearch.com/p?c1=2&c2=6034776&cv=2.0&cj=1" />
+    </noscript>
+
+
+
+
+<script>
+
+    var lssCfg = (function(){
+        return {
+            "topOffset": 0,
+            "leftOffset": -1,
+            "width": 220,
+            "channel": "web",
+            "path": "web",
+            "disableTurnOffLink": "'true'",
+            "disableSS": false,
+            "server": "amg-ss.ask.com",
+            "serverPath": "/query",
+            "ldomain": "/",
+            "locale" : "en-US",
+            "limit" : 10,
+            "ssBold": "'false'",
+            "clearSearchHistory": "Clear search history",
+            "max": "",
+            "ssFromQueryHistory": "true",
+            "queryHistory": "",
+            "queryHistoryContentColor": "",
+            "ssContentColor": "'false'",
+            "ssContentColorCode": "",
+            "matchingTextUnBold": "",
+            "suggestionTextUnBold": "",
+            "ssItems": "",
+            "containerClass" : "ac_results",
+            "onSelect": function(data) {
+                if( ask && ask.unified && ask.unified.sendAction ){
+                    var assetType = (data.url.indexOf("searchHistory") !== -1)? "searchHistory" : "searchSuggestions",
+                            searchPayload = JSON.parse('{"resultType":"navigation","providerSource":"navigation","assetType":"searchBar","actionType":"click","zoneName":"header","moduleName":"searchBox"}');
+                    searchPayload.assetType = assetType;
+                    ask.unified.sendAction(searchPayload, function () {
+                        window.location.href = data.url;
+                    });
+                    return;
+                }
+                window.location.href = data.url;
+            }
+        };
+    })();
+
+    if(App) {
+        (function () {
+            App.events = App.events || [];
+            App.events.push({
+                partial: "PartialLss",
+                contextSelector: document,
+                elementSelector: null,
+                type: "ready",
+                handler: function () {
+                    if (!lssCfg.disableSS) {
+                        $("input[name=q]:first:not(:hidden)").lssSuggestions(lssCfg);
+                    }
+                    
+}
+            });
+        })();
+    }
+</script>
+
+<script>
+    
+
+getDocumentCookies = function () {
+        var theCookies = document.cookie.split(';'),
+                cookieObj = {},
+                tmp, tmpName, tmpVal;
+        for (var i = 1; i <= theCookies.length; i++) {
+            tmp = theCookies[i - 1].split('=');
+            if (tmp[0] !== undefined && tmp[1] !== undefined) {
+                tmpName = decodeURIComponent(tmp[0].trim());
+                tmpVal = decodeURIComponent(tmp[1].trim());
+                if (tmpName.indexOf('[') > -1 && tmpName.indexOf(']') > -1) {
+                    cookieObj[tmpName.split('[')[0]] = cookieObj[tmpName.split('[')[0]] || {};
+                    cookieObj[tmpName.split('[')[0]][tmpName.split('[')[1].replace(']', '')] = tmpVal;
+                } else {
+                    cookieObj[tmpName] = tmpVal;
+                }
+            }
+        }
+        return cookieObj;
+    };
+
+    function polling() {
+        var cks = getDocumentCookies();
+
+        for (var i in cks) {
+            var name = i;
+            var value = cks[i];
+
+            if (name.indexOf('csaClick') != -1 || name.indexOf('ypaClick') != -1) {
+                
+
+
+if (typeof fbq === "function") {
+                        fbq('trackSingleCustom', '1236983599798824', 'PaidClick');
+                        var paidClickAd = (name.indexOf('csaClick') != -1)? 'PaidClickGoogle':'PaidClickYahoo';
+                        fbq('trackSingleCustom', '1236983599798824', paidClickAd);
+                    }
+                
+
+
+
+
+
+
+
+document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+            }
+        }
+        setTimeout(function () {
+            polling();
+        }, 25);
+    }
+
+    (function () {
+        
+polling();
+    })();
+
+</script>
+
+
+
+
+
+
+
+
+<div class="ac_results" style="position: absolute; display: none; width: 220px; top: 47px; left: 671px; max-height: 300px; z-index: 9999;"></div><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/vendor-bundle.js" defer=""></script><style spotim-global-css-vars="" data-spot-im-style="true">
+    :root {
+      --spotim-font-family-default: var(--spotim-font-family);--spotim-layer-background-color: var(--spotim-overlay-background-color);--spotim-action-font-weight: normal;--spotim-border-color: #e3e3e3;--spotim-border-color-muted: #00000014;--spotim-border-radius-medium: 6px;--spotim-border-radius-small: 4px;--spotim-box-shadow-medium: 0 2px 15px 0 rgba(0, 0, 0, 0.1);--spotim-brand-color: #92c93b;--spotim-brand-text-color: white;--spotim-card-background-color: white;--spotim-color-badge: var(--spotim-brand-color);--spotim-color-scheme-l1: rgba(var(--spotim-color-scheme-l6-rgb, 7,7,7), 0.05);--spotim-color-scheme-l2: rgba(var(--spotim-color-scheme-l6-rgb, 7,7,7), 0.1);--spotim-color-scheme-l3: rgba(var(--spotim-color-scheme-l6-rgb, 7,7,7), 0.2);--spotim-color-scheme-l4: rgba(var(--spotim-color-scheme-l6-rgb, 7,7,7), 0.3);--spotim-color-scheme-l5: rgba(var(--spotim-color-scheme-l6-rgb, 7,7,7), 0.65);--spotim-color-scheme-l6: #707070;--spotim-color-scheme-l6-rgb: 7,7,7;--spotim-content-loader-primary-color: #f3f3f3;--spotim-content-loaders-secondary-color: #dddddd;--spotim-conversation-background-color: transparent;--spotim-conversation-max-width: 700px;--spotim-danger-color: #db3737;--spotim-extract-background-color: #ffffff;--spotim-font-family: Open Sans, Open Sans Hebrew, Arial;--spotim-font-family-action: var(--spotim-font-family);--spotim-font-family-buttons: var(--spotim-font-family);--spotim-font-family-community-question: Open Sans, Open Sans Hebrew, Arial;--spotim-font-family-date-format: var(--spotim-font-family);--spotim-font-family-product-header: Open Sans, Open Sans Hebrew, Arial;--spotim-font-family-product-subheader: Open Sans, Open Sans Hebrew, Arial;--spotim-font-family-username: var(--spotim-font-family);--spotim-font-size-action: var(--spotim-font-size-medium);--spotim-font-size-buttons: var(--spotim-font-size-medium);--spotim-font-size-community-question: 24px;--spotim-font-size-date-format: var(--spotim-font-size-small);--spotim-font-size-large: 16px;--spotim-font-size-medium: 14px;--spotim-font-size-message-actions: 14px;--spotim-font-size-product-header: 24px;--spotim-font-size-product-subheader: 16px;--spotim-font-size-small: 13px;--spotim-font-size-user-image: 15.6px;--spotim-font-size-x-large: 24px;--spotim-font-size-x-small: 11px;--spotim-font-size-xx-large: 27px;--spotim-font-size-xx-small: 9px;--spotim-font-style-community-question: italic;--spotim-font-weight-bold: bold;--spotim-font-weight-normal: 400;--spotim-font-weight-product-header: bold;--spotim-font-weight-product-subheader: 400;--spotim-font-weight-semibold: 600;--spotim-input-background-color: #ffffff;--spotim-input-separator-color: #d4d6d7;--spotim-line-height-action: 24px;--spotim-line-height-date-format: 21px;--spotim-line-height-medium: 1.5;--spotim-line-height-product-header: 1.5;--spotim-line-height-product-subheader: 30px;--spotim-list-item-background: #f7f7f7;--spotim-list-item-foreground: #e5e6e6;--spotim-max-reading-width: 700px;--spotim-menu-z-index: 2147483647;--spotim-message-font-size-large: 21px;--spotim-message-font-size-regular: 14px;--spotim-message-font-size-small: 13px;--spotim-message-font-size-x-large: 24px;--spotim-message-font-size-x-small: 12px;--spotim-message-letter-spacing: -0.01111em;--spotim-message-line-height: 1.67;--spotim-message-separator-color: #e3e3e3;--spotim-message-text-color: #222222;--spotim-modal-backdrop-background-color: rgba(255, 255, 255, 0.7);--spotim-modal-backdrop-color: rgba(0, 0, 0, 0.4);--spotim-modal-border-padding: 10px;--spotim-modal-border-radius: 10px 10px 0px 0px;--spotim-modal-full-width: calc(100vw - 80px);--spotim-modal-margin-top: initial;--spotim-modal-max-width: 1400px;--spotim-overlay-background-color: #ffffff;--spotim-overlay-border-color: transparent;--spotim-overlay-z-index: 2147483646;--spotim-page-background-color: white;--spotim-pitc-header-color: black;--spotim-pitc-header-font-family: Open Sans, sans-serif;--spotim-pitc-header-font-size: 24px;--spotim-pitc-header-font-weight: bold;--spotim-pitc-header-line-height: normal;--spotim-pitc-top-comment-color: black;--spotim-pitc-top-comment-font-family: Open Sans, sans-serif;--spotim-pitc-top-comment-font-weight: 600;--spotim-progress-bar-background-color: #e5e6e6;--spotim-reactions-reaction-font-family: Open Sans, Open Sans Hebrew, Arial;--spotim-reactions-reaction-font-size: 11px;--spotim-reactions-reaction-font-weight: 400;--spotim-reactions-reaction-line-height: 38px;--spotim-reactions-reaction-text-color: #7b7f83;--spotim-reactions-title-color: black;--spotim-reactions-title-font-family: Open Sans, Open Sans Hebrew, Arial;--spotim-reactions-title-font-size: 18px;--spotim-reactions-title-font-weight: 700;--spotim-reactions-title-line-height: 30px;--spotim-rich-editor-font-size: 16px;--spotim-safeframe-modal-backdrop-color: rgba(255, 255, 255, 0.7);--spotim-say-control-action-color: #a8abae;--spotim-say-control-border-color: #e3e3e3;--spotim-say-control-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);--spotim-spotlight-button-font-size: 12px;--spotim-spotlight-button-font-weight: 600;--spotim-spotlight-card-font-size: 16px;--spotim-spotlight-card-font-weight: 300;--spotim-spotlight-font-family: Open Sans, sans-serif;--spotim-spotlight-title-font-size: 24px;--spotim-spotlight-title-font-weight: bold;--spotim-star-color-empty: #e3e3e3;--spotim-star-color-full: #fabb09;--spotim-strong-border-color: #a8abae;--spotim-success-color: #35b840;--spotim-text-color-action: var(--spotim-text-color-x-muted);--spotim-text-color-date-format: var(--spotim-text-color-xx-muted);--spotim-text-color-default: black;--spotim-text-color-muted: #373e44;--spotim-text-color-product-header: #373e44;--spotim-text-color-product-subheader: #7b7f83;--spotim-text-color-tooltip: #ffffff;--spotim-text-color-x-muted: #7b7f83;--spotim-text-color-xx-muted: #a8abae;--spotim-text-transform-action: none;--spotim-text-transform-buttons: inherit;--spotim-text-transform-date-format: none;--spotim-text-transform-product-header: none;--spotim-text-transform-product-subheader: none;--spotim-text-transform-username: inherit;--spotim-user-image-border: none;--spotim-user-image-font-color: #373e44;--spotim-user-image-font-size: 15.6px;--spotim-user-image-font-weight: 400;--spotim-user-image-line-height: 1.67;--spotim-user-name-font-family: var(--spotim-font-family);--spotim-warning-color: #fabb09;--spotim-text-over-brand-color: white;
+    }</style><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/conversation-page-bundle.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/registration-bundle.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/standalone-ui-kit-bundle.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/conversation-bundle.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/profile-bundle.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/popular-in-the-community.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/spotlight.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/broadcast-fetcher-bundle.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/conversation-survey.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/reactions-bundle.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/ab-test-changer.js" defer=""></script><script type="text/javascript" charset="UTF-8" src="./Why Does Weather Change__files/messages-count-bundle-79a867e5b6b1d29bb91e.js" defer=""></script><div data-spot-im-shadow-host="conversation conversation-survey @spotim/ui-components @spotim/ads @spotim/user-image feed @spotim/entities @spotim/content-entities @spotim/user-info @spotim/rich-editor @spotim/toast-provider" open-web-ui-components-menus=""></div><style>  [data-spot-im-shadow-host] {    animation: data-spot-im-shadow-host 1ms;  }    @keyframes data-spot-im-shadow-host {    from {} to {}  }  </style><style>  [data-spot-im-module-default-area="pitc"], [data-spotim-module="pitc"], [data-spotim-module="recirculation"] {    animation: spotim-detector-animation--248238570 1ms !important;  }    @keyframes spotim-detector-animation--248238570 {    from {    } to {    }  }  </style><style>  [data-spot-im-module-default-area="pitc-double-decker"] {    animation: spotim-detector-animation--1368602367 1ms !important;  }    @keyframes spotim-detector-animation--1368602367 {    from {    } to {    }  }  </style><style>  [data-conversation-spotlight], [data-spot-im-module-default-area="spotlight"] {    animation: spotim-detector-animation--1937813291 1ms !important;  }    @keyframes spotim-detector-animation--1937813291 {    from {    } to {    }  }  </style><style>  [data-spotim-app="reactions"], [data-spot-im-module-default-area="reactions"] {    animation: spotim-reactions-element 1ms !important;  }    @keyframes spotim-reactions-element {    from {    } to {    }  }  </style><img src="./Why Does Weather Change__files/getuid" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""><iframe src="./Why Does Weather Change__files/user_sync.html" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""></iframe><img src="./Why Does Weather Change__files/partner" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""><img src="./Why Does Weather Change__files/sync" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""><img src="./Why Does Weather Change__files/partner(1)" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""><iframe src="./Why Does Weather Change__files/usermatch.html" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""></iframe><iframe src="./Why Does Weather Change__files/multi-sync.html" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""></iframe><img src="./Why Does Weather Change__files/710530.gif" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""><iframe src="./Why Does Weather Change__files/pixelSync.html" width="0" height="0" style="position: absolute; pointer-events: none; opacity: 0; border: 0px; display: none !important;" hidden=""></iframe></body></html>
