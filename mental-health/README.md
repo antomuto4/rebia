@@ -14,4 +14,8 @@
 
 - https://www.healthline.com/health/benefits-of-crying
 
+- https://www.youtube.com/watch?v=1lj8dXhtUR4
 
+- https://youtu.be/DiyQPy3Wv1A
+
+- https://youtu.be/epLn25RW2TA
