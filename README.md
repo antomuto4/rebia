@@ -2,6 +2,32 @@
 
 ![banner](https://user-images.githubusercontent.com/56132390/99186705-78a7da80-2752-11eb-9073-211f1ea60e35.png)
 
+### Tables
+
+***Libraries:***
+
+*  [lib-immortality](https://github.com/antomuto4/research-bs/tree/main/archive/lib-immortality) & [immortality](https://github.com/antomuto4/research-bs/tree/main/archive/immortality)
+*  [lib-anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/lib-anti-aging) & [anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/anti-aging)
+*  [lib-philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/lib-philosophy) 
+*  [lib-psychology](https://github.com/antomuto4/research-bs/tree/main/archive/lib-psychology)
+*  [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism)
+*  [science](https://github.com/antomuto4/research-bs/tree/main/archive/science)
+*  [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness)
+*  [Human-Nature](https://github.com/antomuto4/research-bs/tree/main/archive/human-nature)
+
+***Health:***
+
+*  [mental-health](https://github.com/antomuto4/research-bs/tree/main/archive/mental-health)
+*  [physical-health](https://github.com/antomuto4/research-bs/tree/main/archive/physical-health)
+*  [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness)
+*  [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism)
+
+
+***Tech:***
+
+*  [Privacy & Security](https://github.com/antomuto4/research-bs/tree/main/archive/privacy-and-security)
+*  [Computer Stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff)
+
 
 # Philosophy
 ## What we wish to achieve with this:
