@@ -13,5 +13,8 @@
 ### Can we really make the world a better place with this?
 - Everything starts with us, we do not know unless we try. We have future generations to take care of, and it all starts with our smartest moveset.
 
+### So there is no code involved?
+- Simple answer, **no.** All of the HTML code that's included are files to websites we downloaded. No code is written by us. We just share and save in case it ever gets deleted. Full credit goes to the owners of those websites, articles or books etc..
+
 # How can I join the Discord?
 - Glad you asked, click [here](https://discord.gg/43RP5tgBdJ) to join the server. Make sure you have an account created on Discord, read the rules before you chat. And make sure to add some roles to give yourself an identity.
