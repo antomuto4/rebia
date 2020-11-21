@@ -28,6 +28,15 @@
 *  [Privacy & Security](https://github.com/antomuto4/research-bs/tree/main/archive/privacy-and-security)
 *  [Computer Stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff)
 
+***Improve Quality of Life:***
+
+*  [martial-arts](https://github.com/antomuto4/research-bs/tree/main/archive/martial-arts)
+*  [sleep](https://github.com/antomuto4/research-bs/tree/main/archive/sleep)
+*  [voice](https://github.com/antomuto4/research-bs/tree/main/archive/voice)
+*  [food](https://github.com/antomuto4/research-bs/tree/main/archive/food)
+*  [sexuality](https://github.com/antomuto4/research-bs/tree/main/archive/sexuality)
+*  [climate-stuff](https://github.com/antomuto4/research-bs/tree/main/archive/climate-stuff)
+*  [hearing-loss](https://github.com/antomuto4/research-bs/tree/main/archive/hearing-loss)
 
 # Philosophy
 ## What we wish to achieve with this:
