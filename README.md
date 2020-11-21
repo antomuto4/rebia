@@ -13,7 +13,7 @@
 *  [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism)
 *  [science](https://github.com/antomuto4/research-bs/tree/main/archive/science)
 *  [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness)
-*  [Human-Nature](https://github.com/antomuto4/research-bs/tree/main/archive/human-nature)
+*  [human-nature](https://github.com/antomuto4/research-bs/tree/main/archive/human-nature)
 
 ***Health:***
 
@@ -25,8 +25,8 @@
 
 ***Tech:***
 
-*  [Privacy & Security](https://github.com/antomuto4/research-bs/tree/main/archive/privacy-and-security)
-*  [Computer Stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff)
+*  [privacy & security](https://github.com/antomuto4/research-bs/tree/main/archive/privacy-and-security)
+*  [computer stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff)
 
 ***Improve Quality of Life:***
 
