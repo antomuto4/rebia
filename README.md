@@ -8,8 +8,8 @@
 
 *  [lib-immortality](https://github.com/antomuto4/research-bs/tree/main/archive/lib-immortality) & [immortality](https://github.com/antomuto4/research-bs/tree/main/archive/immortality)
 *  [lib-anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/lib-anti-aging) & [anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/anti-aging)
-*  [lib-philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/lib-philosophy) 
-*  [lib-psychology](https://github.com/antomuto4/research-bs/tree/main/archive/lib-psychology)
+*  [lib-philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/lib-philosophy) & [philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/philosophy) & [philosophy-anime-manga](https://github.com/antomuto4/research-bs/tree/main/archive/philosophy/philosophy-anime-manga)
+*  [lib-psychology](https://github.com/antomuto4/research-bs/tree/main/archive/lib-psychology) 
 *  [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism)
 *  [science](https://github.com/antomuto4/research-bs/tree/main/archive/science)
 *  [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness)
