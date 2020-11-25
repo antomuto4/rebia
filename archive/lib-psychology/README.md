@@ -5,3 +5,5 @@
 - [Make it Stick, Six Tips Students](https://www.psychologytoday.com/us/blog/make-it-stick/201406/make-it-stick-six-tips-students)
 
 - [The Haunting Peace of Being Lost | Psych of Play](https://youtu.be/-CqS72KvwNQ)
+
+- [Classical Music and Its Effect to Human Mind and Soul](https://yourstory.com/mystory/bda735ea4a-classical-music-and-its-effect-to-human-mind-and-soul)
