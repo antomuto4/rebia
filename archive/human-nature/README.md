@@ -1,3 +1,5 @@
+- [Classical Music and Its Effect to Human Mind and Soul](https://yourstory.com/mystory/bda735ea4a-classical-music-and-its-effect-to-human-mind-and-soul)
+
 - https://www.webmd.com/balance/ss/slideshow-colors-affect-you
 
 - https://en.99designs.be/blog/tips/how-color-impacts-emotions-and-behaviors/
