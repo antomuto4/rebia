@@ -4,39 +4,39 @@
 
 ### Tables
 
-***Libraries:***
+| Libraries |
+|-----------|
+| [lib-immortality](https://github.com/antomuto4/research-bs/tree/main/archive/lib-immortality) & [immortality](https://github.com/antomuto4/research-bs/tree/main/archive/immortality)|
+| [lib-anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/lib-anti-aging) & [anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/anti-aging) |
+| [lib-philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/lib-philosophy) & [philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/philosophy) & [philosophy-anime-manga](https://github.com/antomuto4/research-bs/tree/main/archive/philosophy/philosophy-anime-manga) |
+| [lib-psychology](https://github.com/antomuto4/research-bs/tree/main/archive/lib-psychology) | 
+|  [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism) |
+|  [science](https://github.com/antomuto4/research-bs/tree/main/archive/science) |
+|  [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness) |
+|  [human-nature](https://github.com/antomuto4/research-bs/tree/main/archive/human-nature) |
 
-*  [lib-immortality](https://github.com/antomuto4/research-bs/tree/main/archive/lib-immortality) & [immortality](https://github.com/antomuto4/research-bs/tree/main/archive/immortality)
-*  [lib-anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/lib-anti-aging) & [anti-aging](https://github.com/antomuto4/research-bs/tree/main/archive/anti-aging)
-*  [lib-philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/lib-philosophy) & [philosophy](https://github.com/antomuto4/research-bs/tree/main/archive/philosophy) & [philosophy-anime-manga](https://github.com/antomuto4/research-bs/tree/main/archive/philosophy/philosophy-anime-manga)
-*  [lib-psychology](https://github.com/antomuto4/research-bs/tree/main/archive/lib-psychology) 
-*  [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism)
-*  [science](https://github.com/antomuto4/research-bs/tree/main/archive/science)
-*  [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness)
-*  [human-nature](https://github.com/antomuto4/research-bs/tree/main/archive/human-nature)
-
-***Health:***
-
-*  [mental-health](https://github.com/antomuto4/research-bs/tree/main/archive/mental-health)
-*  [physical-health](https://github.com/antomuto4/research-bs/tree/main/archive/physical-health)
-*  [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness)
-*  [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism)
+| Health |
+|--------|
+| [mental-health](https://github.com/antomuto4/research-bs/tree/main/archive/mental-health) |
+| [physical-health](https://github.com/antomuto4/research-bs/tree/main/archive/physical-health) |
+| [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness) |
+| [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism) |
 
 
-***Tech:***
+| Tech |
+|------|
+| [privacy & security](https://github.com/antomuto4/research-bs/tree/main/archive/privacy-and-security) |
+| [computer stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff) |
 
-*  [privacy & security](https://github.com/antomuto4/research-bs/tree/main/archive/privacy-and-security)
-*  [computer stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff)
-
-***Improve Quality of Life:***
-
-*  [martial-arts](https://github.com/antomuto4/research-bs/tree/main/archive/martial-arts)
-*  [sleep](https://github.com/antomuto4/research-bs/tree/main/archive/sleep)
-*  [voice](https://github.com/antomuto4/research-bs/tree/main/archive/voice)
-*  [food](https://github.com/antomuto4/research-bs/tree/main/archive/food)
-*  [sexuality](https://github.com/antomuto4/research-bs/tree/main/archive/sexuality)
-*  [climate-stuff](https://github.com/antomuto4/research-bs/tree/main/archive/climate-stuff)
-*  [hearing-loss](https://github.com/antomuto4/research-bs/tree/main/archive/hearing-loss)
+| Improve Quality of Life |
+|-------------------------|
+| [martial-arts](https://github.com/antomuto4/research-bs/tree/main/archive/martial-arts) |
+| [sleep](https://github.com/antomuto4/research-bs/tree/main/archive/sleep) |
+| [voice](https://github.com/antomuto4/research-bs/tree/main/archive/voice) |
+| [food](https://github.com/antomuto4/research-bs/tree/main/archive/food) |
+| [sexuality](https://github.com/antomuto4/research-bs/tree/main/archive/sexuality) |
+| [climate-stuff](https://github.com/antomuto4/research-bs/tree/main/archive/climate-stuff) |
+| [hearing-loss](https://github.com/antomuto4/research-bs/tree/main/archive/hearing-loss) |
 
 # Philosophy
 ## What we wish to achieve with this:
