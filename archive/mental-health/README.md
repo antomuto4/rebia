@@ -19,3 +19,5 @@
 - https://youtu.be/DiyQPy3Wv1A
 
 - https://youtu.be/epLn25RW2TA
+
+- [How Gaming Improves Mental Health](https://gamerant.com/how-gaming-improve-mental-health-disorder/)
