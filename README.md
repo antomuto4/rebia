@@ -50,5 +50,3 @@
 
 # How can I join the Discord?
 - Glad you asked, click [***here***](https://discord.gg/43RP5tgBdJ) to join the server. Make sure you have an account created on Discord, read the rules before you chat. And make sure to add some roles to give yourself an identity.
-
-||well test||
