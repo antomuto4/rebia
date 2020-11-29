@@ -1,0 +1,3 @@
+- [How NieR: Automata Tells the Ultimate Humanist Fable](https://youtu.be/63PzQIbTrM8)
+- [Nier: Automata's Uplifting Existentialism (Story Discussion)](https://youtu.be/ehM1m5-TG5g)
+- [Democracy: Rule of the NPCs](https://www.youtube.com/watch?v=_J3KXiU-z74)
