@@ -10,6 +10,8 @@
 | [Make it Stick (Demo)](https://github.com/antomuto4/research-bs/blob/main/archive/lib-psychology/MakeItStick.pdf) | Peter C. Brown | To most of us, learning something "the hard way" implies wasted time and effort. Good teaching, we believe, should be creatively tailored to the different learning styles of students and should use strategies that make learning easier. Make It Stick turns fashionable ideas like these on their head. Drawing on recent discoveries in cognitive psychology and other disciplines, the authors offer concrete techniques for becoming more productive learners. | 18 | 2014 |
 
 
+# Videos
+
 - [Joan T. Erber - Aging and Older Adulthood-Wiley-Blackwell (2013)](https://drive.google.com/file/d/178jC_ds9X_wpkvr9ZwjCcB79t8p7lHoN/view?usp=sharing)
 
 - [Cognitive-behavioural interventions for prevention and treatment of anxiety in young children: A systematic review and meta-analysis](https://www.sciencedirect.com/science/article/abs/pii/S0272735820300921?dgcid=rss_sd_all)
