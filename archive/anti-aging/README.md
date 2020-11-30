@@ -15,6 +15,8 @@
 
 - [Green Tea Benefits & Aging](https://healthyeating.sfgate.com/green-tea-benefits-aging-7528.html) (or download html [here](https://github.com/antomuto4/research-bs/blob/main/lib-anti-aging/Green%20Tea%20Benefits%20%26%20Aging.html))
 
+- [Green Tea: A Century Old Japanese Drink for Better Health](https://www.justonecookbook.com/japanese-green-tea/)
+
 # Skin Care
 
 - [Anti-aging skincare in Japan tips from a leading Japanese Dermatologist](https://savvytokyo.com/anti-aging-skincare-in-japan-tips-from-a-leading-japanese-dermatologist/)
