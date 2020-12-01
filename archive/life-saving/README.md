@@ -1,1 +1,1 @@
-
+- [How to save the life of someone who's choking](https://www.today.com/health/how-save-life-someone-whos-choking-t31181)
