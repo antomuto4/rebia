@@ -35,7 +35,75 @@
 - [climate-stuff](https://github.com/antomuto4/research-bs/tree/main/archive/climate-stuff) 
 - [hearing-loss](https://github.com/antomuto4/research-bs/tree/main/archive/hearing-loss) 
 
+### *Useful Links:*
+
+### Research
+
+- https://www.semanticscholar.org/ A free, AI-powered research tool for scientific literature
+
+- Google Dorking name filetype:pdf [find more information about dorking: https://youtu.be/u_gOnwWEXiA ]
+
+- Asking good questions.
+
+### Expanding Knowledge with Books
+
+- https://github.com/hackerkid/Mind-Expanding-Books
+
+- https://github.com/learn-anything/books
+
+- http://the-eye.eu/public/Books/ ***HTTP WARNING***
+
+- https://b-ok.xyz/
+
+- https://www.pdfdrive.com/
+
+- https://www.readanybook.com/
+
+- https://cse.google.com/cse?cx=000661023013169144559:a1-kkiboeco Programmable Google Search for Books
+
+### Philosophy
+
+- Western Philosophy https://www.youtube.com/watch?v=VDiyQub6vpw&list=PLwxNMb28XmpeypJMHfNbJ4RAFkRtmAN3P
+
+- Eastern Philosophy https://www.youtube.com/watch?v=5yZ8a_zAEl0&list=PLwxNMb28XmpeUL1vz9Su7OmeghBDgmj7X
+
+- CrashCourse Philosophy https://www.youtube.com/watch?v=BNYJQaZUDrI&list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR
+
+- Sisyphus 55 https://www.youtube.com/c/Sisyphus55
+
+### Psychology
+
+- 16 Personalities https://www.16personalities.com/
+
+- Crash Course Psychology https://www.youtube.com/watch?v=eal4-A89IWY&list=PL8dPuuaLjXtOPRKzVLY0jJY-uHOH9KVU6
+
+- Learn Psychology - All About Psychology https://www.youtube.com/watch?v=P3FKHH2RzjI&list=PL40FE9B26043AC0F9
+Science
+
+- AsapSCIENCE https://www.youtube.com/user/AsapSCIENCE/videos
+
+- Brew https://www.youtube.com/channel/UCVQGtUcRjHTQLTTu-5s9_4Q
+Health (Physical & Mental)
+
+- Healthline https://www.healthline.com/
+
+- WebMD https://www.webmd.com/default.htm
+
+- MedicalNewsToday https://www.medicalnewstoday.com/
+Life Improving
+
+- Ali Abdaal https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg
+
+- John Fish https://www.youtube.com/channel/UC5Gmg-VtFmnP8qLq8V7Pvtg
+
+- https://www.16personalities.com/tools/personal-growth Explore your personality traits and learn how to leverage them in order to grow as a person.
+
+- https://www.16personalities.com/tools/relationships Deepen your relationships and better understand your partners, friends, parents, or children.
+
+- https://www.16personalities.com/tools/career Get better at navigating the professional world and achieving your goals – without burning out.
+
 # Philosophy
+
 ## What we wish to achieve with this:
 - We have plenty of concerns of how our future will turn out, and the easier life gets for us - the dumber we Humans will get. The more this world will turn into a [Dystopian](https://en.wikipedia.org/wiki/Dystopia) mess *(which we're already in)*. **Help us** avoid it. **Help yourself** with knowledge, ***reshape our world.***
 
