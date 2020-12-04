@@ -102,6 +102,27 @@ Life Improving
 
 - https://www.16personalities.com/tools/career Get better at navigating the professional world and achieving your goals – without burning out.
 
+## Understanding Yourself/Tests
+
+  ### Personality
+  
+  - https://www.16personalities.com/
+  
+  - https://www.truity.com/test/type-finder-personality-test-new
+  
+  ### Psychology
+  
+  - https://dichotomytests.com/test.html?id=6
+  
+  ### Philosophy - Way of Thinking
+  
+  - https://dichotomytests.com/test.html?id=0
+  
+  ### Mental Illness
+  
+  - https://qst.darkfactor.org/
+  
+
 # Philosophy
 
 ## What we wish to achieve with this:
