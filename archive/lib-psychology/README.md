@@ -27,3 +27,5 @@
 - [Psychopaths and three reasons why we need them](https://youtu.be/0uJIPZfwZFU)
 
 - [The Psychology of Social Engineering](https://youtu.be/wDY_SPfed7c)
+
+- [How Stress Can Reawaken Dormant Cancer](https://www.psychologytoday.com/us/blog/the-new-brain/202012/how-stress-can-reawaken-dormant-cancer)
