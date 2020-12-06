@@ -25,3 +25,5 @@
 - [WHY READING FICTION IS BETTER FOR YOUR BRAIN THAN NONFICTION](https://bookstr.com/article/why-reading-fiction-is-better-for-your-brain-than-nonfiction/)
 
 - [Psychopaths and three reasons why we need them](https://youtu.be/0uJIPZfwZFU)
+
+- [The Psychology of Social Engineering](https://youtu.be/wDY_SPfed7c)
