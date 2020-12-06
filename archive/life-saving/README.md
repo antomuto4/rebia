@@ -1,3 +1,4 @@
 - [How to save the life of someone who's choking](https://www.today.com/health/how-save-life-someone-whos-choking-t31181)
 - [First Aid for an Infant Choking](https://youtu.be/gHZdBY-CkGw)
 - [How to do CPR on an Adult (Ages 12 and Older)](https://youtu.be/-NodDRTsV88)
+- [How to Survive a Tsunami](https://youtu.be/PSMXZPjJwAw)
