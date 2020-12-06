@@ -23,3 +23,5 @@
 - [Classical Music and Its Effect to Human Mind and Soul](https://yourstory.com/mystory/bda735ea4a-classical-music-and-its-effect-to-human-mind-and-soul)
 
 - [WHY READING FICTION IS BETTER FOR YOUR BRAIN THAN NONFICTION](https://bookstr.com/article/why-reading-fiction-is-better-for-your-brain-than-nonfiction/)
+
+- [Psychopaths and three reasons why we need them](https://youtu.be/0uJIPZfwZFU)
