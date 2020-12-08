@@ -29,3 +29,7 @@
 - [The Psychology of Social Engineering](https://youtu.be/wDY_SPfed7c)
 
 - [How Stress Can Reawaken Dormant Cancer](https://www.psychologytoday.com/us/blog/the-new-brain/202012/how-stress-can-reawaken-dormant-cancer)
+
+- [Personality Psychology](https://www.verywellmind.com/personality-psychology-4157179)
+
+- [Personality Disorders Healthline](https://www.healthline.com/health/personality-disorders)
