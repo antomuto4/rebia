@@ -1,6 +1,10 @@
 **Tables:**
 - [Videos](#videos)
+- [Articles](#articles)
 - [Books](#books)
+
+# Articles
+- [Are You Living With Purpose? It Could Lengthen Your Life](https://blogs.webmd.com/webmd-doctors/20181018/are-you-living-with-purpose-it-could-lengthen-your-life)
 
 # Books
 | Title | Author | Synapses | Page | Year |
