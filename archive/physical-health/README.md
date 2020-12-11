@@ -11,3 +11,5 @@
 - https://www.healthline.com/nutrition/energy-drinks
 
 - https://www.youtube.com/watch?v=1lj8dXhtUR4
+
+- [17 Healthy and Practical Ways to Break Out of Laziness](https://www.healthline.com/health/how-to-stop-being-lazy)
