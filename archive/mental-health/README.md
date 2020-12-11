@@ -21,3 +21,5 @@
 - https://youtu.be/epLn25RW2TA
 
 - [How Gaming Improves Mental Health](https://gamerant.com/how-gaming-improve-mental-health-disorder/)
+
+- [17 Healthy and Practical Ways to Break Out of Laziness](https://www.healthline.com/health/how-to-stop-being-lazy)
