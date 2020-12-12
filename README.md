@@ -61,6 +61,8 @@
 
 - https://cse.google.com/cse?cx=000661023013169144559:a1-kkiboeco Programmable Google Search for Books
 
+- https://mp4directs.com/ Books and (Light) Novels (PDF Format)
+
 ### Philosophy
 
 - Western Philosophy https://www.youtube.com/watch?v=VDiyQub6vpw&list=PLwxNMb28XmpeypJMHfNbJ4RAFkRtmAN3P
