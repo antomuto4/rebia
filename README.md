@@ -27,7 +27,7 @@
 - [computer stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff) 
 
 ### *Improve Quality of Life:* 
-- [martial-arts](https://github.com/antomuto4/research-bs/tree/main/archive/martial-arts) 
+- [life-saving](https://github.com/antomuto4/research-bs/tree/main/archive/life-saving)
 - [sleep](https://github.com/antomuto4/research-bs/tree/main/archive/sleep) 
 - [voice](https://github.com/antomuto4/research-bs/tree/main/archive/voice) 
 - [food](https://github.com/antomuto4/research-bs/tree/main/archive/food) 
