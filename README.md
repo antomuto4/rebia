@@ -64,7 +64,7 @@
 
 - https://mp4directs.com/ Books and (Light) Novels (PDF Format)
 
-### JAPANESE BOOKS
+### → JAPANESE BOOKS
 
 - https://mangant.com/raw
 
@@ -117,21 +117,21 @@ Life Improving
 
 ## Understanding Yourself/Tests
 
-  ### Personality
+  ### → Personality
   
   - https://www.16personalities.com/
   
   - https://www.truity.com/test/type-finder-personality-test-new
   
-  ### Psychology
+  ### → Psychology
   
   - https://dichotomytests.com/test.html?id=6
   
-  ### Philosophy - Way of Thinking
+  ### → Philosophy - Way of Thinking
   
   - https://dichotomytests.com/test.html?id=0
   
-  ### Mental Illness
+  ### → Mental Illness
   
   - https://qst.darkfactor.org/
   
