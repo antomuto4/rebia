@@ -64,7 +64,7 @@
 
 - https://mp4directs.com/ Books and (Light) Novels (PDF Format)
 
-### → JAPANESE BOOKS
+### → *JAPANESE BOOKS*
 
 - https://mangant.com/raw
 
@@ -103,7 +103,8 @@ Health (Physical & Mental)
 - WebMD https://www.webmd.com/default.htm
 
 - MedicalNewsToday https://www.medicalnewstoday.com/
-Life Improving
+
+### Life Improving
 
 - Ali Abdaal https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg
 
