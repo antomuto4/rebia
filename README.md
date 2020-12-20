@@ -42,7 +42,7 @@
 
 - https://www.semanticscholar.org/ A free, AI-powered research tool for scientific literature
 
-- Google Dorking name filetype:pdf [find more information about dorking: https://youtu.be/u_gOnwWEXiA ]
+- Google Dorking name filetype:pdf (find more information about dorking: https://youtu.be/u_gOnwWEXiA)
 
 - Asking good questions.
 
