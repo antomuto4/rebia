@@ -13,3 +13,5 @@
 - https://www.youtube.com/watch?v=1lj8dXhtUR4
 
 - [17 Healthy and Practical Ways to Break Out of Laziness](https://www.healthline.com/health/how-to-stop-being-lazy)
+
+- [Breakfast: Is it the Most Important Meal?](https://www.webmd.com/food-recipes/breakfast-lose-weight)
