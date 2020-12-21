@@ -48,6 +48,8 @@
 
 ### Expanding Knowledge with Books
 
+- https://www.reddit.com/r/FreeEBOOKS
+
 - https://github.com/hackerkid/Mind-Expanding-Books
 
 - https://github.com/learn-anything/books
