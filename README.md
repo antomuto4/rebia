@@ -52,6 +52,8 @@
 
 - https://github.com/learn-anything/books
 
+- https://snewd.com/
+
 - http://the-eye.eu/public/Books/ ***HTTP WARNING***
 
 - https://b-ok.xyz/
