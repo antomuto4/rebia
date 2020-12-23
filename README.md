@@ -29,6 +29,7 @@
 - [computer stuff](https://github.com/antomuto4/research-bs/tree/main/archive/computer-stuff) 
 
 ### *Improve Quality of Life:* 
+- [development](https://github.com/antomuto4/rebia/tree/main/archive/development)
 - [life-saving](https://github.com/antomuto4/research-bs/tree/main/archive/life-saving)
 - [sleep](https://github.com/antomuto4/research-bs/tree/main/archive/sleep) 
 - [voice](https://github.com/antomuto4/research-bs/tree/main/archive/voice) 
