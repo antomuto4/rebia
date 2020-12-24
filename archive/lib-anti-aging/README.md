@@ -1,10 +1,7 @@
 **Tables:**
 - [Videos](#videos)
-- [Articles](#articles)
 - [Books](#books)
-
-# Articles
-- [Are You Living With Purpose? It Could Lengthen Your Life](https://blogs.webmd.com/webmd-doctors/20181018/are-you-living-with-purpose-it-could-lengthen-your-life)
+- [Articles](#articles)
 
 # Books
 | Title | Author | Synapses | Page | Year |
@@ -18,3 +15,6 @@
 - [Health benefits and sources of vitamin K - Medical News Today](https://www.medicalnewstoday.com/articles/219867)
 
 - [Vitamin K - WebMD](https://www.webmd.com/vitamins-and-supplements/supplement-guide-vitamin-k#1)
+
+# Articles
+- [Are You Living With Purpose? It Could Lengthen Your Life](https://blogs.webmd.com/webmd-doctors/20181018/are-you-living-with-purpose-it-could-lengthen-your-life)
