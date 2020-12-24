@@ -1,6 +1,7 @@
 **Tables:**
 - [Videos](#videos)
 - [Books](#books)
+- [Articles](#articles)
 
 # Books
 | Title | Author | Synapses | Page | Year |
@@ -11,8 +12,9 @@
 | [Meditations](https://github.com/antomuto4/research-bs/blob/main/archive/lib-philosophy/marcus-aurelius'-meditations-tr.-casaubon.pdf) | Marcus Aurelius | Meditations is a series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 AD, recording his private notes to himself and ideas on Stoic philosophy. Marcus Aurelius wrote the 12 books of the Meditations in Koine Greek as a source for his own guidance and self-improvement. | 130 | 1792 |
 | [Philosophy, Culture, and Traditions Vol. 5](https://github.com/antomuto4/research-bs/blob/main/archive/lib-philosophy/Philosophy%2C%20Culture%2C%20and%20Traditions%20Vol.5.pdf) | [Multiple](https://people.stfx.ca/wsweet/WUCPS-Journal.html) | Some fifty years ago, while developing what may be called his ‘philosophyof culture’, the French philosopher Jacques Maritain wrote, “The unity of a culture is determined in the first place and above all by a certain common philosophical structure, a certain metaphysical and moral attitude, a certain common scale of values, in a word, a certain common conception of the universe, of man and human life, of which social, linguistic, and juridical structures are, so to speak, the embodiment.” | 192 | 2008 |
 
-
 # Videos
 - [How NieR: Automata Tells the Ultimate Humanist Fable](https://youtu.be/63PzQIbTrM8)
 - [Nier: Automata's Uplifting Existentialism (Story Discussion)](https://youtu.be/ehM1m5-TG5g)
 - [Democracy: Rule of the NPCs](https://www.youtube.com/watch?v=_J3KXiU-z74)
+
+# Articles
