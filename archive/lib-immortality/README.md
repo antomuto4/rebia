@@ -1,6 +1,7 @@
 **Tables:**
 - [Videos](#videos)
 - [Books](#books)
+- [Articles](#articles)
 
 # Books
 | Title | Author | Synapses | Page | Year |
@@ -9,3 +10,5 @@
 | [Immortality: Physically, Scientifically, Now](https://github.com/antomuto4/research-bs/blob/main/archive/lib-immortality/cooper_immortality.pdf) | Nathan Duhring | A reasonable guarantee of bodily preservation, a general discussion and research targets. | 99 | 1991 |
 
 # Videos
+
+# Articles
