@@ -37,7 +37,7 @@
 
 - [Personality Disorders Healthline](https://www.healthline.com/health/personality-disorders)
 
-- [The Truth Why Stupid People Think They're Smart]https://youtu.be/oFL5NoM9GVE
+- [The Truth Why Stupid People Think They're Smart](https://youtu.be/oFL5NoM9GVE)
 
 # Articles
 
