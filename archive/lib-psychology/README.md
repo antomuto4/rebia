@@ -44,3 +44,5 @@
 - [Poor Eyesight Could Be Linked to Intelligence](https://www.ramsayhealth.co.uk/about/latest-news/poor-eyesight-linked-to-intelligence)
 
 - [Passions: Discover Them or Develop Them? (The belief that interests have to be developed may have consequences.)](https://www.psychologytoday.com/us/blog/finding-new-home/201811/passions-discover-them-or-develop-them)
+
+- [How You Can Create Your Own Creativity](https://www.psychologytoday.com/ca/blog/school-thought/202012/how-you-can-create-your-own-creativity)
