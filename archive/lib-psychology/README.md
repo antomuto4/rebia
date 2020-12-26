@@ -50,3 +50,5 @@
 - [How You Can Create Your Own Creativity](https://www.psychologytoday.com/ca/blog/school-thought/202012/how-you-can-create-your-own-creativity)
 
 - [7 Ways to Learn More Effectively; What neuroscience tells us about how to maximize our learning potential.](https://www.psychologytoday.com/intl/blog/parenting-neuroscience-perspective/202012/7-ways-learn-more-effectively)
+
+- [The Science of Stress; What causes stress reactivity and how can it be managed?](https://www.psychologytoday.com/intl/blog/finding-new-home/202012/the-science-stress)
