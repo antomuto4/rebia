@@ -9,6 +9,8 @@
 
 - [The Hated One: YouTube](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q) Channel
 
+- [Who should use Linux](https://youtu.be/FsVEA467LRc)
+
 # Useful Links
 
 - [Privacytools.io](https://privacytools.io/)
