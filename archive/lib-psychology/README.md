@@ -39,6 +39,8 @@
 
 - [The Truth Why Stupid People Think They're Smart](https://youtu.be/oFL5NoM9GVE)
 
+- [The Super Mario Effect - Tricking Your Brain into Learning More | Mark Rober | TEDxPenn](https://youtu.be/9vJRopau0g0)
+
 # Articles
 
 - [Poor Eyesight Could Be Linked to Intelligence](https://www.ramsayhealth.co.uk/about/latest-news/poor-eyesight-linked-to-intelligence)
