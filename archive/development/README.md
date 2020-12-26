@@ -12,3 +12,5 @@
 # Articles
 
 - [I think I'm abusive - can I change?](http://lovegoodbadugly.com/abusive-change/) ***HTTP WARNING***
+
+- [Why Now Is the Time for a Fresh Start; The end of 2020 might come with unexpected benefits.](https://www.psychologytoday.com/intl/blog/stretching-theory/202012/why-now-is-the-time-fresh-start)
