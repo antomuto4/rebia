@@ -48,3 +48,5 @@
 - [Passions: Discover Them or Develop Them? (The belief that interests have to be developed may have consequences.)](https://www.psychologytoday.com/us/blog/finding-new-home/201811/passions-discover-them-or-develop-them)
 
 - [How You Can Create Your Own Creativity](https://www.psychologytoday.com/ca/blog/school-thought/202012/how-you-can-create-your-own-creativity)
+
+- [7 Ways to Learn More Effectively; What neuroscience tells us about how to maximize our learning potential.](https://www.psychologytoday.com/intl/blog/parenting-neuroscience-perspective/202012/7-ways-learn-more-effectively)
