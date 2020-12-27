@@ -1,6 +1,6 @@
 **Tables:**
-- [Videos](#videos)
 - [Books](#books)
+- [Videos](#videos)
 - [Articles](#articles)
 
 # Books
@@ -40,6 +40,8 @@
 - [The Truth Why Stupid People Think They're Smart](https://youtu.be/oFL5NoM9GVE)
 
 - [The Super Mario Effect - Tricking Your Brain into Learning More | Mark Rober | TEDxPenn](https://youtu.be/9vJRopau0g0)
+
+- [Why You Get Spooked From 4th Wall Breaks | Psych of Play](https://youtu.be/eNMmSkE8ua4)
 
 # Articles
 
