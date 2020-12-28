@@ -54,3 +54,5 @@
 - [7 Ways to Learn More Effectively; What neuroscience tells us about how to maximize our learning potential.](https://www.psychologytoday.com/intl/blog/parenting-neuroscience-perspective/202012/7-ways-learn-more-effectively)
 
 - [The Science of Stress; What causes stress reactivity and how can it be managed?](https://www.psychologytoday.com/intl/blog/finding-new-home/202012/the-science-stress)
+
+- [A New Theory of Generalized Anxiety Disorder; People with GAD worry a lot. But what do they actually fear?](https://www.psychologytoday.com/intl/blog/insight-therapy/202012/new-theory-generalized-anxiety-disorder)
