@@ -25,3 +25,5 @@
 - [17 Healthy and Practical Ways to Break Out of Laziness](https://www.healthline.com/health/how-to-stop-being-lazy)
 
 - [Breakfast: Is it the Most Important Meal?](https://www.webmd.com/food-recipes/breakfast-lose-weight)
+
+- [Could Worrying Be Good for Your Health?; Being a worrier may have unexpected benefits](https://www.psychologytoday.com/intl/blog/in-love-and-war/202012/could-worrying-be-good-your-health)
