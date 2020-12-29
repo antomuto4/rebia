@@ -27,3 +27,5 @@
 - [Breakfast: Is it the Most Important Meal?](https://www.webmd.com/food-recipes/breakfast-lose-weight)
 
 - [Could Worrying Be Good for Your Health?; Being a worrier may have unexpected benefits](https://www.psychologytoday.com/intl/blog/in-love-and-war/202012/could-worrying-be-good-your-health)
+
+- [Are You a Workaholic?; Do you work over 50 hours a week?](https://www.psychologytoday.com/us/blog/mind-over-money/201307/are-you-workaholic)
