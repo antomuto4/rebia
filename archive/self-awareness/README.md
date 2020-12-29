@@ -5,3 +5,5 @@
 - https://youtu.be/ge8XcDGH9mY The age of Introverts
 
 - http://lovegoodbadugly.com/abusive-change/
+
+- [Are You a Workaholic?; Do you work over 50 hours a week?](https://www.psychologytoday.com/us/blog/mind-over-money/201307/are-you-workaholic)
