@@ -56,3 +56,5 @@
 - [The Science of Stress; What causes stress reactivity and how can it be managed?](https://www.psychologytoday.com/intl/blog/finding-new-home/202012/the-science-stress)
 
 - [A New Theory of Generalized Anxiety Disorder; People with GAD worry a lot. But what do they actually fear?](https://www.psychologytoday.com/intl/blog/insight-therapy/202012/new-theory-generalized-anxiety-disorder)
+
+- [We’ve Got Depression All Wrong. It’s Trying to Save Us; New theories recognize depression as part of a biological survival strategy.](https://www.psychologytoday.com/intl/blog/shouldstorm/202012/we-ve-got-depression-all-wrong-it-s-trying-save-us)
