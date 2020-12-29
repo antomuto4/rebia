@@ -14,3 +14,5 @@
 - [I think I'm abusive - can I change?](http://lovegoodbadugly.com/abusive-change/) ***HTTP WARNING***
 
 - [Why Now Is the Time for a Fresh Start; The end of 2020 might come with unexpected benefits.](https://www.psychologytoday.com/intl/blog/stretching-theory/202012/why-now-is-the-time-fresh-start)
+
+- [Are You a Workaholic?; Do you work over 50 hours a week?](https://www.psychologytoday.com/us/blog/mind-over-money/201307/are-you-workaholic)
