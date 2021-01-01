@@ -58,3 +58,5 @@
 - [A New Theory of Generalized Anxiety Disorder; People with GAD worry a lot. But what do they actually fear?](https://www.psychologytoday.com/intl/blog/insight-therapy/202012/new-theory-generalized-anxiety-disorder)
 
 - [We’ve Got Depression All Wrong. It’s Trying to Save Us; New theories recognize depression as part of a biological survival strategy.](https://www.psychologytoday.com/intl/blog/shouldstorm/202012/we-ve-got-depression-all-wrong-it-s-trying-save-us)
+
+- [Can We Change Our Personality?; Recent research findings for making your New Year’s resolutions viable.](https://www.psychologytoday.com/intl/blog/how-i-shapes-we/202012/can-we-change-our-personality)
