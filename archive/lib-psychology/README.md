@@ -60,3 +60,5 @@
 - [We’ve Got Depression All Wrong. It’s Trying to Save Us; New theories recognize depression as part of a biological survival strategy.](https://www.psychologytoday.com/intl/blog/shouldstorm/202012/we-ve-got-depression-all-wrong-it-s-trying-save-us)
 
 - [Can We Change Our Personality?; Recent research findings for making your New Year’s resolutions viable.](https://www.psychologytoday.com/intl/blog/how-i-shapes-we/202012/can-we-change-our-personality)
+
+- [Want to Make Someone Feel Better? Validate Their Feelings; Saying “I understand why you feel that way” improves mood and positive affect.](https://www.psychologytoday.com/intl/blog/the-athletes-way/202012/want-make-someone-feel-better-validate-their-feelings)
