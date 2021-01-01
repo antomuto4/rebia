@@ -62,3 +62,5 @@
 - [Can We Change Our Personality?; Recent research findings for making your New Year’s resolutions viable.](https://www.psychologytoday.com/intl/blog/how-i-shapes-we/202012/can-we-change-our-personality)
 
 - [Want to Make Someone Feel Better? Validate Their Feelings; Saying “I understand why you feel that way” improves mood and positive affect.](https://www.psychologytoday.com/intl/blog/the-athletes-way/202012/want-make-someone-feel-better-validate-their-feelings)
+
+- [How Loneliness Increases Pain; The relationship between loneliness and pain is investigated.](https://www.psychologytoday.com/intl/blog/finding-new-home/202012/how-loneliness-increases-pain)
