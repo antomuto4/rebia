@@ -31,3 +31,5 @@
 - [Are You a Workaholic?; Do you work over 50 hours a week?](https://www.psychologytoday.com/us/blog/mind-over-money/201307/are-you-workaholic)
 
 - [The surprisingly dramatic role of nutrition in mental health | Julia Rucklidge | TEDxChristchurch](https://youtu.be/3dqXHHCc5lA)
+
+- [8 principles to achieve optimum mental health | Dan Banos | TEDxRockhampton](https://youtu.be/oWjSdwzOA6k)
