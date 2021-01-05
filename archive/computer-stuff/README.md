@@ -19,3 +19,5 @@
 - https://www.youtube.com/watch?v=1ArVtCQqQRE&ab_channel=AliAbdaal
 
 - [Are Split Keyboards Better For Ergonomics?](https://youtu.be/1C2bJkzIaPE)
+
+- [IMPROVE Your Setup - The Gamer's Guide to Ergonomics](https://youtu.be/Ov9uD0xteMI)
