@@ -17,3 +17,5 @@
 - https://youtu.be/Ree1CWifQTg
 
 - https://www.youtube.com/watch?v=1ArVtCQqQRE&ab_channel=AliAbdaal
+
+- [Are Split Keyboards Better For Ergonomics?](https://youtu.be/1C2bJkzIaPE)
