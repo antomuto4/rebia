@@ -64,3 +64,9 @@
 - [Want to Make Someone Feel Better? Validate Their Feelings; Saying “I understand why you feel that way” improves mood and positive affect.](https://www.psychologytoday.com/intl/blog/the-athletes-way/202012/want-make-someone-feel-better-validate-their-feelings)
 
 - [How Loneliness Increases Pain; The relationship between loneliness and pain is investigated.](https://www.psychologytoday.com/intl/blog/finding-new-home/202012/how-loneliness-increases-pain)
+
+- [Why We're Obsessed With Antiheroes; Vassar College's Dara Greenwood discusses her new research on antiheroes.](https://www.psychologytoday.com/intl/blog/social-instincts/202101/why-were-obsessed-antiheroes)
+
+- [Enabling Borderline Personality Disorder II; Part 2: BPD Self-Enabling.](https://www.psychologytoday.com/intl/blog/my-side-the-couch/202101/enabling-borderline-personality-disorder-ii)
+
+- [Is It Good or Bad to Think of the Past?; It's understandable why it’s difficult to simply let the past be. ](https://www.psychologytoday.com/intl/blog/psychology-yesterday/202101/is-it-good-or-bad-think-the-past)
