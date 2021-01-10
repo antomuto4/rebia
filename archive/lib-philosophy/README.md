@@ -16,5 +16,15 @@
 - [How NieR: Automata Tells the Ultimate Humanist Fable](https://youtu.be/63PzQIbTrM8)
 - [Nier: Automata's Uplifting Existentialism (Story Discussion)](https://youtu.be/ehM1m5-TG5g)
 - [Democracy: Rule of the NPCs](https://www.youtube.com/watch?v=_J3KXiU-z74)
+- [Most Philosophical Game Ever? – The Philosophy of NieR: Automata – Wisecrack Edition](https://youtu.be/UiOTSKBy6ME)
+- [Philosophy of ＡＥＳＴＨＥＴＩＣＳ: The Floating World of Ukiyo-e](https://youtu.be/HCHFjj_qr5Q)
+- [Analyzing: The Philosophy of The Talos Principle](https://youtu.be/g5FloMq9Lck)
+- [The Philosophy of Dark Souls](https://youtu.be/Uko_saxEfEk)
+- [How Dark Souls Will Change You As A Person](https://youtu.be/hoh59V-qyiY)
+- [Bloodborne, The Real Meaning You Didn't Know... | 🄿🄷🄸🄻🄾🅂🄾🄿🄷🅈 of Games](https://youtu.be/BtoKpIOWsxQ)
 
 # Articles
+
+- [What Is Philosophy?; Odds and Ends of the 'Old Queen of Sciences'](https://www.thoughtco.com/what-is-philosophy-2670737)
+- [I play therefore I am: 7 videogames that teach us about philosophy](https://www.pcgamesn.com/videogames-about-philosophy)
+- [Four Reasons Why Philosophy Is As Relevant As Ever](https://www.bachelorstudies.com/article/four-reasons-why-philosophy-is-as-relevant-as-ever/)
