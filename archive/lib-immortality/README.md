@@ -11,4 +11,18 @@
 
 # Videos
 
+- [23 Year-Old Girl Freezes Head Without Body to Live Forever](https://youtu.be/XPtl49M4Su0)
+
 # Articles
+
+- [Immortality in Fiction](https://en.m.wikipedia.org/wiki/Immortality_in_fiction)
+
+- [Coffee — Good or Bad?](https://www.healthline.com/nutrition/coffee-good-or-bad)
+
+- [7 Benefits of a Standing Desk](https://www.healthline.com/nutrition/7-benefits-of-a-standing-desk)
+
+- [Causes of Death](https://en.wikipedia.org/wiki/Immortality#Causes_of_death)
+
+- [Biological Immortality](https://en.wikipedia.org/wiki/Biological_immortality)
+
+- [Is It Possible to Keep the Brain Alive Outside the Body?](https://www.learning-mind.com/is-it-possible-to-keep-the-brain-alive-outside-the-body/)
