@@ -14,7 +14,7 @@
 - [lib-stoicism](https://github.com/antomuto4/research-bs/tree/main/archive/lib-stoicism) 
 - [science](https://github.com/antomuto4/research-bs/tree/main/archive/science) 
 - [self-awareness](https://github.com/antomuto4/research-bs/tree/main/archive/self-awareness) 
-- [human-nature](https://github.com/antomuto4/research-bs/tree/main/archive/human-nature) 
+- [human-nature](https://github.com/antomuto4/research-bs/tree/main/archive/human-nature)
 
 ### *Health:*
 - [mental-health](https://github.com/antomuto4/research-bs/tree/main/archive/mental-health) 
@@ -81,6 +81,8 @@
 - https://www.aozora.gr.jp/
 
 ### Philosophy
+
+- Stanford Encyclopedia of Philosophy https://plato.stanford.edu/index.html
 
 - Western Philosophy https://www.youtube.com/watch?v=VDiyQub6vpw&list=PLwxNMb28XmpeypJMHfNbJ4RAFkRtmAN3P
 
