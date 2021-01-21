@@ -3,6 +3,22 @@
 - [Books](#books)
 - [Articles](#articles)
 
+# In General
+
+- [Do You Really Want to Live Forever?; If given the Immortality Pill, would you take it?](https://www.psychologytoday.com/intl/blog/finding-meaning-in-imperfect-world/201905/do-you-really-want-live-forever)
+
+# The Basics
+
+- [Immortality - Wikipedia](https://en.wikipedia.org/wiki/Immortality)
+
+- [Biological Immortality - Wikipedia](https://en.wikipedia.org/wiki/Biological_immortality)
+
+- [Immortality in fiction - Wikipedia](https://en.wikipedia.org/wiki/Immortality_in_fiction)
+
+# Prices (Unanswered)
+
+- [What will be the cost of immortality?](https://www.quora.com/What-will-be-the-cost-of-immortality)
+
 # Books
 | Title | Author | Synapses | Page | Year |
 |-------|--------|----------|------|------|
