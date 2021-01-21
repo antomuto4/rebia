@@ -1,6 +1,9 @@
 **Tables:**
-- [Videos](#videos)
+- [In General](#in-general)
+- [The Basics](#the-basics)
+- [Prices](#prices-unanswered)
 - [Books](#books)
+- [Videos](#videos)
 - [Articles](#articles)
 
 # In General
