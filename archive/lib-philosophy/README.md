@@ -22,6 +22,7 @@
 - [The Philosophy of Dark Souls](https://youtu.be/Uko_saxEfEk)
 - [How Dark Souls Will Change You As A Person](https://youtu.be/hoh59V-qyiY)
 - [Bloodborne, The Real Meaning You Didn't Know... | 🄿🄷🄸🄻🄾🅂🄾🄿🄷🅈 of Games](https://youtu.be/BtoKpIOWsxQ)
+- [Ludwig and Dr. K's Journey of Death and Consciousness](https://www.youtube.com/watch?v=CHzOedHm_kM&t=3214s)
 
 # Articles
 
