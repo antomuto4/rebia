@@ -70,3 +70,5 @@
 - [Enabling Borderline Personality Disorder II; Part 2: BPD Self-Enabling.](https://www.psychologytoday.com/intl/blog/my-side-the-couch/202101/enabling-borderline-personality-disorder-ii)
 
 - [Is It Good or Bad to Think of the Past?; It's understandable why it’s difficult to simply let the past be. ](https://www.psychologytoday.com/intl/blog/psychology-yesterday/202101/is-it-good-or-bad-think-the-past)
+
+- [5 Science-Backed Ways to Reboot Your Biology in 2021; This year, skip the "detox," and do a deep reset for your brain and body.](https://www.psychologytoday.com/intl/blog/the-modern-brain/202101/5-science-backed-ways-reboot-your-biology-in-2021)
