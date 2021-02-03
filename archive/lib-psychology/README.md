@@ -76,3 +76,5 @@
 - [5 Reasons You Should Never Stop Daydreaming; Research tells us that fantasy offers essential psychological benefits.](https://www.psychologytoday.com/intl/blog/i-hear-you/202101/5-reasons-you-should-never-stop-daydreaming)
 
 - [Are Psychopaths as Smart as They Seem?; New research questions whether psychopaths really are all that clever.](https://www.psychologytoday.com/us/blog/fulfillment-any-age/202102/are-psychopaths-smart-they-seem)
+
+- [Interrupting Is More Harmful Than You Think; The benefits of waiting.](https://www.psychologytoday.com/us/blog/how-do-life/202101/interrupting-is-more-harmful-you-think)
