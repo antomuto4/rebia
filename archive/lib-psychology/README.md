@@ -74,3 +74,5 @@
 - [5 Science-Backed Ways to Reboot Your Biology in 2021; This year, skip the "detox," and do a deep reset for your brain and body.](https://www.psychologytoday.com/intl/blog/the-modern-brain/202101/5-science-backed-ways-reboot-your-biology-in-2021)
 
 - [5 Reasons You Should Never Stop Daydreaming; Research tells us that fantasy offers essential psychological benefits.](https://www.psychologytoday.com/intl/blog/i-hear-you/202101/5-reasons-you-should-never-stop-daydreaming)
+
+- [Are Psychopaths as Smart as They Seem?; New research questions whether psychopaths really are all that clever.](https://www.psychologytoday.com/us/blog/fulfillment-any-age/202102/are-psychopaths-smart-they-seem)
