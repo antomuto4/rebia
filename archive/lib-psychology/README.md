@@ -78,3 +78,7 @@
 - [Are Psychopaths as Smart as They Seem?; New research questions whether psychopaths really are all that clever.](https://www.psychologytoday.com/us/blog/fulfillment-any-age/202102/are-psychopaths-smart-they-seem)
 
 - [Interrupting Is More Harmful Than You Think; The benefits of waiting.](https://www.psychologytoday.com/us/blog/how-do-life/202101/interrupting-is-more-harmful-you-think)
+
+- [What Is Your Sleep Type?; The two forces that dictate our sleep](https://www.psychologytoday.com/us/blog/sleep-talking/202101/what-is-your-sleep-type)
+
+- [How Do We Know What Is Real?; Can we really trust what our brain tells us?](https://www.psychologytoday.com/us/blog/finding-purpose/202008/how-do-we-know-what-is-real)
