@@ -82,3 +82,5 @@
 - [What Is Your Sleep Type?; The two forces that dictate our sleep](https://www.psychologytoday.com/us/blog/sleep-talking/202101/what-is-your-sleep-type)
 
 - [How Do We Know What Is Real?; Can we really trust what our brain tells us?](https://www.psychologytoday.com/us/blog/finding-purpose/202008/how-do-we-know-what-is-real)
+
+- [Can Partners Help Us Move Toward Our Ideal Selves?; New research on personal growth in romantic couples.](https://www.psychologytoday.com/us/blog/how-i-shapes-we/202008/can-partners-help-us-move-toward-our-ideal-selves)
