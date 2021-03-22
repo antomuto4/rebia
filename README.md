@@ -1,6 +1,6 @@
 # Rebia
 
-![Banner](https://user-images.githubusercontent.com/56132390/102811699-0caa3900-43c6-11eb-9205-81d502c9ef10.png)
+![rebia](https://user-images.githubusercontent.com/56132390/112022604-be2a4900-8b32-11eb-8e53-668b9260eaef.png)
 
 
 
